@@ -1,0 +1,45 @@
+# Local isolated demo. This file is not Dockerfile.vercel and does not change
+# the static Vercel project. Database port is not published to the host.
+services:
+  db:
+    image: mariadb:10.11
+    environment:
+      MARIADB_DATABASE: members_demo
+      MARIADB_USER: members_demo
+      MARIADB_PASSWORD: demo-db-not-for-production
+      MARIADB_ROOT_PASSWORD: demo-root-not-for-production
+    volumes:
+      - dbdata:/var/lib/mysql
+      - ../members-source-only/sql-structure-only/schema.sql:/docker-entrypoint-initdb.d/01-schema.sql:ro
+      - ./sql/02-demo-sessions.sql:/docker-entrypoint-initdb.d/02-demo-sessions.sql:ro
+      - ./sql/03-synthetic-content.sql:/docker-entrypoint-initdb.d/03-synthetic-content.sql:ro
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 3s
+      timeout: 5s
+      retries: 40
+
+  web:
+    build:
+      context: ..
+      dockerfile: members-demo/php/Dockerfile
+    depends_on:
+      db:
+        condition: service_healthy
+    environment:
+      MEMBERS_DEMO: "1"
+      KEN_MEMBERS_CONFIG: /opt/demo/demo-config.php
+    ports:
+      - "127.0.0.1:8080:80"
+    volumes:
+      - members_storage:/var/www/html/storage
+      - ./config/demo-config.php:/opt/demo/demo-config.php:ro
+    healthcheck:
+      test: ["CMD", "curl", "-fsS", "-H", "Host: localhost", "http://127.0.0.1/", "-o", "/dev/null"]
+      interval: 3s
+      timeout: 5s
+      retries: 40
+
+volumes:
+  dbdata:
+  members_storage:

@@ -1,0 +1,21 @@
+# Invisible Society members area - Apache rules (HostGator)
+Options -Indexes
+DirectoryIndex index.php
+
+RewriteEngine On
+# Never show private folders or files
+RewriteRule ^(app|storage)/ - [F,L]
+
+# Always use https (HostGator gives a free SSL certificate; turn it on in cPanel first)
+RewriteCond %{HTTPS} !=on
+RewriteCond %{HTTP_HOST} !^localhost
+RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+# Send every address that is not a real file to index.php
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ index.php [L]
+
+<FilesMatch "^(config\.php|config\.sample\.php|\.htaccess)$">
+  Require all denied
+</FilesMatch>
