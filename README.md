@@ -53,3 +53,7 @@ The test checks the authoritative homepage size and SHA-256, the nine section id
 Nothing was deployed. A later public preview can publish `preview/` only. Set the Vercel project Root Directory to `preview`. `.vercelignore` also tells the CLI to upload that directory alone. Do not deploy the repository root: that would expose PHP templates and historical references as static files.
 
 The preview keeps the current design links, including `https://qabbalah.institute/members/`. Styling still depends on the remote W3.CSS URL that previously returned HTTP 403, plus Google Fonts and Font Awesome. Expect a homepage preview, not a members application and not the old Builder pages.
+
+## Members demo
+
+`members-fresh-20261107/` is the November 7, 2026 members source: 44 code and asset files, byte-identical to the earlier local copies, with no pledge file and no live data. The verified members routing file is the 662-byte `routing/members.htaccess` (cPanel breadcrumb `qabbalah.institute/members`, mtime November 3). `members-demo/` runs that PHP in a local container with synthetic data. The public homepage and its HostGator members link are unchanged. Nothing here is deployed. See `members-demo/README.md`.

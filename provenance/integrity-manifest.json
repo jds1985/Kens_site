@@ -50,8 +50,13 @@
     },
     "total_replacements": 297
   },
-  "file_count": 140,
+  "file_count": 203,
   "files": [
+    {
+      "path": ".dockerignore",
+      "bytes": 166,
+      "sha256": "27a52758e5c94882994ab21b585322105e35eacd44e16c34dd33272022fa2520"
+    },
     {
       "path": ".gitignore",
       "bytes": 195,
@@ -84,8 +89,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5007,
-      "sha256": "2725aa0130816f842b7853dc5b62512c6cb841d0b37acd371e6375e716881b9e"
+      "bytes": 5537,
+      "sha256": "e0d85f16cc25bc002bab731dfa3cb19feb980dcdc4fc20c7ed0140ef30b3945a"
     },
     {
       "path": "historical-reference/hostgator-root/README.txt",
@@ -341,6 +346,316 @@
       "path": "live-public-verified-20261107/vauqoppasampi.w3spaces.com/index.html",
       "bytes": 15874,
       "sha256": "abf93c5d1bc24fbca3b90942bfa06060791ead70e2b6350917b10451c906e9cc"
+    },
+    {
+      "path": "members-demo/README.md",
+      "bytes": 7249,
+      "sha256": "bd6f7652ea8134aef50ef0cbad5216f3ce70dc08c5184a97ba8c8bf19fa10ebc"
+    },
+    {
+      "path": "members-demo/config/demo-config.php",
+      "bytes": 1855,
+      "sha256": "43226879b28ac4e13172c9a44d169d581612b151edc7ba8e2da6173615b991c0"
+    },
+    {
+      "path": "members-demo/docker-compose.yml",
+      "bytes": 1475,
+      "sha256": "01c691b3584f2090832e7a0e00145abc94ad5cc9c47780373a3f9e491a26105b"
+    },
+    {
+      "path": "members-demo/php/Dockerfile",
+      "bytes": 967,
+      "sha256": "b014e8afc38b18474b22375d940d427aaeac9226665b104b7e1ae542708267e9"
+    },
+    {
+      "path": "members-demo/php/apache.conf",
+      "bytes": 324,
+      "sha256": "d12d201b291daed4f3b2dbfe46af8bbaa7839e17719f78013959e60b5ddf437f"
+    },
+    {
+      "path": "members-demo/php/demo-guard.php",
+      "bytes": 5411,
+      "sha256": "3c6f5c9a6fc464915bc8009692658a98ddfcc9402d5a1e2b6756fcfd2aea57e5"
+    },
+    {
+      "path": "members-demo/php/demo.ini",
+      "bytes": 542,
+      "sha256": "2f020f6fc9d6912426317435ab6b8168cf68897dc998e77a4f4c1282828e3f15"
+    },
+    {
+      "path": "members-demo/php/entrypoint.sh",
+      "bytes": 414,
+      "sha256": "9c92f19dde1bd7852b2f20b34fbecde4284f4d9d19fc50717025ef80698507ad"
+    },
+    {
+      "path": "members-demo/php/prepend-demo.php",
+      "bytes": 127,
+      "sha256": "c917bcd32afaa69422bf634c06f30a7f443c028b41631f26bff92ed963a19bc3"
+    },
+    {
+      "path": "members-demo/php/seed.php",
+      "bytes": 2661,
+      "sha256": "2097d4d9b236deed091278f702ea0890221f34b2aa487df37160913ee0ca287d"
+    },
+    {
+      "path": "members-demo/php/wait-db.php",
+      "bytes": 330,
+      "sha256": "4852bdb8c0ac6f5f8c4f28c9e2c5b1064c01fabb0a5a9cdf3ad32d281a15645c"
+    },
+    {
+      "path": "members-demo/sql/02-demo-sessions.sql",
+      "bytes": 389,
+      "sha256": "f7e77b654a796d0c942476c061c21b9d95ce7db788df65ac7e257420e0ba7519"
+    },
+    {
+      "path": "members-demo/sql/03-synthetic-content.sql",
+      "bytes": 1512,
+      "sha256": "f48529ab676fe6bf4aa724c227bbccad96672bb5cbc2134678764c7b66f5a9ab"
+    },
+    {
+      "path": "members-demo/test_demo.py",
+      "bytes": 10499,
+      "sha256": "f79a2634cece654cf66fa6143809b983dba7f454faac83bd79202306ffcd917d"
+    },
+    {
+      "path": "members-fresh-20261107/README.txt",
+      "bytes": 1550,
+      "sha256": "5593e30fd026dbc1d0b572c76a8f931a8822653afd1eec294ccaa8c331b99b06"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/admin.php",
+      "bytes": 17047,
+      "sha256": "05d5cd28f3b8a744e57765ec2fb1e1090faf5c7d6ae7043d72eadf30979283df"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/bootstrap.php",
+      "bytes": 1523,
+      "sha256": "70575d2f6e86028ae9701d33a8475147f4fe71cc3fc8208c8af6b07a8454f4b9"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/controllers.php",
+      "bytes": 21931,
+      "sha256": "6067f0b5836202b33e254d16bc6aa1c379f0bc173a6990de900e882ab303f6e6"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/db.php",
+      "bytes": 1199,
+      "sha256": "2405a013a4a4d1692241bd372f72398f7a63118f18531870aa4ee276e635cc12"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/fac_controllers.php",
+      "bytes": 11759,
+      "sha256": "446a5b1b6a7fcd46653de568e4894c54ff9ecade4691e04140fb152f6f97101f"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/facilitators.php",
+      "bytes": 9016,
+      "sha256": "99270d6be0d9cdc66e9661940668824fdbb3407de605da1399d5339dd6731fdd"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/helpers.php",
+      "bytes": 4137,
+      "sha256": "2b9e3e6db9ad536e6ffb4d76d3c3896ec22cdbbaca953b8f22dfa5ff7b0b90cf"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/mail.php",
+      "bytes": 2929,
+      "sha256": "eb87f2d4f7f51cfbdca53ea46efd5c033099da6d37a9f083f5c4bb141124eb28"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/progress.php",
+      "bytes": 9528,
+      "sha256": "e2ed06edc3367994310f17c7437fd9e1b99a366b5501a0ed5ee3cde5144f7b22"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/security.php",
+      "bytes": 4965,
+      "sha256": "b7c46d1b26b6558a594961c3577649450f26674df8d4b763125ed35f533393c9"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/account.php",
+      "bytes": 1252,
+      "sha256": "79090307db98f9e20a4a325f25a036fdf852266a1f7458d9ce99a8e1affb58fc"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/admin/_nav.php",
+      "bytes": 341,
+      "sha256": "374e5d6461b16413b3dde0eee25d67cecca1f9f4cf4214dabd7385f2f22f3ba9"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/admin/degree.php",
+      "bytes": 5158,
+      "sha256": "a561e827de9d8f547d991b3c0eb8c652eab46c107b962d16b892785028b30754"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/admin/degrees.php",
+      "bytes": 1012,
+      "sha256": "6f8cf9afe63e278f36cca2fd43117d095d633d311f3e89528f966d34709e2dfb"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/admin/facilitators.php",
+      "bytes": 2930,
+      "sha256": "123bf4cf8152af6fc59f5f55a4eb076e238097cf6ed604454fdc281e246ab00e"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/admin/index.php",
+      "bytes": 4203,
+      "sha256": "86c0b09983aaeb579f81f4ad0c146f5cf8bc6842586a0d474d7d8f0f2412aa31"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/admin/lesson.php",
+      "bytes": 4651,
+      "sha256": "6b9ef6c6ae0c78c6f471ef5f3b793b33143faa7bf46f6f42d9e4b2d6b0d103f1"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/admin/log.php",
+      "bytes": 1006,
+      "sha256": "5043370da1ac41f538670c29d864b097e4e0c250b972c108110c78558506f027"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/admin/member.php",
+      "bytes": 4879,
+      "sha256": "3a0262e7b7884555b7ef70032882e2a359a63a732378e1df4f2ddb45de6ba9a4"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/admin/members.php",
+      "bytes": 2052,
+      "sha256": "5097f030ee28fa9cf059a65aaeafcaf6ed9304d375fa7a6150a563583cdcd297"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/coming_soon.php",
+      "bytes": 341,
+      "sha256": "f3fdd52aabcf4bc5706abf0de47d7d57d6588d701cd92d57ef5e6e4936de3dc9"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/dashboard.php",
+      "bytes": 4305,
+      "sha256": "a840afdec65649e937ee5cd699972c7685832d9e3c70492c7167e1f3f2d72c8c"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/degree.php",
+      "bytes": 6463,
+      "sha256": "fe9893f12d964ae7da06bc508c029271b311f9ca8b6b564a655b446a43a5e6df"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/degrees.php",
+      "bytes": 1258,
+      "sha256": "08b991e1362009ce25dab19288a508fa393ef0da020fb758f19646aaaa788165"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/error.php",
+      "bytes": 142,
+      "sha256": "1900dade5ac39e9a60a2fce27be755a51600bd2c031d6c2af54fff8c403f46f2"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/fac/choose.php",
+      "bytes": 2039,
+      "sha256": "444ce4a824d6ee36f8ad89111e9aa045a5583174d995c75bbf075c8cc311f339"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/fac/facilitator.php",
+      "bytes": 6300,
+      "sha256": "6a76e7fd0fec2afe5355834bc4746125ec52595065cd9fabee4a8cae1186ea37"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/fac/part_b.php",
+      "bytes": 2905,
+      "sha256": "bfc6c1cd17f35ba524548143cbdf9b192d77c94bbaa083f7321b5ea05f04a3ec"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/forgot.php",
+      "bytes": 451,
+      "sha256": "5016a830f560eeb6f6fa2a4332c435a803f1f23e7c0c405d8b5f1c1bafebf460"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/home.php",
+      "bytes": 1212,
+      "sha256": "f6a1866ca0a42c4099564a548cedb642a6e82a70a70fc2f14d3134753c053045"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/layout.php",
+      "bytes": 9860,
+      "sha256": "cddb4f381de1f87862c811709e45b3d1e92296f83ee21eda7b04646ba9856d0d"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/lesson.php",
+      "bytes": 1338,
+      "sha256": "bca29a7d1c2193196c9b7797a0958d22d518a8598fb7b3b6bd2189b8472c2d61"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/login.php",
+      "bytes": 1235,
+      "sha256": "709fd5938d60b9572f25d08bf39a00a969234da61e2d6f08e92ec889457ccd17"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/message.php",
+      "bytes": 144,
+      "sha256": "1c82339f2185d8d18efd83e419cc79e533f654e69f7b7bbbf3173d653231505b"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/register.php",
+      "bytes": 4767,
+      "sha256": "151d2f76690c1d0296a00ad76e6123a6a57cb3bdcaefe17c8c8faea6053057df"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/register_signed_in.php",
+      "bytes": 626,
+      "sha256": "5247979685cd59168e7a0eaba37fd73b3252059e6c58c37530a904418a1cae4a"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/reset.php",
+      "bytes": 1208,
+      "sha256": "bf1a2051b1b535598d171a1a19d58b2cf4f420ea86b395d6f225ee0f3da7c893"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/verify.php",
+      "bytes": 525,
+      "sha256": "8251cdd4562edf7a86c3816a0e41515d10f794c0dd80eacf527476c79eda20be"
+    },
+    {
+      "path": "members-fresh-20261107/members/assets/art/README.txt",
+      "bytes": 116,
+      "sha256": "a30b003f4bbfec80f69a865d93d1abcfa387294b7a284fa92335302a0aa0a0ad"
+    },
+    {
+      "path": "members-fresh-20261107/members/assets/ken/PiArchGreen.png",
+      "bytes": 183414,
+      "sha256": "b24e82eb8346b5ed1d2affcb71e491109936ea9fec04c9bc99c6cd17f5702ce4"
+    },
+    {
+      "path": "members-fresh-20261107/members/assets/ken/TheNet.png",
+      "bytes": 965361,
+      "sha256": "e102f18bebaa40127686866d551e7712c2bc0d2cc3dac8ca62418b514b596a8a"
+    },
+    {
+      "path": "members-fresh-20261107/members/assets/members.css",
+      "bytes": 12536,
+      "sha256": "2f2a3e7acee37d4d7cad17f9c3fa910a0438e3172789403f6f72330b8e2ddc80"
+    },
+    {
+      "path": "members-fresh-20261107/members/assets/members.js",
+      "bytes": 1974,
+      "sha256": "533c8ea012b49b87b5f8a2439b2a2a4a9f8e68a0f173b17d236dcd4f55e6e5d8"
+    },
+    {
+      "path": "members-fresh-20261107/members/index.php",
+      "bytes": 5615,
+      "sha256": "aae2453cbe57b117eab205b483b42bb3cb52cd040469ac82dbaaa044e4571a99"
+    },
+    {
+      "path": "members-fresh-20261107/routing/README.txt",
+      "bytes": 705,
+      "sha256": "e315dbda3fe72ee7e0b142ef0e156f2f4207ccbdf99d3a9f849db3188cf4b157"
+    },
+    {
+      "path": "members-fresh-20261107/routing/members.htaccess",
+      "bytes": 662,
+      "sha256": "892055490f500709d23bf69cb440f7f35e9c786eb2648e3829a30c1c13694ba5"
+    },
+    {
+      "path": "members-fresh-20261107/source-sha256.txt",
+      "bytes": 4226,
+      "sha256": "15923989950590c869f879c5e29448d2062f12033ef507e1036b3c3824b9cb90"
     },
     {
       "path": "members-source-only/README.txt",
