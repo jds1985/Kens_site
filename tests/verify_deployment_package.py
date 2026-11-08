@@ -19,11 +19,25 @@ HOME = ROOT / "public-current/qabbalah.institute/index.html"
 HOME_SHA = "d130153a74f4a2812a2f6f36b6ded42d50028d383d42c641726b741f8122756d"
 PREVIEW_FILES = ["index.html"]
 FAMOUS_FILES = [
-    "assets/TreeOfLifeThree.png",
-    "demo-config.js",
+    "assets/placeholder.svg",
+    "assets/reference.css",
+    "demo.css",
+    "demo.js",
+    "images/6ad8c396a5c573c633339757_1792590849670_dca75a36.webp",
+    "images/6ad8c396a5c573c633339757_1792590849688_ee6bdc27.webp",
+    "images/6ad8c396a5c573c633339757_1792590874002_11c66410.jpg",
+    "images/6ad8c396a5c573c633339757_1792590889838_0df1679b.jpg",
+    "images/6ad8c396a5c573c633339757_1792590906457_600cf331.jpg",
+    "images/6ad8c396a5c573c633339757_1792590922414_b65abc23.jpg",
+    "images/6ad8c396a5c573c633339757_1792590943641_f10b807d.jpg",
+    "images/6ad8c396a5c573c633339757_1792590959958_2ad94c40.jpg",
+    "images/6ad8c396a5c573c633339757_1792590977323_9af36e6d.jpg",
+    "images/6ad8c396a5c573c633339757_1792590994762_0a8594fc.jpg",
+    "images/6ad8c396a5c573c633339757_1792591018024_43f6dbbf.jpg",
+    "images/6ad8c396a5c573c633339757_1792591033518_b739d280.jpg",
+    "images/6ad8c396a5c573c633339757_1792591049537_e1d06c06.jpg",
+    "images/6ad8c396a5c573c633339757_1792591066281_d4d050a8.jpg",
     "index.html",
-    "site.js",
-    "styles.css",
 ]
 FORBIDDEN = (
     ".php",
