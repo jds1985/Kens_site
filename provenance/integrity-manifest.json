@@ -50,7 +50,7 @@
     },
     "total_replacements": 297
   },
-  "file_count": 203,
+  "file_count": 210,
   "files": [
     {
       "path": ".dockerignore",
@@ -89,8 +89,43 @@
     },
     {
       "path": "README.md",
-      "bytes": 5537,
-      "sha256": "e0d85f16cc25bc002bab731dfa3cb19feb980dcdc4fc20c7ed0140ef30b3945a"
+      "bytes": 5783,
+      "sha256": "0c47cef7ce0076e0a46d9673486ba7653123cb47e4f7372d7b6ae4a7f867388a"
+    },
+    {
+      "path": "famous-demo/README.md",
+      "bytes": 1963,
+      "sha256": "f669cd60bb5c3b3e11ba8794ae9dd01049fdbeada26f38d64de555a7ab388334"
+    },
+    {
+      "path": "famous-demo/assets/TreeOfLifeThree.png",
+      "bytes": 169596,
+      "sha256": "e64a454e0ca9279c76d59e72a955ebc498ee101c0c328ae145a7b277a389b22d"
+    },
+    {
+      "path": "famous-demo/demo-config.js",
+      "bytes": 253,
+      "sha256": "27d53fe2fadab450eb089af86183edff92797ebe9747201e050c89e7166aa238"
+    },
+    {
+      "path": "famous-demo/index.html",
+      "bytes": 21472,
+      "sha256": "a7edc7d26446864504a519582a0a9a925605281deb86f874700506a9d83982fc"
+    },
+    {
+      "path": "famous-demo/site.js",
+      "bytes": 1685,
+      "sha256": "d54be3beafb7c69ea3382d2d77a9a4b43fb513cb8ced89baa1ea6a629ddcc726"
+    },
+    {
+      "path": "famous-demo/styles.css",
+      "bytes": 5737,
+      "sha256": "2dacbd355e9fd0cd92450b5a4b458ae51c1e5e5800b224433b58b5ac948003bc"
+    },
+    {
+      "path": "famous-demo/test_demo.mjs",
+      "bytes": 6613,
+      "sha256": "a6f686207caebc230e516e7ca818a63611821f56dcb770a6c96db54f9fbd012d"
     },
     {
       "path": "historical-reference/hostgator-root/README.txt",
