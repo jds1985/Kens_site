@@ -1,0 +1,610 @@
+{
+  "checked_at": "2026-11-07T19:25:20.881449-05:00",
+  "method": "Ordinary public HTTPS GET, no login or credentials supplied; no session/cookie reuse, cache override, browser automation or security bypass. Stopped qabbalah.institute at HTTP406 and www.w3schools.com at HTTP403; no alternate route. No redesign or URL rewriting.",
+  "requests": [
+    {
+      "url": "https://qabbalah.institute/",
+      "kind": "public-homepage",
+      "checked_at": "2026-11-07T19:25:15.542198-05:00",
+      "status": 406,
+      "headers": {
+        "Date": "Sun, 08 Nov 2026 00:25:15 GMT",
+        "Server": "Apache",
+        "Content-Length": "226",
+        "Content-Type": "text/html; charset=iso-8859-1"
+      },
+      "result": "HTTP 406 access/error response; exact cause undetermined. Host stopped without retry or alternate route.",
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:15 PM EST"
+      }
+    },
+    {
+      "url": "https://invisiblesociety.w3spaces.com/",
+      "kind": "public-homepage",
+      "checked_at": "2026-11-07T19:25:15.921183-05:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "text/html",
+        "Content-Length": "74596",
+        "Date": "Sun, 08 Nov 2026 00:25:16 GMT",
+        "Server": "AmazonS3",
+        "Last-Modified": "Fri, 06 Nov 2026 21:04:20 GMT",
+        "ETag": "\"7bb692cc95d852211ad67984de585115\""
+      },
+      "bytes": 74596,
+      "sha256": "52ff1ba1e6b819206950b904e6db3101f277c8e1de1d6183cc1544737b0a8b53",
+      "title": "W3.CSS Template",
+      "iframe_count": 0,
+      "file": "live-public-verified-20261107/invisiblesociety.w3spaces.com/index.html",
+      "result": "saved-public-response",
+      "baseline_file": "public-snapshots/invisiblesociety.w3spaces.com/index.html",
+      "baseline_sha256": "76aa0bdbec7a369541438faf0c40f1ecf285ae86186a89b8594fbba9df6d36ab",
+      "byte_equal_to_saved_baseline": false,
+      "normalized_visible_text_equal": false,
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:16 PM EST",
+        "Last-Modified": "2026-11-06 04:04:20 PM EST"
+      }
+    },
+    {
+      "url": "https://qabbalahinstitute.w3spaces.com/",
+      "kind": "public-homepage",
+      "checked_at": "2026-11-07T19:25:16.419667-05:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "text/html",
+        "Content-Length": "80766",
+        "Server": "AmazonS3",
+        "Date": "Sun, 08 Nov 2026 00:25:17 GMT",
+        "Last-Modified": "Sat, 25 Jul 2026 18:20:23 GMT",
+        "ETag": "\"bd721c69c801893b291ab2f370ad515b\""
+      },
+      "bytes": 80766,
+      "sha256": "cd11acf84ad23d43556fded485319933de61a1c84ea357cd2de5b7ef1209ca01",
+      "title": "W3.CSS Template",
+      "iframe_count": 0,
+      "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/index.html",
+      "result": "saved-public-response",
+      "baseline_file": "public-snapshots/qabbalahinstitute.w3spaces.com/index.html",
+      "baseline_sha256": "cd11acf84ad23d43556fded485319933de61a1c84ea357cd2de5b7ef1209ca01",
+      "byte_equal_to_saved_baseline": true,
+      "normalized_visible_text_equal": true,
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:17 PM EST",
+        "Last-Modified": "2026-07-25 02:20:23 PM EDT"
+      }
+    },
+    {
+      "url": "https://vauqoppasampi.w3spaces.com/",
+      "kind": "public-homepage",
+      "checked_at": "2026-11-07T19:25:16.903888-05:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "text/html",
+        "Content-Length": "15874",
+        "Server": "AmazonS3",
+        "Date": "Sun, 08 Nov 2026 00:25:18 GMT",
+        "Last-Modified": "Tue, 02 Sep 2025 17:47:00 GMT",
+        "ETag": "\"e86e3e64b81e816e1b86e7c991ab9fd6\""
+      },
+      "bytes": 15874,
+      "sha256": "abf93c5d1bc24fbca3b90942bfa06060791ead70e2b6350917b10451c906e9cc",
+      "title": "W3.CSS Template",
+      "iframe_count": 0,
+      "file": "live-public-verified-20261107/vauqoppasampi.w3spaces.com/index.html",
+      "result": "saved-public-response",
+      "baseline_file": "public-snapshots/vauqoppasampi.w3spaces.com/index.html",
+      "baseline_sha256": "abf93c5d1bc24fbca3b90942bfa06060791ead70e2b6350917b10451c906e9cc",
+      "byte_equal_to_saved_baseline": true,
+      "normalized_visible_text_equal": true,
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:18 PM EST",
+        "Last-Modified": "2025-09-02 01:47:00 PM EDT"
+      }
+    },
+    {
+      "url": "https://qabbalah.institute/degrees",
+      "kind": "historical-visible-menu-route-http-source-only",
+      "checked_at": "2026-11-07T19:25:17.289645-05:00",
+      "status": "not-requested-after-host-protection-or-network-block"
+    },
+    {
+      "url": "https://qabbalah.institute/curriculum",
+      "kind": "historical-visible-menu-route-http-source-only",
+      "checked_at": "2026-11-07T19:25:17.289966-05:00",
+      "status": "not-requested-after-host-protection-or-network-block"
+    },
+    {
+      "url": "https://qabbalah.institute/membership",
+      "kind": "historical-visible-menu-route-http-source-only",
+      "checked_at": "2026-11-07T19:25:17.290248-05:00",
+      "status": "not-requested-after-host-protection-or-network-block"
+    },
+    {
+      "url": "https://qabbalah.institute/qqq",
+      "kind": "historical-visible-menu-route-http-source-only",
+      "checked_at": "2026-11-07T19:25:17.290364-05:00",
+      "status": "not-requested-after-host-protection-or-network-block"
+    },
+    {
+      "url": "https://invisiblesociety.w3spaces.com/Gen1-1John1-1AI.png",
+      "kind": "public-existing-site-image",
+      "checked_at": "2026-11-07T19:25:17.358227-05:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "image/png",
+        "Content-Length": "308452",
+        "Date": "Sun, 08 Nov 2026 00:25:17 GMT",
+        "Server": "AmazonS3",
+        "Last-Modified": "Sun, 19 Jul 2026 15:00:05 GMT",
+        "ETag": "\"eca22ff5a0780ad0216d70ffbd308b0e\""
+      },
+      "bytes": 308452,
+      "sha256": "13ee110e5a4a03a3d4f61352c96d9a6171c33266fed62e7991c911ffd97ecad6",
+      "file": "live-public-verified-20261107/invisiblesociety.w3spaces.com/Gen1-1John1-1AI.png",
+      "result": "saved-public-response",
+      "baseline_file": "public-snapshots/invisiblesociety.w3spaces.com/Gen1-1John1-1AI.png",
+      "baseline_sha256": "13ee110e5a4a03a3d4f61352c96d9a6171c33266fed62e7991c911ffd97ecad6",
+      "byte_equal_to_saved_baseline": true,
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:17 PM EST",
+        "Last-Modified": "2026-07-19 11:00:05 AM EDT"
+      }
+    },
+    {
+      "url": "https://invisiblesociety.w3spaces.com/PiArchGreen.png",
+      "kind": "public-existing-site-image",
+      "checked_at": "2026-11-07T19:25:17.669452-05:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "image/png",
+        "Content-Length": "183414",
+        "Server": "AmazonS3",
+        "Date": "Sun, 08 Nov 2026 00:25:18 GMT",
+        "Last-Modified": "Thu, 27 Jun 2024 15:25:48 GMT",
+        "ETag": "\"2d8059129ac11197bdaca8cb7283b8be\""
+      },
+      "bytes": 183414,
+      "sha256": "b24e82eb8346b5ed1d2affcb71e491109936ea9fec04c9bc99c6cd17f5702ce4",
+      "file": "live-public-verified-20261107/invisiblesociety.w3spaces.com/PiArchGreen.png",
+      "result": "saved-public-response",
+      "baseline_file": "public-snapshots/invisiblesociety.w3spaces.com/PiArchGreen.png",
+      "baseline_sha256": "b24e82eb8346b5ed1d2affcb71e491109936ea9fec04c9bc99c6cd17f5702ce4",
+      "byte_equal_to_saved_baseline": true,
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:18 PM EST",
+        "Last-Modified": "2024-06-27 11:25:48 AM EDT"
+      }
+    },
+    {
+      "url": "https://invisiblesociety.w3spaces.com/TheNet.png",
+      "kind": "public-existing-site-image",
+      "checked_at": "2026-11-07T19:25:18.035901-05:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "image/png",
+        "Content-Length": "965361",
+        "Server": "AmazonS3",
+        "Date": "Sun, 08 Nov 2026 00:25:19 GMT",
+        "Last-Modified": "Mon, 01 Sep 2025 14:39:24 GMT",
+        "ETag": "\"abf6751167d5fc1aff8214d37c6a19ca\""
+      },
+      "bytes": 965361,
+      "sha256": "e102f18bebaa40127686866d551e7712c2bc0d2cc3dac8ca62418b514b596a8a",
+      "file": "live-public-verified-20261107/invisiblesociety.w3spaces.com/TheNet.png",
+      "result": "saved-public-response",
+      "baseline_file": "public-snapshots/invisiblesociety.w3spaces.com/TheNet.png",
+      "baseline_sha256": "e102f18bebaa40127686866d551e7712c2bc0d2cc3dac8ca62418b514b596a8a",
+      "byte_equal_to_saved_baseline": true,
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:19 PM EST",
+        "Last-Modified": "2025-09-01 10:39:24 AM EDT"
+      }
+    },
+    {
+      "url": "https://www.w3schools.com/w3css/4/w3.css",
+      "kind": "public-css-dependency",
+      "checked_at": "2026-11-07T19:25:18.428139-05:00",
+      "status": 403,
+      "headers": {
+        "Content-Type": "text/html",
+        "Content-Length": "397",
+        "Cache-Control": "max-age=0",
+        "Expires": "Sun, 08 Nov 2026 00:25:18 GMT",
+        "Date": "Sun, 08 Nov 2026 00:25:18 GMT"
+      },
+      "result": "HTTP 403 access/error response; exact cause undetermined. Host stopped without retry or alternate route.",
+      "header_dates_America_New_York": {
+        "Expires": "2026-11-07 07:25:18 PM EST",
+        "Date": "2026-11-07 07:25:18 PM EST"
+      }
+    },
+    {
+      "url": "https://fonts.googleapis.com/css?family=Montserrat",
+      "kind": "public-css-dependency",
+      "checked_at": "2026-11-07T19:25:18.481152-05:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "text/css; charset=utf-8",
+        "Expires": "Sun, 08 Nov 2026 00:25:18 GMT",
+        "Date": "Sun, 08 Nov 2026 00:25:18 GMT",
+        "Cache-Control": "private, max-age=86400",
+        "Content-Encoding": "gzip",
+        "Server": "ESF"
+      },
+      "bytes": 209,
+      "sha256": "23045efb70d3e57acc04873b21596e8ee24b2dbca00b243a628db3c67a98b9fa",
+      "file": "live-public-verified-20261107/fonts.googleapis.com/css--fbddcc656717.css",
+      "result": "saved-public-response",
+      "header_dates_America_New_York": {
+        "Expires": "2026-11-07 07:25:18 PM EST",
+        "Date": "2026-11-07 07:25:18 PM EST"
+      }
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+      "kind": "public-css-dependency",
+      "checked_at": "2026-11-07T19:25:18.586008-05:00",
+      "status": 200,
+      "headers": {
+        "Date": "Sun, 08 Nov 2026 00:25:18 GMT",
+        "Content-Type": "text/css; charset=utf-8",
+        "Content-Length": "6874",
+        "Cache-Control": "no-transform, public, s-maxage=30672000, max-age=30672000, immutable",
+        "Content-Encoding": "gzip",
+        "Last-Modified": "Mon, 04 May 2020 16:10:07 GMT",
+        "Server": "cloudflare"
+      },
+      "bytes": 31000,
+      "sha256": "799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd",
+      "file": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+      "result": "saved-public-response",
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:18 PM EST",
+        "Last-Modified": "2020-05-04 12:10:07 PM EDT"
+      }
+    },
+    {
+      "url": "https://invisiblesociety.w3spaces.com/scripts.js",
+      "kind": "public-existing-placeholder-script",
+      "checked_at": "2026-11-07T19:25:18.631390-05:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "application/javascript",
+        "Content-Length": "40",
+        "Server": "AmazonS3",
+        "Date": "Sun, 08 Nov 2026 00:25:19 GMT",
+        "Last-Modified": "Wed, 07 Jun 2023 22:20:52 GMT",
+        "ETag": "\"cde52cced31ae9a738e06adee9fd9654\""
+      },
+      "bytes": 40,
+      "sha256": "315531e05e0faf33befb1939662f3f0dd1e04174360f67397dea159b70748a02",
+      "file": "live-public-verified-20261107/invisiblesociety.w3spaces.com/scripts.js",
+      "result": "saved-public-response",
+      "baseline_file": "public-snapshots/invisiblesociety.w3spaces.com/scripts.js",
+      "baseline_sha256": "315531e05e0faf33befb1939662f3f0dd1e04174360f67397dea159b70748a02",
+      "byte_equal_to_saved_baseline": true,
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:19 PM EST",
+        "Last-Modified": "2023-06-07 06:20:52 PM EDT"
+      }
+    },
+    {
+      "url": "https://qabbalahinstitute.w3spaces.com/TreeOfLifeThree.png",
+      "kind": "public-existing-site-image",
+      "checked_at": "2026-11-07T19:25:18.889272-05:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "image/png",
+        "Content-Length": "169596",
+        "Date": "Sun, 08 Nov 2026 00:25:19 GMT",
+        "Server": "AmazonS3",
+        "Last-Modified": "Mon, 01 Sep 2025 18:40:00 GMT",
+        "ETag": "\"aba8a09e7e49fd2dd0c588807c66a999\""
+      },
+      "bytes": 169596,
+      "sha256": "e64a454e0ca9279c76d59e72a955ebc498ee101c0c328ae145a7b277a389b22d",
+      "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/TreeOfLifeThree.png",
+      "result": "saved-public-response",
+      "baseline_file": "public-snapshots/qabbalahinstitute.w3spaces.com/TreeOfLifeThree.png",
+      "baseline_sha256": "e64a454e0ca9279c76d59e72a955ebc498ee101c0c328ae145a7b277a389b22d",
+      "byte_equal_to_saved_baseline": true,
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:19 PM EST",
+        "Last-Modified": "2025-09-01 02:40:00 PM EDT"
+      }
+    },
+    {
+      "url": "https://qabbalahinstitute.w3spaces.com/GenesisTriangle.png",
+      "kind": "public-existing-site-image",
+      "checked_at": "2026-11-07T19:25:19.186705-05:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "image/png",
+        "Content-Length": "18076",
+        "Server": "AmazonS3",
+        "Date": "Sun, 08 Nov 2026 00:25:20 GMT",
+        "Last-Modified": "Mon, 12 Aug 2024 18:11:24 GMT",
+        "ETag": "\"f874a6d26c1395b21afae95d020ec86c\""
+      },
+      "bytes": 18076,
+      "sha256": "01da3007bade7328a19ded0c85de51714c854d3700254f41b232de7d7bf0df8e",
+      "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/GenesisTriangle.png",
+      "result": "saved-public-response",
+      "baseline_file": "public-snapshots/qabbalahinstitute.w3spaces.com/GenesisTriangle.png",
+      "baseline_sha256": "01da3007bade7328a19ded0c85de51714c854d3700254f41b232de7d7bf0df8e",
+      "byte_equal_to_saved_baseline": true,
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:20 PM EST",
+        "Last-Modified": "2024-08-12 02:11:24 PM EDT"
+      }
+    },
+    {
+      "url": "https://qabbalahinstitute.w3spaces.com/JohnPlinth.png",
+      "kind": "public-existing-site-image",
+      "checked_at": "2026-11-07T19:25:19.477281-05:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "image/png",
+        "Content-Length": "16548",
+        "Server": "AmazonS3",
+        "Date": "Sun, 08 Nov 2026 00:25:20 GMT",
+        "Last-Modified": "Mon, 12 Aug 2024 18:14:14 GMT",
+        "ETag": "\"7c949b46f3b90880e837c2d0021d8e30\""
+      },
+      "bytes": 16548,
+      "sha256": "e91be3a76bb81c2c481ebfb59274dde6fbd08587229609f2b558ec96d18b6350",
+      "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/JohnPlinth.png",
+      "result": "saved-public-response",
+      "baseline_file": "public-snapshots/qabbalahinstitute.w3spaces.com/JohnPlinth.png",
+      "baseline_sha256": "e91be3a76bb81c2c481ebfb59274dde6fbd08587229609f2b558ec96d18b6350",
+      "byte_equal_to_saved_baseline": true,
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:20 PM EST",
+        "Last-Modified": "2024-08-12 02:14:14 PM EDT"
+      }
+    },
+    {
+      "url": "https://qabbalahinstitute.w3spaces.com/GenesisJohnTriangle.png",
+      "kind": "public-existing-site-image",
+      "checked_at": "2026-11-07T19:25:19.809471-05:00",
+      "status": 200,
+      "headers": {
+        "Content-Type": "image/png",
+        "Content-Length": "38658",
+        "Date": "Sun, 08 Nov 2026 00:25:20 GMT",
+        "Server": "AmazonS3",
+        "Last-Modified": "Mon, 12 Aug 2024 18:12:57 GMT",
+        "ETag": "\"962e48447f5e6b13124a8624dd6c608e\""
+      },
+      "bytes": 38658,
+      "sha256": "06f7b1a275b54420afd520c11cb98602fadee183dbd65ad830c9b6cc1343f413",
+      "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/GenesisJohnTriangle.png",
+      "result": "saved-public-response",
+      "baseline_file": "public-snapshots/qabbalahinstitute.w3spaces.com/GenesisJohnTriangle.png",
+      "baseline_sha256": "06f7b1a275b54420afd520c11cb98602fadee183dbd65ad830c9b6cc1343f413",
+      "byte_equal_to_saved_baseline": true,
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:20 PM EST",
+        "Last-Modified": "2024-08-12 02:12:57 PM EDT"
+      }
+    },
+    {
+      "url": "https://www.w3schools.com/w3css/w3css_downloads.asp",
+      "kind": "public-license-provenance",
+      "checked_at": "2026-11-07T19:25:20.129431-05:00",
+      "status": "not-requested-after-host-protection-or-network-block"
+    },
+    {
+      "url": "https://fontawesome.com/v4/license/",
+      "kind": "public-license-provenance",
+      "checked_at": "2026-11-07T19:25:20.129898-05:00",
+      "status": 200,
+      "headers": {
+        "Date": "Sun, 08 Nov 2026 00:25:20 GMT",
+        "Content-Type": "text/html",
+        "Cache-Control": "public, max-age=3600",
+        "Server": "cloudflare",
+        "Content-Encoding": "gzip"
+      },
+      "bytes": 18273,
+      "sha256": "4ca5bfb165fa18660f9f844e05388fbe9f4004d29652ec2625d2736768401730",
+      "title": "Font Awesome License",
+      "iframe_count": 2,
+      "file": "live-public-verified-20261107/fontawesome.com/v4/license/index.html",
+      "result": "saved-public-response",
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:20 PM EST"
+      }
+    },
+    {
+      "url": "https://raw.githubusercontent.com/google/fonts/main/ofl/montserrat/OFL.txt",
+      "kind": "public-license-provenance",
+      "checked_at": "2026-11-07T19:25:20.201948-05:00",
+      "status": 200,
+      "headers": {
+        "Content-Length": "1965",
+        "Cache-Control": "max-age=300",
+        "Content-Type": "text/plain; charset=utf-8",
+        "ETag": "W/\"b7482a139a4925d4dd488fd3d8de54627863a1cba9dd7464fc93a7bff334d48d\"",
+        "Content-Encoding": "gzip",
+        "Date": "Sun, 08 Nov 2026 00:25:20 GMT",
+        "Expires": "Sun, 08 Nov 2026 00:30:20 GMT"
+      },
+      "bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e",
+      "file": "live-public-verified-20261107/raw.githubusercontent.com/google/fonts/main/ofl/montserrat/OFL.txt",
+      "result": "saved-public-response",
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:20 PM EST",
+        "Expires": "2026-11-07 07:30:20 PM EST"
+      }
+    },
+    {
+      "url": "https://fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf",
+      "kind": "open-font-dependency",
+      "checked_at": "2026-11-07T19:25:20.359404-05:00",
+      "status": 200,
+      "headers": {
+        "Content-Encoding": "gzip",
+        "Content-Length": "23527",
+        "Server": "sffe",
+        "Date": "Fri, 06 Nov 2026 23:59:17 GMT",
+        "Expires": "Sat, 06 Nov 2027 23:59:17 GMT",
+        "Cache-Control": "public, max-age=31536000",
+        "Last-Modified": "Thu, 04 Sep 2025 17:09:32 GMT",
+        "Content-Type": "font/ttf"
+      },
+      "bytes": 48532,
+      "sha256": "76c4f058aac767f2f886d4f29393f6c38b47c7dc48f502dd9e30a273b4987e81",
+      "file": "live-public-verified-20261107/fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf",
+      "result": "saved-public-response",
+      "header_dates_America_New_York": {
+        "Date": "2026-11-06 06:59:17 PM EST",
+        "Expires": "2027-11-06 07:59:17 PM EDT",
+        "Last-Modified": "2025-09-04 01:09:32 PM EDT"
+      }
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot?v=4.7.0",
+      "kind": "open-font-dependency",
+      "checked_at": "2026-11-07T19:25:20.439422-05:00",
+      "status": 200,
+      "headers": {
+        "Date": "Sun, 08 Nov 2026 00:25:20 GMT",
+        "Content-Type": "application/octet-stream; charset=utf-8",
+        "Content-Length": "99469",
+        "Cache-Control": "no-transform, public, s-maxage=30672000, max-age=30672000, immutable",
+        "Content-Encoding": "gzip",
+        "Last-Modified": "Mon, 04 May 2020 16:10:07 GMT",
+        "Server": "cloudflare"
+      },
+      "bytes": 165742,
+      "sha256": "7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979",
+      "file": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont--1793f04d41f5.eot",
+      "result": "saved-public-response",
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:20 PM EST",
+        "Last-Modified": "2020-05-04 12:10:07 PM EDT"
+      }
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot",
+      "kind": "open-font-dependency",
+      "checked_at": "2026-11-07T19:25:20.521676-05:00",
+      "status": 200,
+      "headers": {
+        "Date": "Sun, 08 Nov 2026 00:25:20 GMT",
+        "Content-Type": "application/octet-stream; charset=utf-8",
+        "Content-Length": "99469",
+        "Cache-Control": "no-transform, public, s-maxage=30672000, max-age=30672000, immutable",
+        "Content-Encoding": "gzip",
+        "Last-Modified": "Mon, 04 May 2020 16:10:07 GMT",
+        "Server": "cloudflare"
+      },
+      "bytes": 165742,
+      "sha256": "7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979",
+      "file": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot",
+      "result": "saved-public-response",
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:20 PM EST",
+        "Last-Modified": "2020-05-04 12:10:07 PM EDT"
+      }
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2?v=4.7.0",
+      "kind": "open-font-dependency",
+      "checked_at": "2026-11-07T19:25:20.605965-05:00",
+      "status": 200,
+      "headers": {
+        "Date": "Sun, 08 Nov 2026 00:25:20 GMT",
+        "Content-Type": "application/octet-stream; charset=utf-8",
+        "Content-Length": "77160",
+        "Cache-Control": "no-transform, public, s-maxage=30672000, max-age=30672000, immutable",
+        "Last-Modified": "Mon, 04 May 2020 16:10:07 GMT",
+        "Server": "cloudflare"
+      },
+      "bytes": 77160,
+      "sha256": "2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe",
+      "file": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont--1793f04d41f5.woff2",
+      "result": "saved-public-response",
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:20 PM EST",
+        "Last-Modified": "2020-05-04 12:10:07 PM EDT"
+      }
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.woff?v=4.7.0",
+      "kind": "open-font-dependency",
+      "checked_at": "2026-11-07T19:25:20.699877-05:00",
+      "status": 200,
+      "headers": {
+        "Date": "Sun, 08 Nov 2026 00:25:20 GMT",
+        "Content-Type": "application/octet-stream; charset=utf-8",
+        "Content-Length": "97948",
+        "Cache-Control": "no-transform, public, s-maxage=30672000, max-age=30672000, immutable",
+        "Content-Encoding": "gzip",
+        "Last-Modified": "Mon, 04 May 2020 16:10:07 GMT",
+        "Server": "cloudflare"
+      },
+      "bytes": 98024,
+      "sha256": "ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07",
+      "file": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont--1793f04d41f5.woff",
+      "result": "saved-public-response",
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:20 PM EST",
+        "Last-Modified": "2020-05-04 12:10:07 PM EDT"
+      }
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.ttf?v=4.7.0",
+      "kind": "open-font-dependency",
+      "checked_at": "2026-11-07T19:25:20.786964-05:00",
+      "status": 200,
+      "headers": {
+        "Date": "Sun, 08 Nov 2026 00:25:20 GMT",
+        "Content-Type": "application/octet-stream; charset=utf-8",
+        "Content-Length": "99380",
+        "Cache-Control": "no-transform, public, s-maxage=30672000, max-age=30672000, immutable",
+        "Content-Encoding": "gzip",
+        "Last-Modified": "Mon, 04 May 2020 16:10:07 GMT",
+        "Server": "cloudflare"
+      },
+      "bytes": 165548,
+      "sha256": "aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8",
+      "file": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont--1793f04d41f5.ttf",
+      "result": "saved-public-response",
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:20 PM EST",
+        "Last-Modified": "2020-05-04 12:10:07 PM EDT"
+      }
+    },
+    {
+      "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.svg?v=4.7.0",
+      "kind": "open-font-dependency",
+      "checked_at": "2026-11-07T19:25:20.836385-05:00",
+      "status": 200,
+      "headers": {
+        "Date": "Sun, 08 Nov 2026 00:25:20 GMT",
+        "Content-Type": "image/svg+xml; charset=utf-8",
+        "Content-Length": "132822",
+        "Cache-Control": "no-transform, public, s-maxage=30672000, max-age=30672000, immutable",
+        "Content-Encoding": "gzip",
+        "Last-Modified": "Mon, 04 May 2020 16:10:07 GMT",
+        "Server": "cloudflare"
+      },
+      "bytes": 444379,
+      "sha256": "ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4",
+      "file": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont--1793f04d41f5.svg",
+      "result": "saved-public-response",
+      "header_dates_America_New_York": {
+        "Date": "2026-11-07 07:25:20 PM EST",
+        "Last-Modified": "2020-05-04 12:10:07 PM EDT"
+      }
+    }
+  ],
+  "blocked_hosts": [
+    "qabbalah.institute",
+    "www.w3schools.com"
+  ]
+}

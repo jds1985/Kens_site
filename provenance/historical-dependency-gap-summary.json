@@ -1,0 +1,12 @@
+{
+  "note": "Original URL inventory omitted. Generated builder storage URLs embed a numeric host-account identifier. Those URLs were not copied. Wrappers retained in historical-reference use the placeholder user-REDACTED/sites/REDACTED.",
+  "source_files_summarized": 26,
+  "reference_counts_by_kind": {
+    "builder_runtime_script": 51,
+    "viewer_js": 12,
+    "generated_storage_script": 75,
+    "viewer_css": 12,
+    "banner_asset": 2
+  },
+  "collected": false
+}

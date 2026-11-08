@@ -1,0 +1,20 @@
+{
+  "source_files_copied": 135,
+  "byte_identical_copies": true,
+  "production_home_bytes": 83168,
+  "production_home_sha256": "d130153a74f4a2812a2f6f36b6ded42d50028d383d42c641726b741f8122756d",
+  "all_nine_target_ids_present": true,
+  "production_home_script_count": 0,
+  "production_home_iframe_count": 0,
+  "member_private_paths_included": false,
+  "credential_pattern_findings": [],
+  "fresh_browser_or_live_parity_test": "Public source HTTP parity only, not browser/phone testing or PHP source parity",
+  "limits": "Allowlist and lexical screening are not proof of complete security or complete live-site capture.",
+  "public_check_result": "Three public W3Spaces entry pages/images reconciled; qabbalah host406 and W3CSS403 stopped, private routes unrequested.",
+  "production_index_unchanged": true,
+  "cpanel_root_html_files_privately_reviewed": 110,
+  "root_indices_match_canonical": true,
+  "historical_viewer_references_only": 25,
+  "withheld_payment_contact_values_absent": true,
+  "complete_functional_clone": false
+}

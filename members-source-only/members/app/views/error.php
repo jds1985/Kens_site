@@ -1,0 +1,3 @@
+<h1><?= e($title) ?></h1>
+<p class="lead"><?= e($message) ?></p>
+<p><a class="btn" href="<?= e(url('/')) ?>">Back to the members page</a></p>

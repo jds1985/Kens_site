@@ -1,0 +1,51 @@
+{
+  "files_reviewed_privately": 110,
+  "classification_counts": {
+    "builder-shell-no-body-text": 100,
+    "builder-shell-with-body-text": 6,
+    "hostgator-promotional-banner": 1,
+    "production-home-copy": 2,
+    "test-review-home-copy": 1
+  },
+  "viewer_wrappers": 106,
+  "historical_reference_included_count": 25,
+  "viewer_shells_withheld_and_not_in_this_repository": 81,
+  "production_home_copies_not_duplicated_here": [
+    "index.html",
+    "index_mobile.html"
+  ],
+  "test_review_copy_not_imported": "navigation-review.html",
+  "promotional_banner_retained_as_source_txt": [
+    "banner.html.source.txt",
+    "banner.css.source.txt",
+    "banner.png"
+  ],
+  "included_reference_filenames": [
+    "about.html",
+    "builders-of-solomon-and-hirom.html",
+    "builders-of-solomon-and-hirom_mobile.html",
+    "contact.html",
+    "mobile_about.html",
+    "mobile_builders-of-solomon-and-hirom.html",
+    "mobile_contact.html",
+    "mobile_curriculum.html",
+    "mobile_degrees.html",
+    "mobile_index.html",
+    "mobile_membership.html",
+    "mobile_mystic-freemasonry.html",
+    "mobile_orders.html",
+    "mobile_services.html",
+    "mobile_the-naught-degree.html",
+    "mobile_the-orders.html",
+    "mobile_vau-qoppa-sampi.html",
+    "mystic-freemasonry.html",
+    "orders.html",
+    "orders_mobile.html",
+    "services.html",
+    "the-naught-degree.html",
+    "the-orders.html",
+    "vau-qoppa-sampi.html",
+    "vau-qoppa-sampi_mobile.html"
+  ],
+  "note": "Withheld filenames, sizes, and hashes are not published. The 25 included names are .source.txt references, not routes. index.html and index_mobile.html matched the authoritative homepage and are stored only as public-current/qabbalah.institute/index.html."
+}

@@ -1,0 +1,385 @@
+--- public-snapshots/invisiblesociety.w3spaces.com/index.html
++++ live-public-verified-20261107/invisiblesociety.w3spaces.com/index.html
+@@ -36,29 +36,27 @@
+          <span style="font-size:13px"><!--13-->
+ 
+          <div class="w3-row">
+-         <!--col left--><div class="w3-col m3 l3 w3-center">
+-               &nbsp;
+-         <!--end col left--></div>
+-         <!--col 1--><div class="w3-col m2 l2 w3-center">
++
++         <!--col 1--><div class="w3-col m4 l4 w3-center">
+             <p style="text-align:center; font-size:13px">
+                &nbsp;<br />
+                <span style="font-size:21px"><!--21-->
+                &nbsp;<br />
++               <a href="https://vauqoppasampi.w3spaces.com/">
++                  <span style="color: rgb(162,74,66)"><i><b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:8px">™</span></i></span></a><!--end red-->
++               <br />
+                </span><!--end 21-->
+-               &nbsp;<br />
+-               <a href="https://vauqoppasampi.w3spaces.com/">
+-                  <span style="color: rgb(162,74,66)"><i><b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:8px">™/©</span></i></span></a><!--end red--><br />
+                a secret Greek-letter fraternity,<br />
+                with a 6,000-year-old tradition,<br />
+                associated with the<br />
+                <b>I</b>nvisible <b>S</b>ociety<span style="font-size:8px">™/©</span><!--end 8-->.
+             </p>
+          <!--end col 1--></div>
+-         <!--col 2--><div class="w3-col m2 l2 w3-center">
++         <!--col 2--><div class="w3-col m4 l4 w3-center">
+                <p style="text-align:center; font-size:13px">
+                The<br />
+                <span style="font-size:21px"><!--21-->
+-               <b>I</b>nvisible <b>S</b>ociety<span style="font-size:13px">™/©</span><!--end 13--><br />
++               <b>I</b>nvisible <b>S</b>ociety<span style="font-size:13px">™</span><!--end 13--><br />
+                </span><!--end 21-->
+                <span style="color: rgb(162,74,66)"><b>U</b></span>nincorporated <span style="color: rgb(162,74,66)"><b>S</b></span>piritual <span style="color: rgb(191,41,26)"><b>A</b></span>ssociation<br />
+                &nbsp;<br />
+@@ -68,24 +66,22 @@
+                QaBbaLáH Dá‘aTh Institute<span style="font-size:8px">™/©</span><!--end 8-->.
+             </p><!--end 13-->
+          <!--end col 2--></div>
+-         <!--col 3--><div class="w3-col m2 l2 w3-center">
++         <!--col 3--><div class="w3-col m4 l4 w3-center">
+             <p style="text-align:center; font-size:13px">
+                &nbsp;<br />
+                <span style="font-size:21px"><!--21-->
+                &nbsp;<br />
++               <a href="https://qabbalahinstitute.w3spaces.com/">
++                  <span style="color: rgb(162,74,66)"><i>QaBbaLáH Dá‘aTh Institute<span style="font-size:8px">™</span></i></span></a>
++               <br />
+                </span><!--end 21-->
+-               &nbsp;<br />
+-               <a href="https://qabbalahinstitute.w3spaces.com/">
+-                  <span style="color: rgb(162,74,66)"><i>QaBbaLáH Dá‘aTh Institute<span style="font-size:8px">™/©</span></i></span></a><br />
+                a virtual, non-local, symbolic university,<br />
+                granting Seminary degrees in<br />
+                in a way that is unique to the<br />
+                <b>I</b>nvisible <b>S</b>ociety<span style="font-size:8px">™/©</span><!--end 8-->.
+             </p>
+          <!--end col 3--></div>
+-         <!--col right--><div class="w3-col m3 l3 w3-center">
+-               &nbsp;
+-         <!--end col right--></div>
++
+          </div><!--end div class row-->
+ 
+          </span><!--end 13-->
+@@ -100,12 +96,12 @@
+          <span style="color: rgba(0,255,0,0.9)"><!--green-->
+          <span style="font-size:13px">
+             <span style="font-size:21px">
+-            <b>Home</b>&nbsp;
++            <b>Home sections:</b>&nbsp;
+             </span><!--end 21-->
+          <a href="#thematrix"><i>The Matrix</i></a>&nbsp;&nbsp;&nbsp;
+          <a href="#perpetualinitiation"><i><b>P</b>erpetual <b>I</b>nitiation<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+          <a href="#prosperityinitiative"><i><b>P</b>rosperity <b>I</b>nitiative<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+-         <a href="#QQQ"><i>QQQ<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
++         <a href="#QQQ"><i>QQQ</i></a>&nbsp;&nbsp;&nbsp;
+          <a href="#calendar">Calendar</a>&nbsp;&nbsp;&nbsp;
+          <a href="#vauqoppasampi"><i><b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+          <a href="#therapeutae"><i>Therapeutae</i></a>&nbsp;&nbsp;&nbsp;
+@@ -113,8 +109,11 @@
+          <a href="#abraham"><i>Abraham</i></a>&nbsp;&nbsp;&nbsp;
+          <a href="#assassins"><i>Assassins</i></a>&nbsp;&nbsp;&nbsp;
+          <a href="#copyright"><i>Copyright</i></a>&nbsp;&nbsp;&nbsp;
+-         <a href="#qabbalahinstitute"><i>QaBbaLáH Dá‘aTh Institute</i></a>
+-         </span><!--end 13-->
++         </span><!--end 13-->
++         <br />
++            <span style="font-size:21px">
++            <a href="https://qabbalah.institute/members/" target="_blank" rel="noopener"><b>Sign Up / Sign In</b></a>&nbsp;
++            </span><!--end 21-->
+          </span><!--end green-->
+       </div><!--end div for nav bar black-->
+ <!--end Home nav bar black-->
+@@ -126,9 +125,9 @@
+          <span style="font-size:13px"><!--13-->
+          The<br />
+          <span style="font-size:21px"><!--21-->
+-         <b>I</b>nvisible <b>S</b>ociety<span style="font-size:13px">&trade;/©</span><br />
+-         </span><!--end 21-->
+-         <span style="color: rgb(162,74,66)"><b>P</b></span>rivacy, <span style="color: rgb(162,74,66)"><b>S</b></span>ecrecy, <span style="color: rgb(162,74,66)"><b>I</b></span>nvisibility<span style="font-size:8px">™/©</span><br /><br />
++         <b>I</b>nvisible <b>S</b>ociety<span style="font-size:13px">&trade;</span><br />
++         </span><!--end 21-->
++         <span style="color: rgb(162,74,66)"><b>P</b></span>rivacy, <span style="color: rgb(162,74,66)"><b>S</b></span>ecrecy, <span style="color: rgb(162,74,66)"><b>I</b></span>nvisibility<span style="font-size:8px">™</span><br /><br />
+             <b>∴</b><br />
+             Behold!<br />
+             (<i>à la</i> Psalm 133:1)<br />
+@@ -189,7 +188,7 @@
+                </span><!--end of 21-->
+             <a href="#perpetualinitiation"><i><b>P</b>erpetual <b>I</b>nitiation<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#prosperityinitiative"><i><b>P</b>rosperity <b>I</b>nitiative<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+-            <a href="#QQQ"><i>QQQ<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
++            <a href="#QQQ"><i>QQQ</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#calendar"><b>Calendar</b></a>&nbsp;
+             <a href="#vauqoppasampi"><i><b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#therapeutae"><i>Therapeutae</i></a>&nbsp;&nbsp;&nbsp;
+@@ -283,7 +282,7 @@
+             <p>
+                The<br />
+                <span style="font-size:21px">
+-               <b>I</b>nvisible <b>S</b>ociety <b>M</b>atrix<span style="font-size:13px">™/©</span><br />
++               <b>I</b>nvisible <b>S</b>ociety <b>M</b>atrix<span style="font-size:13px">™</span><br />
+                </span><!--end 21-->
+                Genesis 1:1 + John 1:1<br /><br />
+                Genesis 1:1 = <b>2701</b> = 37 x 73<br />
+@@ -330,7 +329,7 @@
+                <b>Perpetual Initiation<span style="font-size:13px">™/©</span></b>&nbsp;
+                </span><!--end of 21-->
+             <a href="#prosperityinitiative"><i><b>P</b>rosperity <b>I</b>nitiative<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+-            <a href="#QQQ"><i>QQQ<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
++            <a href="#QQQ"><i>QQQ</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#calendar"><b>Calendar</b></a>&nbsp;
+             <a href="#vauqoppasampi"><i><b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#therapeutae"><i>Therapeutae</i></a>&nbsp;&nbsp;&nbsp;
+@@ -359,9 +358,9 @@
+             <b>Ephesians 4:23</b><br /><br />
+          <span style="font-size:21px">
+             <b>∴</b><br />
+-            <b>I</b>nitiation <b>S</b>cience<span style="font-size:13px">™/©</span><br /><br />
+-            <b>I</b>nitiation <b>N</b>ew <b>T</b>hought <b>S</b>cience<span style="font-size:13px">™/©</span><br /><br />
+-            QaBbaLáH<span style="font-size:13px">™/©</span> New Thought Science<span style="font-size:13px">™/©</span><br />
++            <b>I</b>nitiation <b>S</b>cience<span style="font-size:13px">™</span><br /><br />
++            <b>I</b>nitiation <b>N</b>ew <b>T</b>hought <b>S</b>cience<span style="font-size:13px">™</span><br /><br />
++            QaBbaLáH<span style="font-size:13px">™/©</span> New Thought Science<span style="font-size:13px">™</span><br />
+          </span><!--end 21-->
+             a<br />
+             Jungian “<b>alchemystical</b>” process of <b>individuation</b><br />
+@@ -384,7 +383,7 @@
+                <span style="font-size:21px">
+                <b>Prosperity Initiative<span style="font-size:13px">™/©</span></b>&nbsp;
+                </span><!--end of 21-->
+-            <a href="#QQQ"><i>QQQ<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
++            <a href="#QQQ"><i>QQQ</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#calendar"><b>Calendar</b></a>&nbsp;
+             <a href="#vauqoppasampi"><i><b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#therapeutae"><i>Therapeutae</i></a>&nbsp;&nbsp;&nbsp;
+@@ -405,10 +404,10 @@
+          <span style="font-size:13px">
+             <span style="font-size:21px">
+             <b>∴</b><br />
+-            <b>P</b>rosperity <b>I</b>nitiative<span style="font-size:13px">™/©</span><br />
++            <b>P</b>rosperity <b>I</b>nitiative<span style="font-size:13px">™</span><br />
+             </span><!--end 21-->
+             "Lifting everyone up,<br />
+-            without pushing anyone down."<span style="font-size:8px">™/©</span>​​<br /><br />
++            without pushing anyone down."<span style="font-size:8px">™</span>​​<br /><br />
+             <span style="font-size:21px">
+             ∴<br />
+             Independence<br />
+@@ -416,15 +415,15 @@
+             ∴<br />
+             Membership = Ordination<br />
+             </span><!--end 21-->
+-            As a minister of the <b>I</b>nvisible <b>S</b>ociety<span style="font-size:8px">™/©</span>,<br />
++            As a minister of the <b>I</b>nvisible <b>S</b>ociety<span style="font-size:8px">™</span>,<br />
+             you are free to choose to be a<br />
+             <span style="color: rgb(191,41,26)"><b>M</b></span>ember <span style="color: rgb(27,54,93)"><b>F</b></span>acilitator in the<br />
+             <b>P</b>rosperity <b>I</b>nitiative<span style="font-size:8px">™/©</span>​,​<br />
+             working with Member Students of<br />
+             lower Degrees than yourself.<br /><br />
+-            QaBbaLáH Dá‘aTh Institute<span style="font-size:8px">™/©</span> is the teaching Order<br />
++            QaBbaLáH Dá‘aTh Institute<span style="font-size:8px">™</span> is the teaching Order<br />
+             of the<br />
+-            <b>I</b>nvisible <b>S</b>ociety<span style="font-size:8px">™/©</span>.<br /><br />
++            <b>I</b>nvisible <b>S</b>ociety<span style="font-size:8px">™</span>.<br /><br />
+             Related Website:<br />
+             <a href="https://qabbalahinstitute.w3spaces.com">
+          <span style="color: rgb(191,41,26)">https://qabbalahinstitute.w3spaces.com</span></a><br /><br />
+@@ -443,7 +442,7 @@
+             <a href="#perpetualinitiation"><i><b>P</b>erpetual <b>I</b>nitiation<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#prosperityinitiative"><i><b>P</b>rosperity <b>I</b>nitiative<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+                <span style="font-size:21px">
+-               <b>QQQ<span style="font-size:13px">™/©</span></b>&nbsp;
++               <b>QQQ</b>&nbsp;
+                </span><!--end of 21-->
+             <a href="#calendar"><b>Calendar</b></a>&nbsp;
+             <a href="#vauqoppasampi"><i><b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+@@ -464,7 +463,7 @@
+          <span style="color:rgb(0,112,65)"><!--green-->
+          <span style="font-size:21px">
+          <b>∴</b><br />
+-         QQQ<span style="font-size:13px">™/©</span><br />
++         QQQ<br />
+         ةِبْلَة 
+          <span style="font-size:15px">Ϙεβαλή</span><!--end 15-->
+          <span style="font-size:19px">
+@@ -517,7 +516,7 @@
+             <a href="#thematrix"><i>The Matrix</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#perpetualinitiation"><i><b>P</b>erpetual <b>I</b>nitiation<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#prosperityinitiative"><i><b>P</b>rosperity <b>I</b>nitiative<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+-            <a href="#QQQ"><i>QQQ<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
++            <a href="#QQQ"><i>QQQ</i></a>&nbsp;&nbsp;&nbsp;
+                <span style="font-size:21px">
+                <b>Calendar</b>&nbsp;
+                </span><!--end of 21-->
+@@ -691,7 +690,7 @@
+             </div>
+          <!--end row-->
+          </div><!--end row--><br />
+-         Copyright © 14 June 2026 <b>I</b>nvisible <b>S</b>ociety<span style="font-size:8px">™/©</span><br /><br />
++         Copyright © 14 June 2026 <b>I</b>nvisible <b>S</b>ociety<span style="font-size:8px">™</span><br /><br />
+ 
+          </span><!--end green-->
+       </div><!--end background-->
+@@ -706,7 +705,7 @@
+             <a href="#thematrix"><i>The Matrix</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#perpetualinitiation"><i><b>P</b>erpetual <b>I</b>nitiation<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#prosperityinitiative"><i><b>P</b>rosperity <b>I</b>nitiative<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+-            <a href="#QQQ"><i>QQQ<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
++            <a href="#QQQ"><i>QQQ</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#calendar"><b>Calendar</b></a>&nbsp;
+                <span style="font-size:21px">
+                <b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:8px">™/©</span>&nbsp;
+@@ -731,9 +730,9 @@
+             ∴<br />
+             <b>ϜϘϡ</b><span style="font-size:13px">&trade;/©</span><br />
+          </span><!--end 21-->
+-            Fα<span class="p1">ῦ</span> Ϙόππα Σάμπι<span style="font-size:8px">&trade;/©</span><br />
+-         <span style="font-size:21px">
+-            <b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:13px">&trade;/©</span><br />
++            Fα<span class="p1">ῦ</span> Ϙόππα Σάμπι<span style="font-size:8px">&trade;</span><br />
++         <span style="font-size:21px">
++            <b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:13px">&trade;</span><br />
+          </span><!--end 21-->
+          <table class="center"><!--table-->
+             <tr><!--table row-->
+@@ -752,11 +751,11 @@
+             <!--col2-->
+             <div class="w3-col s12 m4 l4  w3-center">
+                <span style="font-size:21px">
+-               ϜϘϡ<span style="font-size:13px">&trade;/©</span><br />
++               ϜϘϡ<span style="font-size:13px">&trade;</span><br />
+                </span>
+                      <p align="justify">
+                      <span style="font-size:13px">
+-                     <b>ϜϘϡ</b><span style="font-size:8px">&trade;/©</span>, <b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:8px">&trade;/©</span>, 
++                     <b>ϜϘϡ</b><span style="font-size:8px">&trade;/©</span>, <b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:8px">&trade;</span>, 
+                      is a secret Greek-letter fraternity, with a 6,000-year-old tradition. 
+                      It is known as the Lost-Letters Fraternity because
+                      the letters vau, qoppa, and sampi are "lost" to the modern Greek alphabet.
+@@ -773,23 +772,23 @@
+                      </p>
+                      <p align="justify">
+                      <span style="font-size:13px">
+-                     <b>ϜϘϡ</b><span style="font-size:8px">&trade;/©</span>, <b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:8px">&trade;/©</span>, or <b>VQS<span style="font-size:8px">&trade;/©</span></b>, our first Order, is also known as<br />
++                     <b>ϜϘϡ</b><span style="font-size:8px">&trade;</span>, <b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:8px">&trade;</span>, or <b>VQS<span style="font-size:8px">&trade;</span></b>, our first Order, is also known as<br />
+                      </span><!--end 13-->
+                      </p>
+                      <p align="center">
+                      <span style="font-size:13px">
+-                     <b>The Catch-On Game<span style="font-size:8px">&trade;/©</span></b>
++                     <b>The Catch-On Game<span style="font-size:8px">&trade;</span></b>
+                      </span><!--end 13-->
+                      </p>
+                      <p align="justify">
+                      <span style="font-size:13px">
+-                     The method of teaching used by the Orders of the <b>I</b>nvisible <b>S</b>ociety©
++                     The method of teaching used by the Orders of the <b>I</b>nvisible <b>S</b>ociety<span style="font-size:8px">&trade;/©</span>
+                      is called the <b>heuristic</b> method, that is,
+                      </span><!--end 13-->
+                      </p>
+                      <p align="center">
+                      <span style="font-size:13px">
+-                     <b>The "Catch-On" Method</b>
++                     <b>The “Catch-On” Method</b>
+                      </span><!--end 13-->
+                      </p>
+                      <p align="justify">
+@@ -800,9 +799,9 @@
+                      </p>
+                      <p align="center">
+                      <span style="font-size:13px">
+-                     <b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:8px">&trade;/©</span> is a visible face<br />
++                     <b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:8px">&trade;</span> is a visible face<br />
+                      of the<br />
+-                     <b>I</b>nvisible <b>S</b>ociety<span style="font-size:8px">&trade;/©</span>.<br /><br />
++                     <b>I</b>nvisible <b>S</b>ociety<span style="font-size:8px">&trade;</span>.<br /><br />
+                      Related Website:<br />
+                      <a href="https://vauqoppasampi.w3spaces.com">
+                      <span style="color: rgb(191,41,26)">https://vauqoppasampi.w3spaces.com</span></a>
+@@ -828,7 +827,7 @@
+             <a href="#perpetualinitiation"><i><b>P</b>erpetual <b>I</b>nitiation©</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#prosperityinitiative"><i><b>P</b>rosperity <b>I</b>nitiative©</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#vauqoppasampi"><i><b>V</b>au <b>Q</b>oppa <b>S</b>ampi©</i></a>&nbsp;&nbsp;&nbsp;
+-            <a href="#QQQ"><i>QQQ<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
++            <a href="#QQQ"><i>QQQ</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#calendar"><b>Calendar</b></a>&nbsp;
+             <a href="#vauqoppasampi"><i><b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+                <span style="font-size:21px">
+@@ -889,7 +888,7 @@
+          <a href="#perpetualinitiation"><i><b>P</b>erpetual <b>I</b>nitiation©</i></a>&nbsp;&nbsp;&nbsp;
+          <a href="#prosperityinitiative"><i><b>P</b>rosperity <b>I</b>nitiative©</i></a>&nbsp;&nbsp;&nbsp;
+          <a href="#vauqoppasampi"><i><b>V</b>au <b>Q</b>oppa <b>S</b>ampi©</i></a>&nbsp;&nbsp;&nbsp;
+-         <a href="#QQQ"><i>QQQ<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
++         <a href="#QQQ"><i>QQQ</i></a>&nbsp;&nbsp;&nbsp;
+          <a href="#calendar"><b>Calendar</b></a>&nbsp;
+          <a href="#vauqoppasampi"><i><b>V</b>au <b>Q</b>oppa <b>S</b>ampi<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
+          <a href="#therapeutae"><i>Therapeutae</i></a>&nbsp;&nbsp;&nbsp;
+@@ -945,7 +944,7 @@
+             <a href="#thematrix"><i>The Matrix</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#perpetualinitiation"><i><b>P</b>erpetual <b>I</b>nitiation©</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#prosperityinitiative"><i><b>P</b>rosperity <b>I</b>nitiative©</i></a>&nbsp;&nbsp;&nbsp;
+-            <a href="#QQQ"><i>QQQ<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
++            <a href="#QQQ"><i>QQQ</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#calendar"><b>Calendar</b></a>&nbsp;
+             <a href="#vauqoppasampi"><i><b>V</b>au <b>Q</b>oppa <b>S</b>ampi©</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#therapeutae"><i>Therapeutae</i></a>&nbsp;&nbsp;&nbsp;
+@@ -1149,7 +1148,7 @@
+             <a href="#thematrix"><i>The Matrix</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#perpetualinitiation"><i><b>P</b>erpetual <b>I</b>nitiation©</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#prosperityinitiative"><i><b>P</b>rosperity <b>I</b>nitiative©</i></a>&nbsp;&nbsp;&nbsp;
+-            <a href="#QQQ"><i>QQQ<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
++            <a href="#QQQ"><i>QQQ</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#calendar"><b>Calendar</b></a>&nbsp;
+             <a href="#vauqoppasampi"><i><b>V</b>au <b>Q</b>oppa <b>S</b>ampi©</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#therapeutae"><i>Therapeutae</i></a>&nbsp;&nbsp;&nbsp;
+@@ -1177,7 +1176,7 @@
+          &dagger;<br />
+          ω<br />
+          α&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ε<br />
+-         Assassins’ Omega Enchantment
++         Assassins’ Omega Enigma
+          </span><!--end 21-->
+          </p>
+ 
+@@ -1242,7 +1241,7 @@
+             <a href="#thematrix"><i>The Matrix</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#perpetualinitiation"><i><b>P</b>erpetual <b>I</b>nitiation©</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#prosperityinitiative"><i><b>P</b>rosperity <b>I</b>nitiative©</i></a>&nbsp;&nbsp;&nbsp;
+-            <a href="#QQQ"><i>QQQ<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
++            <a href="#QQQ"><i>QQQ</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#calendar"><b>Calendar</b></a>&nbsp;
+             <a href="#vauqoppasampi"><i><b>V</b>au <b>Q</b>oppa <b>S</b>ampi©</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#therapeutae"><i>Therapeutae</i></a>&nbsp;&nbsp;&nbsp;
+@@ -1372,7 +1371,7 @@
+             <a href="#thematrix"><i>The Matrix</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#perpetualinitiation"><i><b>P</b>erpetual <b>I</b>nitiation©</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#prosperityinitiative"><i><b>P</b>rosperity <b>I</b>nitiative©</i></a>&nbsp;&nbsp;&nbsp;
+-            <a href="#QQQ"><i>QQQ<span style="font-size:8px">™/©</span></i></a>&nbsp;&nbsp;&nbsp;
++            <a href="#QQQ"><i>QQQ</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#calendar"><b>Calendar</b></a>&nbsp;
+             <a href="#vauqoppasampi"><i><b>V</b>au <b>Q</b>oppa <b>S</b>ampi©</i></a>&nbsp;&nbsp;&nbsp;
+             <a href="#therapeutae"><i>Therapeutae</i></a>&nbsp;&nbsp;&nbsp;
+@@ -1395,7 +1394,7 @@
+          <span style="color:rgb(0,112,65)"><!--green-->
+          <br />
+          <span style="font-size:21px">
+-         QaBbaLáH Da‘aTh Institute<span style="font-size:13px">™</span><br />
++         QaBbaLáH Dá‘aTh Institute<span style="font-size:13px">™</span><br />
+          </span><!--end 21-->
+ 
+ 
+@@ -1404,7 +1403,7 @@
+          </span><!--end of text green-->
+       </div><!--end background-->
+       </div><!--end div class white-->
+-   <!--end container for QaBbaLáH Da‘aTh Institute-->
++   <!--end container for QaBbaLáH Dá‘aTh Institute-->
+ 
+ 
+    </body><!--end of body-->

@@ -1,0 +1,234 @@
+{
+  "basis": "Supplied live File Manager metadata plus static dependency graph of existing local source. Rounded sizes do not establish byte parity.",
+  "files": [
+    {
+      "path": "/members/index.php",
+      "live_metadata_size": "5.48 KB",
+      "local_bytes": 5615
+    },
+    {
+      "path": "/members/app/admin.php",
+      "live_metadata_size": "16.65 KB",
+      "local_bytes": 17047
+    },
+    {
+      "path": "/members/app/bootstrap.php",
+      "live_metadata_size": "1.49 KB",
+      "local_bytes": 1523
+    },
+    {
+      "path": "/members/app/controllers.php",
+      "live_metadata_size": "21.42 KB",
+      "local_bytes": 21931
+    },
+    {
+      "path": "/members/app/db.php",
+      "live_metadata_size": "1.17 KB",
+      "local_bytes": 1199
+    },
+    {
+      "path": "/members/app/fac_controllers.php",
+      "live_metadata_size": "11.48 KB",
+      "local_bytes": 11759
+    },
+    {
+      "path": "/members/app/facilitators.php",
+      "live_metadata_size": "8.8 KB",
+      "local_bytes": 9016
+    },
+    {
+      "path": "/members/app/helpers.php",
+      "live_metadata_size": "4.04 KB",
+      "local_bytes": 4137
+    },
+    {
+      "path": "/members/app/mail.php",
+      "live_metadata_size": "2.86 KB",
+      "local_bytes": 2929
+    },
+    {
+      "path": "/members/app/progress.php",
+      "live_metadata_size": "9.3 KB",
+      "local_bytes": 9528
+    },
+    {
+      "path": "/members/app/security.php",
+      "live_metadata_size": "4.85 KB",
+      "local_bytes": 4965
+    },
+    {
+      "path": "/members/app/views/account.php",
+      "live_metadata_size": "1.22 KB",
+      "local_bytes": 1252
+    },
+    {
+      "path": "/members/app/views/coming_soon.php",
+      "live_metadata_size": "341 bytes",
+      "local_bytes": 341
+    },
+    {
+      "path": "/members/app/views/dashboard.php",
+      "live_metadata_size": "4.2 KB",
+      "local_bytes": 4305
+    },
+    {
+      "path": "/members/app/views/degree.php",
+      "live_metadata_size": "6.31 KB",
+      "local_bytes": 6463
+    },
+    {
+      "path": "/members/app/views/degrees.php",
+      "live_metadata_size": "1.23 KB",
+      "local_bytes": 1258
+    },
+    {
+      "path": "/members/app/views/error.php",
+      "live_metadata_size": "142 bytes",
+      "local_bytes": 142
+    },
+    {
+      "path": "/members/app/views/forgot.php",
+      "live_metadata_size": "451 bytes",
+      "local_bytes": 451
+    },
+    {
+      "path": "/members/app/views/home.php",
+      "live_metadata_size": "1.18 KB",
+      "local_bytes": 1212
+    },
+    {
+      "path": "/members/app/views/layout.php",
+      "live_metadata_size": "9.63 KB",
+      "local_bytes": 9860
+    },
+    {
+      "path": "/members/app/views/lesson.php",
+      "live_metadata_size": "1.31 KB",
+      "local_bytes": 1338
+    },
+    {
+      "path": "/members/app/views/login.php",
+      "live_metadata_size": "1.21 KB",
+      "local_bytes": 1235
+    },
+    {
+      "path": "/members/app/views/message.php",
+      "live_metadata_size": "144 bytes",
+      "local_bytes": 144
+    },
+    {
+      "path": "/members/app/views/register.php",
+      "live_metadata_size": "4.66 KB",
+      "local_bytes": 4767
+    },
+    {
+      "path": "/members/app/views/register_signed_in.php",
+      "live_metadata_size": "626 bytes",
+      "local_bytes": 626
+    },
+    {
+      "path": "/members/app/views/reset.php",
+      "live_metadata_size": "1.18 KB",
+      "local_bytes": 1208
+    },
+    {
+      "path": "/members/app/views/verify.php",
+      "live_metadata_size": "525 bytes",
+      "local_bytes": 525
+    },
+    {
+      "path": "/members/app/views/admin/_nav.php",
+      "live_metadata_size": "341 bytes",
+      "local_bytes": 341
+    },
+    {
+      "path": "/members/app/views/admin/degree.php",
+      "live_metadata_size": "5.04 KB",
+      "local_bytes": 5158
+    },
+    {
+      "path": "/members/app/views/admin/degrees.php",
+      "live_metadata_size": "1,012 bytes",
+      "local_bytes": 1012
+    },
+    {
+      "path": "/members/app/views/admin/facilitators.php",
+      "live_metadata_size": "2.86 KB",
+      "local_bytes": 2930
+    },
+    {
+      "path": "/members/app/views/admin/index.php",
+      "live_metadata_size": "4.1 KB",
+      "local_bytes": 4203
+    },
+    {
+      "path": "/members/app/views/admin/lesson.php",
+      "live_metadata_size": "4.54 KB",
+      "local_bytes": 4651
+    },
+    {
+      "path": "/members/app/views/admin/log.php",
+      "live_metadata_size": "1,006 bytes",
+      "local_bytes": 1006
+    },
+    {
+      "path": "/members/app/views/admin/member.php",
+      "live_metadata_size": "4.76 KB",
+      "local_bytes": 4879
+    },
+    {
+      "path": "/members/app/views/admin/members.php",
+      "live_metadata_size": "2 KB",
+      "local_bytes": 2052
+    },
+    {
+      "path": "/members/app/views/fac/choose.php",
+      "live_metadata_size": "1.99 KB",
+      "local_bytes": 2039
+    },
+    {
+      "path": "/members/app/views/fac/facilitator.php",
+      "live_metadata_size": "6.15 KB",
+      "local_bytes": 6300
+    },
+    {
+      "path": "/members/app/views/fac/part_b.php",
+      "live_metadata_size": "2.84 KB",
+      "local_bytes": 2905
+    },
+    {
+      "path": "/members/assets/members.css",
+      "live_metadata_size": "12.24 KB",
+      "local_bytes": 12536
+    },
+    {
+      "path": "/members/assets/members.js",
+      "live_metadata_size": "1.93 KB",
+      "local_bytes": 1974
+    },
+    {
+      "path": "/members/assets/art/README.txt",
+      "live_metadata_size": "116 bytes",
+      "local_bytes": 116
+    },
+    {
+      "path": "/members/assets/ken/PiArchGreen.png",
+      "live_metadata_size": "179.12 KB",
+      "local_bytes": 183414
+    },
+    {
+      "path": "/members/assets/ken/TheNet.png",
+      "live_metadata_size": "942.74 KB",
+      "local_bytes": 965361
+    }
+  ],
+  "local_dependency_graph": "members-local-dependency-graph.json",
+  "content_gap": "app/content/pledge.txt exists locally, but is absent from supplied live file metadata; existing notes say content directory empty. Verify without restoring/modifying.",
+  "exclusions": [
+    "actual configuration",
+    "config.sample.php in fresh export scope",
+    "Apache rules from fresh code-only export",
+    "storage/logs/uploads/member records/DB rows"
+  ],
+  "fresh_live_php_source_export_completed": false
+}
