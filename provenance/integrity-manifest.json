@@ -1,0 +1,756 @@
+{
+  "description": "SHA-256 of files imported into this repository after public-safety screening. The authoritative homepage hash is the production artifact. Historical .source.txt files with redacted host-account identifiers are not byte-identical to the private originals.",
+  "authoritative_homepage": {
+    "path": "public-current/qabbalah.institute/index.html",
+    "bytes": 83168,
+    "sha256": "d130153a74f4a2812a2f6f36b6ded42d50028d383d42c641726b741f8122756d",
+    "preview_copy": "preview/index.html",
+    "section_ids": [
+      "home",
+      "curriculum",
+      "lodges",
+      "membership",
+      "members",
+      "hebrew",
+      "greek",
+      "copyright",
+      "zerodegree"
+    ]
+  },
+  "redaction": {
+    "pattern": "wzukusers/user-<id>/sites/<id>",
+    "replacement": "wzukusers/user-REDACTED/sites/REDACTED",
+    "distinct_account_pairs": 1,
+    "replacements_by_file": {
+      "about.html.source.txt": 10,
+      "builders-of-solomon-and-hirom.html.source.txt": 14,
+      "builders-of-solomon-and-hirom_mobile.html.source.txt": 14,
+      "contact.html.source.txt": 9,
+      "mobile_about.html.source.txt": 10,
+      "mobile_builders-of-solomon-and-hirom.html.source.txt": 13,
+      "mobile_contact.html.source.txt": 9,
+      "mobile_curriculum.html.source.txt": 13,
+      "mobile_degrees.html.source.txt": 13,
+      "mobile_index.html.source.txt": 13,
+      "mobile_membership.html.source.txt": 13,
+      "mobile_mystic-freemasonry.html.source.txt": 13,
+      "mobile_orders.html.source.txt": 13,
+      "mobile_services.html.source.txt": 9,
+      "mobile_the-naught-degree.html.source.txt": 10,
+      "mobile_the-orders.html.source.txt": 10,
+      "mobile_vau-qoppa-sampi.html.source.txt": 13,
+      "mystic-freemasonry.html.source.txt": 13,
+      "orders.html.source.txt": 14,
+      "orders_mobile.html.source.txt": 14,
+      "services.html.source.txt": 9,
+      "the-naught-degree.html.source.txt": 10,
+      "the-orders.html.source.txt": 10,
+      "vau-qoppa-sampi.html.source.txt": 14,
+      "vau-qoppa-sampi_mobile.html.source.txt": 14
+    },
+    "total_replacements": 297
+  },
+  "file_count": 140,
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 195,
+      "sha256": "b9f8e0cddfa28936ab1606e63f9487a90873aba16bc4bdb103b6184a0ef6dd5f"
+    },
+    {
+      "path": ".vercelignore",
+      "bytes": 262,
+      "sha256": "1913807f5471726c578f4075c3504058a72085e39cf4947d18fde4e2b840cfda"
+    },
+    {
+      "path": "LICENSES/Font-Awesome-CSS-MIT.txt",
+      "bytes": 1420,
+      "sha256": "9ec0c4b1f3584dfc0b627f25f32cf24118bae184c12c9079f36f85353b1414c7"
+    },
+    {
+      "path": "LICENSES/Font-Awesome-font-OFL-1.1.txt",
+      "bytes": 4563,
+      "sha256": "834b0a9844ad0e8a9dfa49c253b619446ff42a84cd28a51b9db9816d233ed5b3"
+    },
+    {
+      "path": "LICENSES/Montserrat-OFL-1.1.txt",
+      "bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    {
+      "path": "LICENSES/README.txt",
+      "bytes": 1063,
+      "sha256": "149995f2ce752dff63da81954004888b8be3792842f151ddc685b09c5d76e3f9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5007,
+      "sha256": "2725aa0130816f842b7853dc5b62512c6cb841d0b37acd371e6375e716881b9e"
+    },
+    {
+      "path": "historical-reference/hostgator-root/README.txt",
+      "bytes": 1301,
+      "sha256": "97ce9acd0f9f3b26e273a68e6e6a874175de18d1227feb176eda2ea3c25df8da"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/about.html.source.txt",
+      "bytes": 27868,
+      "sha256": "c6c5be1d1cae68076238da3907566694402913c01195fe89d05f914dc1a4aca6"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/banner.css.source.txt",
+      "bytes": 20641,
+      "sha256": "4dbe1e44794056d95505921173912f4c6bb341fb3f064c2392321c3de841bccc"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/banner.html.source.txt",
+      "bytes": 1120,
+      "sha256": "a8ec9f016e52f4a5819b30bb318279733e7097e1a6da19d13d3aeac1365da0cd"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/banner.png",
+      "bytes": 8756,
+      "sha256": "65d1b298c5d56de07c39486c56f1d6732c1bc4ae88cabf65047b6f1d36e8e569"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/builders-of-solomon-and-hirom.html.source.txt",
+      "bytes": 18484,
+      "sha256": "0a95e975014e4e8edc07e6204ffb720ff43ddee9c46c3b8d61a454f6fd14ebe8"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/builders-of-solomon-and-hirom_mobile.html.source.txt",
+      "bytes": 18418,
+      "sha256": "f838918730d0c736233085eb360a979f6d92eea43fe988cf9815f913f4f8cf01"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/contact.html.source.txt",
+      "bytes": 22407,
+      "sha256": "d2fabdd40cf1804c6cf380c57e619550362e12f131afb56487aa95abe56d2ef1"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/mobile_about.html.source.txt",
+      "bytes": 17592,
+      "sha256": "ea1fdac45c8ada6487cb9586d6e3285e71407ac39effaad183c19c3cec33a815"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/mobile_builders-of-solomon-and-hirom.html.source.txt",
+      "bytes": 18970,
+      "sha256": "08cb1c800a23162c324b25442cf1191bcdc8e9796acca24e56dee372667d23f7"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/mobile_contact.html.source.txt",
+      "bytes": 17059,
+      "sha256": "c412544525ef7a86428cb88a8002faa43a9509d9b0aaf997775e5fe618e40c34"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/mobile_curriculum.html.source.txt",
+      "bytes": 18951,
+      "sha256": "408ba4a42cd9d12e0e84b4862adcfef484f8bab1a191cf09bf2b8981c6f71169"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/mobile_degrees.html.source.txt",
+      "bytes": 18948,
+      "sha256": "e304b686503507e3e0345e1183048db0146c595b826b149561ddebcb757d2b95"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/mobile_index.html.source.txt",
+      "bytes": 18943,
+      "sha256": "bec46c14ad5e28a9db88c3c7d5e31d1d971f163f0fbd4fe30d93f015bf50ea50"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/mobile_membership.html.source.txt",
+      "bytes": 18951,
+      "sha256": "f35ca6ccfdad85b60458c5d8c1928d0e47cd240d896bf06e01b405417edac896"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/mobile_mystic-freemasonry.html.source.txt",
+      "bytes": 18945,
+      "sha256": "b58640508519943ce70d548bade53b972771fdc65d5b894d272eae0d0861ddbd"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/mobile_orders.html.source.txt",
+      "bytes": 18947,
+      "sha256": "08c9d024d77661ffbf2cbdd81b72b7c3c606a16821a70aef7f7e2211bd8a6794"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/mobile_services.html.source.txt",
+      "bytes": 17056,
+      "sha256": "1d3081f73adfd5d61530fdbdccdc1da0f7d462fc18bfdbffa656539327baadcd"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/mobile_the-naught-degree.html.source.txt",
+      "bytes": 17608,
+      "sha256": "3188fb86e1c8b7e9f9e6f07b3ff867263de8364c23f270de23c32d144829fb01"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/mobile_the-orders.html.source.txt",
+      "bytes": 17583,
+      "sha256": "e790396f522f55dcddc2471d315f53882a76fdc3c012617c59e544e1090f1a01"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/mobile_vau-qoppa-sampi.html.source.txt",
+      "bytes": 18956,
+      "sha256": "0374f77e580914af0d1411bd853ca2b7bb75404309ca0d5dc41c36181b8e6c82"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/mystic-freemasonry.html.source.txt",
+      "bytes": 51201,
+      "sha256": "69aaf1d48f1a514cb78c82601f4013e50c4d2e3afd89bedaa41d6a1a206d1f27"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/orders.html.source.txt",
+      "bytes": 18461,
+      "sha256": "088528692a7c4cf1792c98c78a49fca165732653dd134801309acd90c13ae38f"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/orders_mobile.html.source.txt",
+      "bytes": 18395,
+      "sha256": "aae4674fbf9fccc40cb5ca6f22937c822761dfaf4f3c82c0683678f0f8c369e7"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/services.html.source.txt",
+      "bytes": 20914,
+      "sha256": "0bb5cea4d904a34d09cc289bd0544ff7c8170c2eaa89519054f366c65c7b7885"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/the-naught-degree.html.source.txt",
+      "bytes": 29811,
+      "sha256": "e078b166445d235669bab72c0b1d5a76f1e03253a107f1be42201ec642d89500"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/the-orders.html.source.txt",
+      "bytes": 27763,
+      "sha256": "ed1b08da99176f37012f382e3335f7321c0d3b7ba868234fccfc69bed5acd778"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/vau-qoppa-sampi.html.source.txt",
+      "bytes": 18470,
+      "sha256": "a5fe060e49bc3c981d2f5b7ae9fd40b82d481c0f7f51005450adaa35618449a8"
+    },
+    {
+      "path": "historical-reference/hostgator-root/nondeployable-source/vau-qoppa-sampi_mobile.html.source.txt",
+      "bytes": 18404,
+      "sha256": "959d4d3a57e0d727d93db4a5517f10045f4cf23380bb0baf9ce38c29a1a60fc9"
+    },
+    {
+      "path": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+      "bytes": 31000,
+      "sha256": "799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd"
+    },
+    {
+      "path": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont--1793f04d41f5.eot",
+      "bytes": 165742,
+      "sha256": "7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979"
+    },
+    {
+      "path": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont--1793f04d41f5.svg",
+      "bytes": 444379,
+      "sha256": "ad6157926c1622ba4e1d03d478f1541368524bfc46f51e42fe0d945f7ef323e4"
+    },
+    {
+      "path": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont--1793f04d41f5.ttf",
+      "bytes": 165548,
+      "sha256": "aa58f33f239a0fb02f5c7a6c45c043d7a9ac9a093335806694ecd6d4edc0d6a8"
+    },
+    {
+      "path": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont--1793f04d41f5.woff",
+      "bytes": 98024,
+      "sha256": "ba0c59deb5450f5cb41b3f93609ee2d0d995415877ddfa223e8a8a7533474f07"
+    },
+    {
+      "path": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont--1793f04d41f5.woff2",
+      "bytes": 77160,
+      "sha256": "2adefcbc041e7d18fcf2d417879dc5a09997aa64d675b7a3c4b6ce33da13f3fe"
+    },
+    {
+      "path": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/fonts/fontawesome-webfont.eot",
+      "bytes": 165742,
+      "sha256": "7bfcab6db99d5cfbf1705ca0536ddc78585432cc5fa41bbd7ad0f009033b2979"
+    },
+    {
+      "path": "live-public-verified-20261107/fontawesome.com/v4/license/index.html",
+      "bytes": 18273,
+      "sha256": "4ca5bfb165fa18660f9f844e05388fbe9f4004d29652ec2625d2736768401730"
+    },
+    {
+      "path": "live-public-verified-20261107/fonts.googleapis.com/css--fbddcc656717.css",
+      "bytes": 209,
+      "sha256": "23045efb70d3e57acc04873b21596e8ee24b2dbca00b243a628db3c67a98b9fa"
+    },
+    {
+      "path": "live-public-verified-20261107/fonts.gstatic.com/s/montserrat/v31/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCtr6Hw5aX8.ttf",
+      "bytes": 48532,
+      "sha256": "76c4f058aac767f2f886d4f29393f6c38b47c7dc48f502dd9e30a273b4987e81"
+    },
+    {
+      "path": "live-public-verified-20261107/invisiblesociety.w3spaces.com/Gen1-1John1-1AI.png",
+      "bytes": 308452,
+      "sha256": "13ee110e5a4a03a3d4f61352c96d9a6171c33266fed62e7991c911ffd97ecad6"
+    },
+    {
+      "path": "live-public-verified-20261107/invisiblesociety.w3spaces.com/PiArchGreen.png",
+      "bytes": 183414,
+      "sha256": "b24e82eb8346b5ed1d2affcb71e491109936ea9fec04c9bc99c6cd17f5702ce4"
+    },
+    {
+      "path": "live-public-verified-20261107/invisiblesociety.w3spaces.com/TheNet.png",
+      "bytes": 965361,
+      "sha256": "e102f18bebaa40127686866d551e7712c2bc0d2cc3dac8ca62418b514b596a8a"
+    },
+    {
+      "path": "live-public-verified-20261107/invisiblesociety.w3spaces.com/index.html",
+      "bytes": 74596,
+      "sha256": "52ff1ba1e6b819206950b904e6db3101f277c8e1de1d6183cc1544737b0a8b53"
+    },
+    {
+      "path": "live-public-verified-20261107/invisiblesociety.w3spaces.com/scripts.js",
+      "bytes": 40,
+      "sha256": "315531e05e0faf33befb1939662f3f0dd1e04174360f67397dea159b70748a02"
+    },
+    {
+      "path": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/GenesisJohnTriangle.png",
+      "bytes": 38658,
+      "sha256": "06f7b1a275b54420afd520c11cb98602fadee183dbd65ad830c9b6cc1343f413"
+    },
+    {
+      "path": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/GenesisTriangle.png",
+      "bytes": 18076,
+      "sha256": "01da3007bade7328a19ded0c85de51714c854d3700254f41b232de7d7bf0df8e"
+    },
+    {
+      "path": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/JohnPlinth.png",
+      "bytes": 16548,
+      "sha256": "e91be3a76bb81c2c481ebfb59274dde6fbd08587229609f2b558ec96d18b6350"
+    },
+    {
+      "path": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/TreeOfLifeThree.png",
+      "bytes": 169596,
+      "sha256": "e64a454e0ca9279c76d59e72a955ebc498ee101c0c328ae145a7b277a389b22d"
+    },
+    {
+      "path": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/index.html",
+      "bytes": 80766,
+      "sha256": "cd11acf84ad23d43556fded485319933de61a1c84ea357cd2de5b7ef1209ca01"
+    },
+    {
+      "path": "live-public-verified-20261107/raw.githubusercontent.com/google/fonts/main/ofl/montserrat/OFL.txt",
+      "bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    {
+      "path": "live-public-verified-20261107/vauqoppasampi.w3spaces.com/index.html",
+      "bytes": 15874,
+      "sha256": "abf93c5d1bc24fbca3b90942bfa06060791ead70e2b6350917b10451c906e9cc"
+    },
+    {
+      "path": "members-source-only/README.txt",
+      "bytes": 977,
+      "sha256": "3d59d0a3e26e229e28a7fb0e2eb18d01ca2e441e6c9b6a69b9647597c0eebfc1"
+    },
+    {
+      "path": "members-source-only/members/.htaccess",
+      "bytes": 662,
+      "sha256": "892055490f500709d23bf69cb440f7f35e9c786eb2648e3829a30c1c13694ba5"
+    },
+    {
+      "path": "members-source-only/members/app/.htaccess",
+      "bytes": 19,
+      "sha256": "fa28d421a28ed9b6f4b997d5119c2b8adbacff6e2dd119a179b71230f9664934"
+    },
+    {
+      "path": "members-source-only/members/app/admin.php",
+      "bytes": 17047,
+      "sha256": "05d5cd28f3b8a744e57765ec2fb1e1090faf5c7d6ae7043d72eadf30979283df"
+    },
+    {
+      "path": "members-source-only/members/app/bootstrap.php",
+      "bytes": 1523,
+      "sha256": "70575d2f6e86028ae9701d33a8475147f4fe71cc3fc8208c8af6b07a8454f4b9"
+    },
+    {
+      "path": "members-source-only/members/app/content/pledge.txt",
+      "bytes": 243,
+      "sha256": "7aaff15e4d549a523f52b24043c77b8eda4a1619e651278c43a0ee7da003de0a"
+    },
+    {
+      "path": "members-source-only/members/app/controllers.php",
+      "bytes": 21931,
+      "sha256": "6067f0b5836202b33e254d16bc6aa1c379f0bc173a6990de900e882ab303f6e6"
+    },
+    {
+      "path": "members-source-only/members/app/db.php",
+      "bytes": 1199,
+      "sha256": "2405a013a4a4d1692241bd372f72398f7a63118f18531870aa4ee276e635cc12"
+    },
+    {
+      "path": "members-source-only/members/app/fac_controllers.php",
+      "bytes": 11759,
+      "sha256": "446a5b1b6a7fcd46653de568e4894c54ff9ecade4691e04140fb152f6f97101f"
+    },
+    {
+      "path": "members-source-only/members/app/facilitators.php",
+      "bytes": 9016,
+      "sha256": "99270d6be0d9cdc66e9661940668824fdbb3407de605da1399d5339dd6731fdd"
+    },
+    {
+      "path": "members-source-only/members/app/helpers.php",
+      "bytes": 4137,
+      "sha256": "2b9e3e6db9ad536e6ffb4d76d3c3896ec22cdbbaca953b8f22dfa5ff7b0b90cf"
+    },
+    {
+      "path": "members-source-only/members/app/mail.php",
+      "bytes": 2929,
+      "sha256": "eb87f2d4f7f51cfbdca53ea46efd5c033099da6d37a9f083f5c4bb141124eb28"
+    },
+    {
+      "path": "members-source-only/members/app/progress.php",
+      "bytes": 9528,
+      "sha256": "e2ed06edc3367994310f17c7437fd9e1b99a366b5501a0ed5ee3cde5144f7b22"
+    },
+    {
+      "path": "members-source-only/members/app/security.php",
+      "bytes": 4965,
+      "sha256": "b7c46d1b26b6558a594961c3577649450f26674df8d4b763125ed35f533393c9"
+    },
+    {
+      "path": "members-source-only/members/app/views/account.php",
+      "bytes": 1252,
+      "sha256": "79090307db98f9e20a4a325f25a036fdf852266a1f7458d9ce99a8e1affb58fc"
+    },
+    {
+      "path": "members-source-only/members/app/views/admin/_nav.php",
+      "bytes": 341,
+      "sha256": "374e5d6461b16413b3dde0eee25d67cecca1f9f4cf4214dabd7385f2f22f3ba9"
+    },
+    {
+      "path": "members-source-only/members/app/views/admin/degree.php",
+      "bytes": 5158,
+      "sha256": "a561e827de9d8f547d991b3c0eb8c652eab46c107b962d16b892785028b30754"
+    },
+    {
+      "path": "members-source-only/members/app/views/admin/degrees.php",
+      "bytes": 1012,
+      "sha256": "6f8cf9afe63e278f36cca2fd43117d095d633d311f3e89528f966d34709e2dfb"
+    },
+    {
+      "path": "members-source-only/members/app/views/admin/facilitators.php",
+      "bytes": 2930,
+      "sha256": "123bf4cf8152af6fc59f5f55a4eb076e238097cf6ed604454fdc281e246ab00e"
+    },
+    {
+      "path": "members-source-only/members/app/views/admin/index.php",
+      "bytes": 4203,
+      "sha256": "86c0b09983aaeb579f81f4ad0c146f5cf8bc6842586a0d474d7d8f0f2412aa31"
+    },
+    {
+      "path": "members-source-only/members/app/views/admin/lesson.php",
+      "bytes": 4651,
+      "sha256": "6b9ef6c6ae0c78c6f471ef5f3b793b33143faa7bf46f6f42d9e4b2d6b0d103f1"
+    },
+    {
+      "path": "members-source-only/members/app/views/admin/log.php",
+      "bytes": 1006,
+      "sha256": "5043370da1ac41f538670c29d864b097e4e0c250b972c108110c78558506f027"
+    },
+    {
+      "path": "members-source-only/members/app/views/admin/member.php",
+      "bytes": 4879,
+      "sha256": "3a0262e7b7884555b7ef70032882e2a359a63a732378e1df4f2ddb45de6ba9a4"
+    },
+    {
+      "path": "members-source-only/members/app/views/admin/members.php",
+      "bytes": 2052,
+      "sha256": "5097f030ee28fa9cf059a65aaeafcaf6ed9304d375fa7a6150a563583cdcd297"
+    },
+    {
+      "path": "members-source-only/members/app/views/coming_soon.php",
+      "bytes": 341,
+      "sha256": "f3fdd52aabcf4bc5706abf0de47d7d57d6588d701cd92d57ef5e6e4936de3dc9"
+    },
+    {
+      "path": "members-source-only/members/app/views/dashboard.php",
+      "bytes": 4305,
+      "sha256": "a840afdec65649e937ee5cd699972c7685832d9e3c70492c7167e1f3f2d72c8c"
+    },
+    {
+      "path": "members-source-only/members/app/views/degree.php",
+      "bytes": 6463,
+      "sha256": "fe9893f12d964ae7da06bc508c029271b311f9ca8b6b564a655b446a43a5e6df"
+    },
+    {
+      "path": "members-source-only/members/app/views/degrees.php",
+      "bytes": 1258,
+      "sha256": "08b991e1362009ce25dab19288a508fa393ef0da020fb758f19646aaaa788165"
+    },
+    {
+      "path": "members-source-only/members/app/views/error.php",
+      "bytes": 142,
+      "sha256": "1900dade5ac39e9a60a2fce27be755a51600bd2c031d6c2af54fff8c403f46f2"
+    },
+    {
+      "path": "members-source-only/members/app/views/fac/choose.php",
+      "bytes": 2039,
+      "sha256": "444ce4a824d6ee36f8ad89111e9aa045a5583174d995c75bbf075c8cc311f339"
+    },
+    {
+      "path": "members-source-only/members/app/views/fac/facilitator.php",
+      "bytes": 6300,
+      "sha256": "6a76e7fd0fec2afe5355834bc4746125ec52595065cd9fabee4a8cae1186ea37"
+    },
+    {
+      "path": "members-source-only/members/app/views/fac/part_b.php",
+      "bytes": 2905,
+      "sha256": "bfc6c1cd17f35ba524548143cbdf9b192d77c94bbaa083f7321b5ea05f04a3ec"
+    },
+    {
+      "path": "members-source-only/members/app/views/forgot.php",
+      "bytes": 451,
+      "sha256": "5016a830f560eeb6f6fa2a4332c435a803f1f23e7c0c405d8b5f1c1bafebf460"
+    },
+    {
+      "path": "members-source-only/members/app/views/home.php",
+      "bytes": 1212,
+      "sha256": "f6a1866ca0a42c4099564a548cedb642a6e82a70a70fc2f14d3134753c053045"
+    },
+    {
+      "path": "members-source-only/members/app/views/layout.php",
+      "bytes": 9860,
+      "sha256": "cddb4f381de1f87862c811709e45b3d1e92296f83ee21eda7b04646ba9856d0d"
+    },
+    {
+      "path": "members-source-only/members/app/views/lesson.php",
+      "bytes": 1338,
+      "sha256": "bca29a7d1c2193196c9b7797a0958d22d518a8598fb7b3b6bd2189b8472c2d61"
+    },
+    {
+      "path": "members-source-only/members/app/views/login.php",
+      "bytes": 1235,
+      "sha256": "709fd5938d60b9572f25d08bf39a00a969234da61e2d6f08e92ec889457ccd17"
+    },
+    {
+      "path": "members-source-only/members/app/views/message.php",
+      "bytes": 144,
+      "sha256": "1c82339f2185d8d18efd83e419cc79e533f654e69f7b7bbbf3173d653231505b"
+    },
+    {
+      "path": "members-source-only/members/app/views/register.php",
+      "bytes": 4767,
+      "sha256": "151d2f76690c1d0296a00ad76e6123a6a57cb3bdcaefe17c8c8faea6053057df"
+    },
+    {
+      "path": "members-source-only/members/app/views/register_signed_in.php",
+      "bytes": 626,
+      "sha256": "5247979685cd59168e7a0eaba37fd73b3252059e6c58c37530a904418a1cae4a"
+    },
+    {
+      "path": "members-source-only/members/app/views/reset.php",
+      "bytes": 1208,
+      "sha256": "bf1a2051b1b535598d171a1a19d58b2cf4f420ea86b395d6f225ee0f3da7c893"
+    },
+    {
+      "path": "members-source-only/members/app/views/verify.php",
+      "bytes": 525,
+      "sha256": "8251cdd4562edf7a86c3816a0e41515d10f794c0dd80eacf527476c79eda20be"
+    },
+    {
+      "path": "members-source-only/members/assets/art/README.txt",
+      "bytes": 116,
+      "sha256": "a30b003f4bbfec80f69a865d93d1abcfa387294b7a284fa92335302a0aa0a0ad"
+    },
+    {
+      "path": "members-source-only/members/assets/ken/PiArchGreen.png",
+      "bytes": 183414,
+      "sha256": "b24e82eb8346b5ed1d2affcb71e491109936ea9fec04c9bc99c6cd17f5702ce4"
+    },
+    {
+      "path": "members-source-only/members/assets/ken/TheNet.png",
+      "bytes": 965361,
+      "sha256": "e102f18bebaa40127686866d551e7712c2bc0d2cc3dac8ca62418b514b596a8a"
+    },
+    {
+      "path": "members-source-only/members/assets/members.css",
+      "bytes": 12536,
+      "sha256": "2f2a3e7acee37d4d7cad17f9c3fa910a0438e3172789403f6f72330b8e2ddc80"
+    },
+    {
+      "path": "members-source-only/members/assets/members.js",
+      "bytes": 1974,
+      "sha256": "533c8ea012b49b87b5f8a2439b2a2a4a9f8e68a0f173b17d236dcd4f55e6e5d8"
+    },
+    {
+      "path": "members-source-only/members/config.sample.php",
+      "bytes": 4894,
+      "sha256": "962283f5879eee0453da23766dbb0e8ee2e71308d40d476ea300fcb27b979e4f"
+    },
+    {
+      "path": "members-source-only/members/index.php",
+      "bytes": 5615,
+      "sha256": "aae2453cbe57b117eab205b483b42bb3cb52cd040469ac82dbaaa044e4571a99"
+    },
+    {
+      "path": "members-source-only/sql-structure-only/schema.sql",
+      "bytes": 7144,
+      "sha256": "362fae56dc6617230e495637183d245769033e11ba420f4e316b5136fc667e7c"
+    },
+    {
+      "path": "members-source-only/sql-structure-only/upgrade-piece2.sql",
+      "bytes": 3302,
+      "sha256": "fb0d732f85f00c29c2326e143f6d9bdcd00b5598d7506eabf65bacf89eaa9ac8"
+    },
+    {
+      "path": "members-source-only/sql-structure-only/upgrade-piece3.sql",
+      "bytes": 1709,
+      "sha256": "09065b84d051cd1e9cd940d46d63470f5a7a7d424674ac0866aa7b7236e60ce2"
+    },
+    {
+      "path": "members-source-only/sql-structure-only/upgrade-signup.sql",
+      "bytes": 556,
+      "sha256": "1a47c8548aba4170915a188404c9968386faef7e1d2eaef781a87806e5556abd"
+    },
+    {
+      "path": "original-builder-reference/footer-body.html",
+      "bytes": 3356,
+      "sha256": "ce1f35f172f34d3af8e6c8d1135607aed1482d0bea977bc69840ab311c45c537"
+    },
+    {
+      "path": "original-builder-reference/home-body.html",
+      "bytes": 80129,
+      "sha256": "6ddd4ddc5de1497ba4fe00ed8df62e0f9cf53a0686fea8d8f128dd4f802ce839"
+    },
+    {
+      "path": "preview/index.html",
+      "bytes": 83168,
+      "sha256": "d130153a74f4a2812a2f6f36b6ded42d50028d383d42c641726b741f8122756d"
+    },
+    {
+      "path": "provenance/SCREENING.txt",
+      "bytes": 2309,
+      "sha256": "b6e2225813b0b84d98133404f6d1999adb53de4249d3a9bae3c18964bc6e93ef"
+    },
+    {
+      "path": "provenance/dependencies.json",
+      "bytes": 38593,
+      "sha256": "ecf89a430a383cd98b305d1595a79e44a019f397fd2fcef42b2991d6b1081e2b"
+    },
+    {
+      "path": "provenance/fresh-members-source-export-allowlist.json",
+      "bytes": 6241,
+      "sha256": "ef2313da704eb19129a150070bdb6eb2c7d08a6954fad59cf0a68711607ae6f6"
+    },
+    {
+      "path": "provenance/fresh-members-source-export-allowlist.txt",
+      "bytes": 2723,
+      "sha256": "ba93769369fbf1bd923aedc84032f92bc4dabf1b7a96a35ae076a3e7cd3da84d"
+    },
+    {
+      "path": "provenance/historical-builder-routes.json",
+      "bytes": 3425,
+      "sha256": "3098f3ea4cb343c0243f9343300961300a1b17fbcbf071b2b9e39fee8097ec37"
+    },
+    {
+      "path": "provenance/historical-dependency-gap-summary.json",
+      "bytes": 467,
+      "sha256": "b226845b56448b763e0e4e73bbad1ef36739e70458dd261216fe2d187b228d89"
+    },
+    {
+      "path": "provenance/historical-root-classification-summary.json",
+      "bytes": 1727,
+      "sha256": "657d78e0b3c61c36875d0c7fc04114bccd6c6a71e8ab6c9c867a844742fbba1f"
+    },
+    {
+      "path": "provenance/invisiblesociety-saved-vs-live.diff",
+      "bytes": 25030,
+      "sha256": "80cf59617a98ad3e74c285cde9f79a58e04f597c20b13e969fe8e0dbab0d7636"
+    },
+    {
+      "path": "provenance/live-public-verification.json",
+      "bytes": 26653,
+      "sha256": "7b056ae157b999f8176b066deec3cf8f82171650b553b077e07756e5a0b31101"
+    },
+    {
+      "path": "provenance/members-local-dependency-graph.json",
+      "bytes": 8847,
+      "sha256": "ff03f99259232020e3421d4f323a55328f6d07dae77cbbb7e9777bec66c9d70f"
+    },
+    {
+      "path": "provenance/public-collection-summary.json",
+      "bytes": 4272,
+      "sha256": "696950799e6df240fab084c3969b083f07fa500312e4593123b23ccac78593f6"
+    },
+    {
+      "path": "provenance/root-export-review-summary.json",
+      "bytes": 3329,
+      "sha256": "a033d6f01ef2cb671d04e82e0644b728efef3919dea74addd09ea9488abd3232"
+    },
+    {
+      "path": "provenance/safety-checks.json",
+      "bytes": 1031,
+      "sha256": "270b9030b4fff91a2e9303742ab2aadd33599fbf388410c4c4cd8dda01389ab9"
+    },
+    {
+      "path": "public-current/qabbalah.institute/index.html",
+      "bytes": 83168,
+      "sha256": "d130153a74f4a2812a2f6f36b6ded42d50028d383d42c641726b741f8122756d"
+    },
+    {
+      "path": "public-snapshots/invisiblesociety.w3spaces.com/Gen1-1John1-1AI.png",
+      "bytes": 308452,
+      "sha256": "13ee110e5a4a03a3d4f61352c96d9a6171c33266fed62e7991c911ffd97ecad6"
+    },
+    {
+      "path": "public-snapshots/invisiblesociety.w3spaces.com/PiArchGreen.png",
+      "bytes": 183414,
+      "sha256": "b24e82eb8346b5ed1d2affcb71e491109936ea9fec04c9bc99c6cd17f5702ce4"
+    },
+    {
+      "path": "public-snapshots/invisiblesociety.w3spaces.com/TheNet.png",
+      "bytes": 965361,
+      "sha256": "e102f18bebaa40127686866d551e7712c2bc0d2cc3dac8ca62418b514b596a8a"
+    },
+    {
+      "path": "public-snapshots/invisiblesociety.w3spaces.com/index.html",
+      "bytes": 75318,
+      "sha256": "76aa0bdbec7a369541438faf0c40f1ecf285ae86186a89b8594fbba9df6d36ab"
+    },
+    {
+      "path": "public-snapshots/invisiblesociety.w3spaces.com/scripts.js",
+      "bytes": 40,
+      "sha256": "315531e05e0faf33befb1939662f3f0dd1e04174360f67397dea159b70748a02"
+    },
+    {
+      "path": "public-snapshots/qabbalahinstitute.w3spaces.com/GenesisJohnTriangle.png",
+      "bytes": 38658,
+      "sha256": "06f7b1a275b54420afd520c11cb98602fadee183dbd65ad830c9b6cc1343f413"
+    },
+    {
+      "path": "public-snapshots/qabbalahinstitute.w3spaces.com/GenesisTriangle.png",
+      "bytes": 18076,
+      "sha256": "01da3007bade7328a19ded0c85de51714c854d3700254f41b232de7d7bf0df8e"
+    },
+    {
+      "path": "public-snapshots/qabbalahinstitute.w3spaces.com/JohnPlinth.png",
+      "bytes": 16548,
+      "sha256": "e91be3a76bb81c2c481ebfb59274dde6fbd08587229609f2b558ec96d18b6350"
+    },
+    {
+      "path": "public-snapshots/qabbalahinstitute.w3spaces.com/TreeOfLifeThree.png",
+      "bytes": 169596,
+      "sha256": "e64a454e0ca9279c76d59e72a955ebc498ee101c0c328ae145a7b277a389b22d"
+    },
+    {
+      "path": "public-snapshots/qabbalahinstitute.w3spaces.com/index.html",
+      "bytes": 80766,
+      "sha256": "cd11acf84ad23d43556fded485319933de61a1c84ea357cd2de5b7ef1209ca01"
+    },
+    {
+      "path": "public-snapshots/vauqoppasampi.w3spaces.com/index.html",
+      "bytes": 15874,
+      "sha256": "abf93c5d1bc24fbca3b90942bfa06060791ead70e2b6350917b10451c906e9cc"
+    },
+    {
+      "path": "tests/verify_homepage.py",
+      "bytes": 3526,
+      "sha256": "b5c4738cd626861836a60b6d4ddac80f54178dc4c6cb8c438025da2af76bad57"
+    }
+  ]
+}

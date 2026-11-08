@@ -1,0 +1,155 @@
+[
+  {
+    "file": "app/admin.php",
+    "includes_or_render_calls": [
+      "if ($u['role'] !== 'admin') { http_response_code(403); render('error', ['title' => 'Not allowed', 'message' => 'This page is only for the site owner.']); exit; }",
+      "render('admin/' . $view, $vars);",
+      "http_response_code(404); render('error', ['title' => 'Not found', 'message' => $msg]);",
+      "render('error', ['title' => 'File too big', 'message' => 'That upload is bigger than this server allows. Use a smaller PDF (the limit is ' . (int)cfg('max_pdf_mb', 10) . ' MB).']); return;"
+    ]
+  },
+  {
+    "file": "app/bootstrap.php",
+    "includes_or_render_calls": [
+      "$GLOBALS['CFG'] = require $cfgFile;",
+      "require APP_DIR . '/db.php';",
+      "require APP_DIR . '/security.php';",
+      "require APP_DIR . '/mail.php';",
+      "require APP_DIR . '/helpers.php';",
+      "require APP_DIR . '/progress.php';",
+      "require APP_DIR . '/controllers.php';",
+      "require APP_DIR . '/admin.php';",
+      "require APP_DIR . '/facilitators.php';",
+      "require APP_DIR . '/fac_controllers.php';"
+    ]
+  },
+  {
+    "file": "app/controllers.php",
+    "includes_or_render_calls": [
+      "render('home', ['title' => 'Members', 'degrees' => $deg]);",
+      "render('degrees', ['title' => 'The Degrees', 'degrees' => all_degrees()]);",
+      "if (!$d) { http_response_code(404); render('error', ['title' => 'Not found', 'message' => 'There is no such Degree.']); return; }",
+      "render('degree', [",
+      "if ($u = current_user()) { render('register_signed_in', ['title' => 'Sign up', 'u' => $u]); return; }",
+      "render('register', ['title' => 'Sign up', 'old' => $old, 'errors' => $errors, 'pledge' => load_pledge()]);",
+      "if (rl_blocked('reg_ip', $ip, 15, 3600)) { http_response_code(429); render('error', ['title' => 'Too many tries', 'message' => 'Too many sign-up attempts. Please wait an hour and try again.']); return; }",
+      "if (signup_auto_signin()) { render('message', ['title' => 'Please sign in', 'heading' => 'Please sign in',",
+      "render('message', ['title' => 'Check your email', 'heading' => 'Check your email',",
+      "render('verify', ['title' => 'Confirm your email', 'token' => $tok, 'valid' => $ok]);",
+      "if (!$row) { render('message', ['title' => 'Link not valid', 'heading' => 'This link has expired or was already used', 'message' => 'Please sign in. If your email is not confirmed yet, you can ask for a new link on the sign-in page.']); return; }",
+      "render('login', ['title' => 'Sign in', 'old' => $old, 'error' => $error]);",
+      "render('error', ['title' => 'Too many tries', 'message' => 'Too many sign-in attempts. Please wait 15 minutes and try again, or use \"Forgot password\".']);",
+      "render('message', ['title' => 'Check your email', 'heading' => 'Check your email', 'message' => 'If that address is waiting to be confirmed, we have sent a new link.']);",
+      "function c_forgot_form(): void { render('forgot', ['title' => 'Forgot password']); }",
+      "render('message', ['title' => 'Check your email', 'heading' => 'Check your email', 'message' => 'If that address has an account, we have sent a link to choose a new password. It works for 1 hour.']);",
+      "render('reset', ['title' => 'Choose a new password', 'token' => $tok, 'valid' => $row !== null, 'errors' => $errors]);",
+      "render('dashboard', ['title' => 'My page', 'user' => $u, 'rows' => $rows, 'next' => $next, 'admin' => $u['role'] === 'admin']);",
+      "render('account', ['title' => 'My account', 'user' => $u, 'errors' => $errors]);",
+      "if (rl_blocked('acct_pw', (string)$u['id'], 5, 900)) { http_response_code(429); render('error', ['title' => 'Too many tries', 'message' => 'Please wait 15 minutes and try again.']); return; }",
+      "if (!$d) { http_response_code(404); render('error', ['title' => 'Not found', 'message' => 'There is no such Degree.']); return; }",
+      "if (rl_blocked('claim', (string)$u['id'], 10, 3600)) { http_response_code(429); render('error', ['title' => 'Too many tries', 'message' => 'Please wait an hour and try again.']); return; }",
+      "if (!$l || !$d) { http_response_code(404); render('error', ['title' => 'Not found', 'message' => 'There is no such lesson.']); return null; }",
+      "if ($a['why'] === 'draft') { http_response_code(404); render('error', ['title' => 'Not found', 'message' => 'There is no such lesson.']); return null; }",
+      "render('error', ['title' => 'Not open yet', 'message' => $msg]);",
+      "render('lesson', ['title' => $g['l']['title'], 'l' => $g['l'], 'd' => $g['d']]);",
+      "if (!$path || !is_file($path)) { http_response_code(404); render('error', ['title' => 'Not found', 'message' => 'There is no PDF for this lesson.']); return; }"
+    ]
+  },
+  {
+    "file": "app/fac_controllers.php",
+    "includes_or_render_calls": [
+      "if (!$d) { http_response_code(404); render('error', ['title' => 'Not found', 'message' => 'There is no such Degree.']); exit; }",
+      "if (rl_blocked('bclaim', (string)$u['id'], 10, 3600)) { http_response_code(429); render('error', ['title' => 'Too many tries', 'message' => 'Please wait an hour and try again.']); return; }",
+      "render('fac/facilitator', ['title' => 'Facilitator', 'f' => $f, 'done' => $done, 'may' => $done >= fac_min_degree(),",
+      "if (!may_apply_facilitator($u)) { http_response_code(403); render('error', ['title' => 'Not yet', 'message' => 'Members can become Facilitators after completing ' . fac_min_degree() . '°.']); return; }",
+      "if ($f && $f['status'] === 'removed') { http_response_code(403); render('error', ['title' => 'Not allowed', 'message' => 'Please speak to Ken about being a Facilitator again.']); return; }",
+      "if (!$f || !in_array($f['status'], ['approved', 'paused'], true)) { http_response_code(403); render('error', ['title' => 'Not allowed', 'message' => 'Only approved Facilitators can confirm Part B.']); return; }",
+      "http_response_code(403); render('error', ['title' => 'Not allowed', 'message' => 'You can only confirm Part B for members who chose you.']); return;"
+    ]
+  },
+  {
+    "file": "app/helpers.php",
+    "includes_or_render_calls": [
+      "function render(string $view, array $vars = []): void {",
+      "require APP_DIR . '/views/' . $view . '.php';",
+      "require APP_DIR . '/views/layout.php';",
+      "function render_coming_soon(): void { render('coming_soon', ['title' => 'Degrees — Coming Soon']); }"
+    ]
+  },
+  {
+    "file": "app/security.php",
+    "includes_or_render_calls": [
+      "render('error', ['title' => 'Please try again', 'message' => 'Your page was out of date. Go back, reload it, and try again.']);"
+    ]
+  },
+  {
+    "file": "app/views/admin/degree.php",
+    "includes_or_render_calls": [
+      "<?php require __DIR__ . '/_nav.php'; $n = (int)$d['num']; $o = $old; ?>"
+    ]
+  },
+  {
+    "file": "app/views/admin/degrees.php",
+    "includes_or_render_calls": [
+      "<?php require __DIR__ . '/_nav.php'; ?>"
+    ]
+  },
+  {
+    "file": "app/views/admin/facilitators.php",
+    "includes_or_render_calls": [
+      "<?php require __DIR__ . '/_nav.php'; ?>"
+    ]
+  },
+  {
+    "file": "app/views/admin/index.php",
+    "includes_or_render_calls": [
+      "<?php require __DIR__ . '/_nav.php'; ?>"
+    ]
+  },
+  {
+    "file": "app/views/admin/lesson.php",
+    "includes_or_render_calls": [
+      "<?php require __DIR__ . '/_nav.php'; $o = $old; $dn = (int)$d['num']; ?>"
+    ]
+  },
+  {
+    "file": "app/views/admin/log.php",
+    "includes_or_render_calls": [
+      "<?php require __DIR__ . '/_nav.php'; ?>"
+    ]
+  },
+  {
+    "file": "app/views/admin/member.php",
+    "includes_or_render_calls": [
+      "<?php require __DIR__ . '/_nav.php'; $mid = (int)$m['id']; ?>"
+    ]
+  },
+  {
+    "file": "app/views/admin/members.php",
+    "includes_or_render_calls": [
+      "<?php require __DIR__ . '/_nav.php'; ?>"
+    ]
+  },
+  {
+    "file": "app/views/degree.php",
+    "includes_or_render_calls": [
+      "<?php require __DIR__ . '/fac/part_b.php'; ?>"
+    ]
+  },
+  {
+    "file": "app/views/fac/part_b.php",
+    "includes_or_render_calls": [
+      "<details><summary>Choose someone else</summary><?php $again = true; require __DIR__ . '/choose.php'; ?></details>",
+      "<?php $again = false; require __DIR__ . '/choose.php'; ?>"
+    ]
+  },
+  {
+    "file": "index.php",
+    "includes_or_render_calls": [
+      "require __DIR__ . '/app/bootstrap.php';",
+      "default: http_response_code(404); render('error', ['title' => 'Not found', 'message' => 'That page does not exist.']);",
+      "else { http_response_code(404); render('error', ['title' => 'Not found', 'message' => 'That page does not exist.']); }",
+      "render('error', ['title' => 'Something went wrong', 'message' => 'Sorry, something went wrong on our side. Please try again in a few minutes.']);"
+    ]
+  }
+]

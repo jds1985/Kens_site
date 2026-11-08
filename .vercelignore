@@ -1,0 +1,7 @@
+# Nothing in this repository has been deployed.
+# If a Vercel project is created later, upload only the static homepage preview.
+# Also set the project Root Directory to preview so PHP and historical references stay offline.
+/*
+!/preview
+!/preview/
+!/preview/**

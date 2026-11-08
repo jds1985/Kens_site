@@ -1,0 +1,41 @@
+{
+  "updated_at": "2026-11-07T20:20:28.316724-05:00",
+  "source_zip_bytes": 855891,
+  "source_zip_sha256": "cc0bbecd652f5a3241cfa3e289ab7866ae6d8fe6ea88cdee360bf7386b4260d8",
+  "source_zip_entries": 110,
+  "safe_extraction": "Flat HTML-only paths, no symlinks/traversal/duplicates; ZIP integrity and original hash verified. Raw extraction kept owner-only, outside cloud handoff.",
+  "classification_counts": {
+    "builder-shell-no-body-text": 100,
+    "builder-shell-with-body-text": 6,
+    "hostgator-promotional-banner": 1,
+    "production-home-copy": 2,
+    "test-review-home-copy": 1
+  },
+  "historical_viewer_sources_copied": 25,
+  "payment_contact_setting_files_withheld": 76,
+  "viewer_sources_withheld": 81,
+  "credentials_or_member_record_findings": "No private-key/JWT/provider-secret/password-hash literals or member records found by bounded static screening. Payment-contact settings found in 76 Viewer shells; exact originals withheld. No inline private lesson body identified; unresolved course shells are nevertheless withheld. This is not proof remote datasets contain no private content.",
+  "production_parity": {
+    "index.html": "d130153a74f4a2812a2f6f36b6ded42d50028d383d42c641726b741f8122756d",
+    "index_mobile.html": "d130153a74f4a2812a2f6f36b6ded42d50028d383d42c641726b741f8122756d",
+    "canonical_source_bytes": 83168,
+    "source_files_equal": true,
+    "public_HTTP_delivery_not_retried": true,
+    "original_80129_byte_home_exact_subsequence": true,
+    "original_3356_byte_footer_preserved_separately": true,
+    "footer_inner_body_exact_subsequence": true,
+    "footer_original_head_not_duplicated_in_production": true
+  },
+  "routing": "Existing root rules use index_mobile.html on matching mobile agents and index.html otherwise. Non-file/non-directory aliases use <alias>_mobile.html or <alias>.html. mobile_index.html is an inactive legacy root name. Existing /members directory bypasses root alias fallback; its own rules have not been freshly read.",
+  "remaining_gaps": [
+    "106 Viewer shells depend on generated viewer/data/CSS/image resources, not a complete independent content export. 100 have no non-script body text; six carry partial text/SEO/template material.",
+    "Root /viewer/viewer.js and /viewer/viewer.css are referenced by legacy files; /viewer directory contents were not exported. Remote versioned Viewer/tablet bundles, component resources and generated storage.googleapis.com page/site datasets are absent. No private dataset fetching authorized.",
+    "W3.CSS remains absent after the prior HTTP403. No new blocked-site requests or alternate route attempted.",
+    "Fresh 44-file members source-only export plus local/fresh hash/secret review is still required. Source metadata is not content parity.",
+    "Local pledge text not confirmed in supplied live inventory. Member rewrite/security configuration and runtime settings/state remain separate, private migration concerns.",
+    "Private actual configuration, DB/member state, PDFs/uploads and logs intentionally remain excluded from Git/cloud inputs. Full functional members migration is not accomplished.",
+    "Carrd and historical .me/.net/.org external links are references only, not ownership proof or copied sites."
+  ],
+  "complete_functional_clone": false,
+  "no_live_or_repository_changes": true
+}

@@ -1,0 +1,17 @@
+PUBLIC-SAFETY REVIEW — 2026-11-08
+
+The attached handoff was extracted outside the repository and read before any commit. Famous design-reference files (screenshots, images, rendered HTML, and generated CSS) were not copied. The handoff zip itself was not copied. No blocked host was requested again. The 81 withheld viewer shells and the raw 110-file zip were not in the handoff and were not retrieved.
+
+Checked the imported tree for private keys, cloud key ids, password hashes, live payment-provider secrets, database row inserts, real email addresses, phone numbers, and host-account paths. Findings:
+
+- No private-state file was in the handoff. No config.php, .env, database dump, seed file, log, upload, PDF, or member document was present. Confirmed absent rather than redacted from this import.
+- config.sample.php is placeholders only. SQL is structure only. PHP INSERT statements are parameterized application code, not stored records. lesson.php renders database fields; it does not contain lesson text.
+- The 25 historical wrappers contain HostGator feature-list boilerplate and, on the contact shell, empty EMAIL / PHONE / Telephone labels. No payment-contact value was found.
+- The same 25 wrappers embed one numeric builder account id and site id inside generated storage URLs. That path was replaced with user-REDACTED / sites-REDACTED. 297 replacements across those 25 files. The dependency-gap report that repeated the original URLs was not committed. A count-only summary is in historical-dependency-gap-summary.json. The identifiers are not written down in this file.
+- Original collection notes that named local workspace directories were not copied. Provenance docs kept from the handoff do not contain those paths.
+- Banner HTML, CSS, and PNG are the HostGator promotional footer, not a Ken page. They had no account id and were kept as non-deployed references.
+- Public homepage, W3Spaces pages, seven public images, scripts.js, and the collected font files had no credential or account-id hits. The homepage bytes were copied unchanged.
+
+Private-route filenames from the withheld 81 shells are not listed. Counts are in historical-root-classification-summary.json.
+
+This review is a bounded static screen of the handoff. It is not a claim that the live servers contain nothing else.

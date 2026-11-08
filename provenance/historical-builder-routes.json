@@ -1,0 +1,130 @@
+[
+  {
+    "title": "Home",
+    "urlAlias": "",
+    "menuFlags": null,
+    "status": "Root request HTTP406; original production source retained, no new live source retrieved."
+  },
+  {
+    "title": "Degrees",
+    "urlAlias": "degrees",
+    "menuFlags": null,
+    "status": "Not requested after host root HTTP406; no retry or alternate route."
+  },
+  {
+    "title": "Curriculum",
+    "urlAlias": "curriculum",
+    "menuFlags": null,
+    "status": "Not requested after host root HTTP406; no retry or alternate route."
+  },
+  {
+    "title": "Membership",
+    "urlAlias": "membership",
+    "menuFlags": null,
+    "status": "Not requested after host root HTTP406; no retry or alternate route."
+  },
+  {
+    "title": "2º A",
+    "urlAlias": "2º-a",
+    "menuFlags": {
+      "isDesktopDisabled": true,
+      "isMobileDisabled": true
+    },
+    "status": "Not requested: private/unverified degree route; intentionally excluded."
+  },
+  {
+    "title": "1º A",
+    "urlAlias": "1º-a",
+    "menuFlags": {
+      "isDesktopDisabled": true,
+      "isMobileDisabled": true
+    },
+    "status": "Not requested: private/unverified degree route; intentionally excluded."
+  },
+  {
+    "title": "1º B",
+    "urlAlias": "1º-b",
+    "menuFlags": {
+      "isDesktopDisabled": true,
+      "isMobileDisabled": true
+    },
+    "status": "Not requested: private/unverified degree route; intentionally excluded."
+  },
+  {
+    "title": "0º B",
+    "urlAlias": "0º-b",
+    "menuFlags": {
+      "isDesktopDisabled": true,
+      "isMobileDisabled": true
+    },
+    "status": "Not requested: private/unverified degree route; intentionally excluded."
+  },
+  {
+    "title": "QQQ",
+    "urlAlias": "qqq",
+    "menuFlags": null,
+    "status": "Not requested after host root HTTP406; no retry or alternate route."
+  },
+  {
+    "title": "2º B",
+    "urlAlias": "2º-b",
+    "menuFlags": {
+      "isDesktopDisabled": true,
+      "isMobileDisabled": true
+    },
+    "status": "Not requested: private/unverified degree route; intentionally excluded."
+  },
+  {
+    "title": "0º A",
+    "urlAlias": "0º-a",
+    "menuFlags": {
+      "isDesktopDisabled": true,
+      "isMobileDisabled": true
+    },
+    "status": "Not requested: private/unverified degree route; intentionally excluded."
+  },
+  {
+    "title": "3º A",
+    "urlAlias": "3º-a",
+    "menuFlags": {
+      "isDesktopDisabled": true,
+      "isMobileDisabled": true
+    },
+    "status": "Not requested: private/unverified degree route; intentionally excluded."
+  },
+  {
+    "title": "22º A",
+    "urlAlias": "22º-a",
+    "menuFlags": {
+      "isDesktopDisabled": true,
+      "isMobileDisabled": true
+    },
+    "status": "Not requested: private/unverified degree route; intentionally excluded."
+  },
+  {
+    "title": "3º B",
+    "urlAlias": "3º-b",
+    "menuFlags": {
+      "isDesktopDisabled": true,
+      "isMobileDisabled": true
+    },
+    "status": "Not requested: private/unverified degree route; intentionally excluded."
+  },
+  {
+    "title": "4º A",
+    "urlAlias": "4º-a",
+    "menuFlags": {
+      "isDesktopDisabled": true,
+      "isMobileDisabled": true
+    },
+    "status": "Not requested: private/unverified degree route; intentionally excluded."
+  },
+  {
+    "title": "Sign Up - Sign In",
+    "urlAlias": "sign-up-sign-in",
+    "menuFlags": {
+      "isDesktopDisabled": true
+    },
+    "status": "Not requested: authentication entry; outside public static source collection."
+  }
+]

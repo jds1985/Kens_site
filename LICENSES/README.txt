@@ -1,0 +1,5 @@
+Montserrat: exact downloaded upstream OFL notice included. Captured Google Fonts CSS serves normal/400 TTF for the ordinary request user agent; no claim all user-agent-specific font variants were collected.
+Font Awesome 4.7: official license page preserved in live-public-verified-20261107/fontawesome.com/v4/license/index.html; fonts SIL OFL 1.1, CSS MIT, documentation CC BY 3.0. Original CSS header and embedded font copyright remain unchanged. License texts included. Reference license-page HTML is provenance, not a website page to deploy.
+W3.CSS: direct required URL returned HTTP403; no alternate route, mirror, network or header changes tried. It is NOT collected here. Its license source page on the same host was not requested after the stop.
+Public Ken images: all seven downloaded bytes match the saved copies. Preserved as existing user-authorized site content, not a new license/ownership assertion.
+Famous design artifacts remain historical reference only with unconfirmed image rights. No redesign was undertaken or authorized by this collection.

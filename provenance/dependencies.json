@@ -1,0 +1,1264 @@
+[
+  {
+    "file": "public-current/qabbalah.institute/index.html",
+    "title": "QaBbaLaH Da‘aTh Institute",
+    "references": [
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://invisiblesociety.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://vauqoppasampi.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#curriculum"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#lodges"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#membership"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#members"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#hebrew"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#greek"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#copyright"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#zerodegree"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://qabbalah.institute/members/",
+        "target": "_top"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://brotherken.carrd.co",
+        "target": "_blank"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://qabbalahinstitute.w3spaces.com/TreeOfLifeThree.png",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/TreeOfLifeThree.png",
+          "bytes": 169596,
+          "sha256": "e64a454e0ca9279c76d59e72a955ebc498ee101c0c328ae145a7b277a389b22d",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://qabbalahinstitute.w3spaces.com/GenesisTriangle.png",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/GenesisTriangle.png",
+          "bytes": 18076,
+          "sha256": "01da3007bade7328a19ded0c85de51714c854d3700254f41b232de7d7bf0df8e",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://qabbalahinstitute.w3spaces.com/JohnPlinth.png",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/JohnPlinth.png",
+          "bytes": 16548,
+          "sha256": "e91be3a76bb81c2c481ebfb59274dde6fbd08587229609f2b558ec96d18b6350",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://qabbalahinstitute.w3spaces.com/GenesisJohnTriangle.png",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/GenesisJohnTriangle.png",
+          "bytes": 38658,
+          "sha256": "06f7b1a275b54420afd520c11cb98602fadee183dbd65ad830c9b6cc1343f413",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://www.w3schools.com/w3css/4/w3.css",
+        "public_check": {
+          "status": 403,
+          "result": "HTTP 403 access/error response; exact cause undetermined. Host stopped without retry or alternate route."
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://fonts.googleapis.com/css?family=Montserrat",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/fonts.googleapis.com/css--fbddcc656717.css",
+          "bytes": 209,
+          "sha256": "23045efb70d3e57acc04873b21596e8ee24b2dbca00b243a628db3c67a98b9fa",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+          "bytes": 31000,
+          "sha256": "799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd",
+          "result": "saved-public-response"
+        }
+      }
+    ]
+  },
+  {
+    "file": "original-builder-reference/home-body.html",
+    "title": null,
+    "references": [
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://invisiblesociety.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://vauqoppasampi.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#curriculum"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#lodges"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#membership"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#members"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#hebrew"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#greek"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#copyright"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#zerodegree"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://qabbalah.institute/members/",
+        "target": "_top"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://brotherken.carrd.co",
+        "target": "_blank"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://qabbalahinstitute.w3spaces.com/TreeOfLifeThree.png",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/TreeOfLifeThree.png",
+          "bytes": 169596,
+          "sha256": "e64a454e0ca9279c76d59e72a955ebc498ee101c0c328ae145a7b277a389b22d",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://qabbalahinstitute.w3spaces.com/GenesisTriangle.png",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/GenesisTriangle.png",
+          "bytes": 18076,
+          "sha256": "01da3007bade7328a19ded0c85de51714c854d3700254f41b232de7d7bf0df8e",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://qabbalahinstitute.w3spaces.com/JohnPlinth.png",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/JohnPlinth.png",
+          "bytes": 16548,
+          "sha256": "e91be3a76bb81c2c481ebfb59274dde6fbd08587229609f2b558ec96d18b6350",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "https://qabbalahinstitute.w3spaces.com/GenesisJohnTriangle.png",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/GenesisJohnTriangle.png",
+          "bytes": 38658,
+          "sha256": "06f7b1a275b54420afd520c11cb98602fadee183dbd65ad830c9b6cc1343f413",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://www.w3schools.com/w3css/4/w3.css",
+        "public_check": {
+          "status": 403,
+          "result": "HTTP 403 access/error response; exact cause undetermined. Host stopped without retry or alternate route."
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://fonts.googleapis.com/css?family=Montserrat",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/fonts.googleapis.com/css--fbddcc656717.css",
+          "bytes": 209,
+          "sha256": "23045efb70d3e57acc04873b21596e8ee24b2dbca00b243a628db3c67a98b9fa",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+          "bytes": 31000,
+          "sha256": "799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd",
+          "result": "saved-public-response"
+        }
+      }
+    ]
+  },
+  {
+    "file": "original-builder-reference/footer-body.html",
+    "title": "W3.CSS Template",
+    "references": [
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://www.w3schools.com/w3css/4/w3.css",
+        "public_check": {
+          "status": 403,
+          "result": "HTTP 403 access/error response; exact cause undetermined. Host stopped without retry or alternate route."
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://fonts.googleapis.com/css?family=Montserrat",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/fonts.googleapis.com/css--fbddcc656717.css",
+          "bytes": 209,
+          "sha256": "23045efb70d3e57acc04873b21596e8ee24b2dbca00b243a628db3c67a98b9fa",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+          "bytes": 31000,
+          "sha256": "799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd",
+          "result": "saved-public-response"
+        }
+      }
+    ]
+  },
+  {
+    "file": "public-snapshots/invisiblesociety.w3spaces.com/index.html",
+    "title": "W3.CSS Template",
+    "references": [
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://vauqoppasampi.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://qabbalahinstitute.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#thematrix"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#perpetualinitiation"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#prosperityinitiative"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#QQQ"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#calendar"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#vauqoppasampi"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#therapeutae"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#alchemy"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#abraham"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#assassins"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#copyright"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#qabbalahinstitute"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://qabbalahinstitute.w3spaces.com"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://vauqoppasampi.w3spaces.com"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "./Gen1-1John1-1AI.png"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "./PiArchGreen.png"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "TheNet.png"
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://www.w3schools.com/w3css/4/w3.css",
+        "public_check": {
+          "status": 403,
+          "result": "HTTP 403 access/error response; exact cause undetermined. Host stopped without retry or alternate route."
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://fonts.googleapis.com/css?family=Montserrat",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/fonts.googleapis.com/css--fbddcc656717.css",
+          "bytes": 209,
+          "sha256": "23045efb70d3e57acc04873b21596e8ee24b2dbca00b243a628db3c67a98b9fa",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+          "bytes": 31000,
+          "sha256": "799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "scripts.js"
+      }
+    ]
+  },
+  {
+    "file": "public-snapshots/qabbalahinstitute.w3spaces.com/index.html",
+    "title": "W3.CSS Template",
+    "references": [
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://invisiblesociety.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://qabbalahinstitute.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://vauqoppasampi.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#curriculum"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#lodges"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#membership"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#members"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#hebrew"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#greek"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#copyright"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#zerodegree"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://brotherken.carrd.co",
+        "target": "_blank"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "TreeOfLifeThree.png"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "./GenesisTriangle.png"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "./JohnPlinth.png"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "./GenesisJohnTriangle.png"
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://www.w3schools.com/w3css/4/w3.css",
+        "public_check": {
+          "status": 403,
+          "result": "HTTP 403 access/error response; exact cause undetermined. Host stopped without retry or alternate route."
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://fonts.googleapis.com/css?family=Montserrat",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/fonts.googleapis.com/css--fbddcc656717.css",
+          "bytes": 209,
+          "sha256": "23045efb70d3e57acc04873b21596e8ee24b2dbca00b243a628db3c67a98b9fa",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+          "bytes": 31000,
+          "sha256": "799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd",
+          "result": "saved-public-response"
+        }
+      }
+    ]
+  },
+  {
+    "file": "public-snapshots/vauqoppasampi.w3spaces.com/index.html",
+    "title": "W3.CSS Template",
+    "references": [
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://invisiblesociety.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://vauqoppasampi.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://qabbalahinstitute.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#greek"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#copyright"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://invisiblesociety.w3spaces.com"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://qabbalahinstitute.w3spaces.com"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#"
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://www.w3schools.com/w3css/4/w3.css",
+        "public_check": {
+          "status": 403,
+          "result": "HTTP 403 access/error response; exact cause undetermined. Host stopped without retry or alternate route."
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://fonts.googleapis.com/css?family=Montserrat",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/fonts.googleapis.com/css--fbddcc656717.css",
+          "bytes": 209,
+          "sha256": "23045efb70d3e57acc04873b21596e8ee24b2dbca00b243a628db3c67a98b9fa",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+          "bytes": 31000,
+          "sha256": "799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd",
+          "result": "saved-public-response"
+        }
+      }
+    ]
+  },
+  {
+    "file": "design-reference/famous/rendered-static.html",
+    "title": "Invisible Society · QaBbaLáH Dá‘aTh Institute",
+    "references": [
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://famous.ai/api/crm/6ad8c396a5c573c633339757/calendar/public?calendarId=77bad702-cfd7-4728-9460-1c98b0cd6309&view=booking",
+        "target": "_blank"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://qabbalahinstitute.w3spaces.com",
+        "target": "_blank"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "images/6ad8c396a5c573c633339757_1792590874002_11c66410.jpg"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "images/6ad8c396a5c573c633339757_1792590849670_dca75a36.webp"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "images/6ad8c396a5c573c633339757_1792590889838_0df1679b.jpg"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "images/6ad8c396a5c573c633339757_1792590906457_600cf331.jpg"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "images/6ad8c396a5c573c633339757_1792590922414_b65abc23.jpg"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "images/6ad8c396a5c573c633339757_1792590994762_0a8594fc.jpg"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "images/6ad8c396a5c573c633339757_1792590943641_f10b807d.jpg"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "images/6ad8c396a5c573c633339757_1792590959958_2ad94c40.jpg"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "images/6ad8c396a5c573c633339757_1792590977323_9af36e6d.jpg"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "images/6ad8c396a5c573c633339757_1792591018024_43f6dbbf.jpg"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "images/6ad8c396a5c573c633339757_1792591033518_b739d280.jpg"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "images/6ad8c396a5c573c633339757_1792591066281_d4d050a8.jpg"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "images/6ad8c396a5c573c633339757_1792590849688_ee6bdc27.webp"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "images/6ad8c396a5c573c633339757_1792591049537_e1d06c06.jpg"
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "/placeholder.svg"
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "/assets/index-DALp1Rqi.css"
+      }
+    ]
+  },
+  {
+    "file": "live-public-verified-20261107/invisiblesociety.w3spaces.com/index.html",
+    "source_url": "https://invisiblesociety.w3spaces.com/",
+    "verification": "HTTP200 exact public bytes",
+    "references": [
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://vauqoppasampi.w3spaces.com/",
+        "resolved_url": "https://vauqoppasampi.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://qabbalahinstitute.w3spaces.com/",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#thematrix",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/#thematrix"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#perpetualinitiation",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/#perpetualinitiation"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#prosperityinitiative",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/#prosperityinitiative"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#QQQ",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/#QQQ"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#calendar",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/#calendar"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#vauqoppasampi",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/#vauqoppasampi"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#therapeutae",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/#therapeutae"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#alchemy",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/#alchemy"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#abraham",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/#abraham"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#assassins",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/#assassins"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#copyright",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/#copyright"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://qabbalah.institute/members/",
+        "resolved_url": "https://qabbalah.institute/members/",
+        "target": "_blank"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#qabbalahinstitute",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/#qabbalahinstitute"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://qabbalahinstitute.w3spaces.com",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://vauqoppasampi.w3spaces.com",
+        "resolved_url": "https://vauqoppasampi.w3spaces.com"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "./Gen1-1John1-1AI.png",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/Gen1-1John1-1AI.png",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/invisiblesociety.w3spaces.com/Gen1-1John1-1AI.png",
+          "bytes": 308452,
+          "sha256": "13ee110e5a4a03a3d4f61352c96d9a6171c33266fed62e7991c911ffd97ecad6",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "./PiArchGreen.png",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/PiArchGreen.png",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/invisiblesociety.w3spaces.com/PiArchGreen.png",
+          "bytes": 183414,
+          "sha256": "b24e82eb8346b5ed1d2affcb71e491109936ea9fec04c9bc99c6cd17f5702ce4",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "TheNet.png",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/TheNet.png",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/invisiblesociety.w3spaces.com/TheNet.png",
+          "bytes": 965361,
+          "sha256": "e102f18bebaa40127686866d551e7712c2bc0d2cc3dac8ca62418b514b596a8a",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://www.w3schools.com/w3css/4/w3.css",
+        "resolved_url": "https://www.w3schools.com/w3css/4/w3.css",
+        "public_check": {
+          "status": 403,
+          "result": "HTTP 403 access/error response; exact cause undetermined. Host stopped without retry or alternate route."
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://fonts.googleapis.com/css?family=Montserrat",
+        "resolved_url": "https://fonts.googleapis.com/css?family=Montserrat",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/fonts.googleapis.com/css--fbddcc656717.css",
+          "bytes": 209,
+          "sha256": "23045efb70d3e57acc04873b21596e8ee24b2dbca00b243a628db3c67a98b9fa",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+        "resolved_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+          "bytes": 31000,
+          "sha256": "799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "script",
+        "attribute": "src",
+        "url": "scripts.js",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/scripts.js",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/invisiblesociety.w3spaces.com/scripts.js",
+          "bytes": 40,
+          "sha256": "315531e05e0faf33befb1939662f3f0dd1e04174360f67397dea159b70748a02",
+          "result": "saved-public-response"
+        }
+      }
+    ]
+  },
+  {
+    "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/index.html",
+    "source_url": "https://qabbalahinstitute.w3spaces.com/",
+    "verification": "HTTP200 exact public bytes",
+    "references": [
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://invisiblesociety.w3spaces.com/",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://qabbalahinstitute.w3spaces.com/",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://vauqoppasampi.w3spaces.com/",
+        "resolved_url": "https://vauqoppasampi.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#curriculum",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com/#curriculum"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#lodges",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com/#lodges"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#membership",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com/#membership"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#members",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com/#members"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#hebrew",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com/#hebrew"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#greek",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com/#greek"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#copyright",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com/#copyright"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#zerodegree",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com/#zerodegree"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://brotherken.carrd.co",
+        "resolved_url": "https://brotherken.carrd.co",
+        "target": "_blank"
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "TreeOfLifeThree.png",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com/TreeOfLifeThree.png",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/TreeOfLifeThree.png",
+          "bytes": 169596,
+          "sha256": "e64a454e0ca9279c76d59e72a955ebc498ee101c0c328ae145a7b277a389b22d",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "./GenesisTriangle.png",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com/GenesisTriangle.png",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/GenesisTriangle.png",
+          "bytes": 18076,
+          "sha256": "01da3007bade7328a19ded0c85de51714c854d3700254f41b232de7d7bf0df8e",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "./JohnPlinth.png",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com/JohnPlinth.png",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/JohnPlinth.png",
+          "bytes": 16548,
+          "sha256": "e91be3a76bb81c2c481ebfb59274dde6fbd08587229609f2b558ec96d18b6350",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "img",
+        "attribute": "src",
+        "url": "./GenesisJohnTriangle.png",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com/GenesisJohnTriangle.png",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/GenesisJohnTriangle.png",
+          "bytes": 38658,
+          "sha256": "06f7b1a275b54420afd520c11cb98602fadee183dbd65ad830c9b6cc1343f413",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://www.w3schools.com/w3css/4/w3.css",
+        "resolved_url": "https://www.w3schools.com/w3css/4/w3.css",
+        "public_check": {
+          "status": 403,
+          "result": "HTTP 403 access/error response; exact cause undetermined. Host stopped without retry or alternate route."
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://fonts.googleapis.com/css?family=Montserrat",
+        "resolved_url": "https://fonts.googleapis.com/css?family=Montserrat",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/fonts.googleapis.com/css--fbddcc656717.css",
+          "bytes": 209,
+          "sha256": "23045efb70d3e57acc04873b21596e8ee24b2dbca00b243a628db3c67a98b9fa",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+        "resolved_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+          "bytes": 31000,
+          "sha256": "799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd",
+          "result": "saved-public-response"
+        }
+      }
+    ]
+  },
+  {
+    "file": "live-public-verified-20261107/vauqoppasampi.w3spaces.com/index.html",
+    "source_url": "https://vauqoppasampi.w3spaces.com/",
+    "verification": "HTTP200 exact public bytes",
+    "references": [
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://invisiblesociety.w3spaces.com/",
+        "resolved_url": "https://invisiblesociety.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://vauqoppasampi.w3spaces.com/",
+        "resolved_url": "https://vauqoppasampi.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://qabbalahinstitute.w3spaces.com/",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com/"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#greek",
+        "resolved_url": "https://vauqoppasampi.w3spaces.com/#greek"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#copyright",
+        "resolved_url": "https://vauqoppasampi.w3spaces.com/#copyright"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://invisiblesociety.w3spaces.com",
+        "resolved_url": "https://invisiblesociety.w3spaces.com"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "https://qabbalahinstitute.w3spaces.com",
+        "resolved_url": "https://qabbalahinstitute.w3spaces.com"
+      },
+      {
+        "tag": "a",
+        "attribute": "href",
+        "url": "#",
+        "resolved_url": "https://vauqoppasampi.w3spaces.com/"
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://www.w3schools.com/w3css/4/w3.css",
+        "resolved_url": "https://www.w3schools.com/w3css/4/w3.css",
+        "public_check": {
+          "status": 403,
+          "result": "HTTP 403 access/error response; exact cause undetermined. Host stopped without retry or alternate route."
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://fonts.googleapis.com/css?family=Montserrat",
+        "resolved_url": "https://fonts.googleapis.com/css?family=Montserrat",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/fonts.googleapis.com/css--fbddcc656717.css",
+          "bytes": 209,
+          "sha256": "23045efb70d3e57acc04873b21596e8ee24b2dbca00b243a628db3c67a98b9fa",
+          "result": "saved-public-response"
+        }
+      },
+      {
+        "tag": "link",
+        "attribute": "href",
+        "url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+        "resolved_url": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+        "public_check": {
+          "status": 200,
+          "file": "live-public-verified-20261107/cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css",
+          "bytes": 31000,
+          "sha256": "799aeb25cc0373fdee0e1b1db7ad6c2f6a0e058dfadaa3379689f583213190bd",
+          "result": "saved-public-response"
+        }
+      }
+    ]
+  }
+]

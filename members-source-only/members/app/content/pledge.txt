@@ -1,0 +1,3 @@
+PLACEHOLDER - the final Pledge of Word and Name has not been supplied yet.
+
+To change it: replace the text in this file (members/app/content/pledge.txt) with the exact wording. The site records which version of the text each member agreed to.

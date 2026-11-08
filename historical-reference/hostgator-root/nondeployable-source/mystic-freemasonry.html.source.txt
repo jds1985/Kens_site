@@ -1,0 +1,279 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <title>Mystic Freemasonry©</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE"/>
+
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="MobileOptimized" content="1024" />
+  <meta name="viewport" content="width=1024" />
+  <meta id="meta-keywords" name="keywords" content=""/>
+  <meta id="meta-description" name="description" content=""/>
+
+<script type='text/javascript'>
+var _fc;window.getInsights=function(a,b){_fc||(_fc=a,a=null),window.AMInsights?(_fc&&(_fc(window.AMInsights),_fc=null),a&&a(window.AMInsights)):(b=b||25,setTimeout(function(){window.getInsights(a,2*b)},b))};
+</script>
+<script type='text/javascript' src='https://static.mywebsitebuilder.com/t.js?brand=HostGator&v=g-202002181202533198' async></script>
+<script type='text/javascript'>
+window.getInsights(function(insights){insights.init('9d9b8014-4076-45df-9d14-65a7ce30929f');});
+</script>
+<meta name="site-version-last-modified" content="Wed, 11 Mar 2020 20:05:18 GMT" />
+  <link rel="stylesheet" type="text/css" href="/viewer/viewer.css"/>
+<script type='text/javascript'>
+var PageData = {"baseAddress":"http://qabbalah.institute","ServicesBasePath":"//admin.wzukltd.com","isTablet":false,"siteSettings":{"blogRssSettings":{"enabled":true},"mobileIsDeactivated":false,"enableColumnsGrid":"false","isFirstMobileUse":"true","isFirstPreview":"true","showAlwaysColumnsGrid":"false"},"defaultAjaxPageID":"id1581012439028","PageNotFound":false};
+var Global = {"FacebookAppID":"744137685644053","IsMobile":false,"IsMobileView":false,"IsTabletView":false,"IsMobileClient":false,"CloudflareOptions":null,"SiteID":49784884,"IsNewStructure":true};
+var SiteInformation =  {"limitations":{"totalpages":{"dialog":{"upgradeUrl":"http://portal.hostgator.com/apps/sitebuilder/upgrade","imageUrl":"http://abc.com/video.png","iframeHeight":null,"upgradeButtonText":"Upgrade Now","iframeUrl":null,"featureList":["Add unlimited pages","Free secure web hosting"],"title":"To add more pages to your website you must upgrade","isDiscount":false},"limitation":{"isLimited":false}},"history":{"limitation":{"isLimited":false,"upsellText":"Don't lose your work! To have unlimited access to all previous <br />versions of your site with Save History you must <a target=\"_blank\" href=\"http://portal.hostgator.com/apps/sitebuilder/upgrade\">upgrade</a>"},"dialog":{"isDiscount":true,"upgradeButtonText":"Upgrade Now","title":"To restore your website from a saved version you must upgrade","upgradeUrl":"http://portal.hostgator.com/apps/sitebuilder/upgrade","imageUrl":"http://abc.com/video.png"}},"ecommerce":{"dialog":{"imageUrl":"http://abc.com/video.png","iframeHeight":null,"upgradeUrl":"http://portal.hostgator.com/apps/sitebuilder/upgrade","upgradeButtonText":"Upgrade Now","iframeUrl":null,"title":"To add ecommerce to your site you must upgrade","featureList":["Inventory Management","Choice of several payment processors","Facebook integration","Coupon Codes"],"isDiscount":false},"limitation":{"isLimited":true}},"isPremium":true,"bannerFeature":{"dialog":null,"iframeUrl":"/banner.html#","iframeHeight":"66px","limitation":{"isLimited":false}},"stats":{"dialog":{"isDiscount":false,"featureList":["Free secure web hosting","Remove ads from your site","Connect a domain"],"title":"To view advanced stats for your website you must upgrade","iframeUrl":null,"upgradeButtonText":"Upgrade Now","upgradeUrl":"http://portal.hostgator.com/apps/sitebuilder/upgrade","iframeHeight":null,"imageUrl":"http://abc.com/video.png"},"limitation":{"isLimited":false}},"favicon":{"dialog":{"title":"To add a favicon to your website you must upgrade","featureList":["Free Advertising Credits","Priority Support","Monitor stats via Google Analytics"],"iframeUrl":null,"isDiscount":false,"upgradeButtonText":"Upgrade Now","upgradeUrl":"http://portal.hostgator.com/apps/sitebuilder/upgrade","iframeHeight":null,"imageUrl":"http://abc.com/video.png"},"limitation":{"isLimited":false}},"hdvideo":{"limitation":{"isLimited":false},"dialog":{"upgradeButtonText":"Upgrade Now","iframeHeight":null,"imageUrl":"http://abc.com/video.png","upgradeUrl":"http://portal.hostgator.com/apps/sitebuilder/upgrade","title":"To add a hd video to your website you must upgrade","featureList":["Embed HD Video","Unlimited Pages","Custom Favicon","Site Revision History"],"iframeUrl":null,"isDiscount":false}}},"isPremium":true,"groupId":49784884,"storeInformation":{},"appMarketInformation":{"hasAppMarketElements":false,"hasUserApps":false},"baseVersion":90483095};
+var Settings = {"UserStorageUrlsMap":{"1":"//assets.hostgator.com/users/{0}/","2":"https://wzukusers.blob.core.windows.net/user-{0}/","6":"https://storage.googleapis.com/wzukusers/user-{0}/","61":"//storage.googleapis.com/wzukusers/user-{0}/","64":"//storage.googleapis.com/wzusersdev/user-{0}/"},"WebzaiStorageUrlsMap":{"1":"//assets.hostgator.com/assets/","2":"https://wzuk.blob.core.windows.net/assets/","6":"https://storage.googleapis.com/wzuk/assets/","61":"//storage.googleapis.com/wzuk/assets/","64":"//storage.googleapis.com/wzdev/assets/"},"GoogleMapsApiKey":"AIzaSyDQtuw04WyGWiY3JULv0HDpHdTK16H4_nI","RecaptchaSiteKey":"6LeCLkUUAAAAABEGEwlYoLyKNxIztJfM2okdeb2V","StaticContentUrl":"//webzaidev.blob.core.windows.net/","ServiceAddress":"http://editor.hostgator.com/","ApplicationRoot":"//components.mywebsitebuilder.com/g-202002181202533198","Brand":104,"ApplicationDomain":"hostgator.com","YoutubeApiKey":"AIzaSyClkT4d5Ob3sENc0ZBlO6UIWWT8cZ9EUYo","InstagramClientId":"e7ebba82e49f45f5aa804da31d199537","AppsIframeRoot":"//preview-editor.hostgator.com","AppVersion":"g-202002181202533198","DevelopmentMode":"","ServiceEndpoints":{"Store":{"PublicApi":"https://api.mywebsitebuilder.com/v1/","EmbedApi":"https://embed.mywebsitebuilder.com/dist/src/"},"Storage":{"Api":"https://api.storageservice.io"}},"ImageProxy":"https://images.mywebsitebuilder.com/s/?","DataProxy":"https://data.mywebsitebuilder.com","IsApiPartner":true,"RaygunSettings":null,"CreateNewSiteUrl":" https://portal.hostgator.com/apps/sitebuilder","FacebookAppID":"744137685644053","HelpCenterUrl":"https://www.hostgator.com/help/article/hostgator-website-builder-tutorials","LogoutUrl":"https://portal.hostgator.com/logout","MyAccountUrl":"https://portal.hostgator.com","PublishLightboxTwoUrl":"","PublishLightboxUrl":"","SignupUrl":" https://portal.hostgator.com/apps/sitebuilder","SocialDefaults":{"FacebookLink":"https://www.facebook.com/HostGator/","TwitterFeedAppId":"620915507752005632","TwitterLink":"https://twitter.com/hostgator"},"UpgradeECommerceUrl":"http://portal.hostgator.com/apps/sitebuilder/upgrade/?uos=editorEcommerce&","UpgradeFaviconUrl":"http://portal.hostgator.com/apps/sitebuilder/upgrade/?uos=editorFavicon&","UpgradeMobileUrl":"http://portal.hostgator.com/apps/sitebuilder/upgrade/?uos=editorMobile&","UpgradeStatsUrl":"http://portal.hostgator.com/apps/sitebuilder/upgrade/?uos=editorStats&","UpgradeUrl":"http://portal.hostgator.com/apps/sitebuilder/upgrade?","UpgradeVideoUrl":"http://portal.hostgator.com/apps/sitebuilder/upgrade/?uos=editorVideo&"};
+
+</script>
+<script src='/viewer/viewer.js' type='text/javascript'></script>
+<script src='https://storage.googleapis.com/wzukusers/user-REDACTED/sites/REDACTED/5e1c957b55bc8gQWU3dJ/5e6944755d2e6OK9rNjc.js?1583957119' type='text/javascript'></script>
+<script src='https://storage.googleapis.com/wzukusers/user-REDACTED/sites/REDACTED/5e1c957b55bc8gQWU3dJ/ePMvihq0CvRUWko2Y8FB.js?1583957119' type='text/javascript'></script>
+<script src='https://storage.googleapis.com/wzukusers/user-REDACTED/sites/REDACTED/5e1c957b55bc8gQWU3dJ/AoIPz0HaRm81olBmhsJU.js?1583957119' type='text/javascript'></script>
+<script type='text/javascript'>
+var SiteFilesMap = {"page-1403784258535":"https://storage.googleapis.com/wzukusers/user-REDACTED/sites/REDACTED/5e1c957b55bc8gQWU3dJ/BqHprOpEYwu17WVyVOPd.js","page-id1427283367317":"https://storage.googleapis.com/wzukusers/user-REDACTED/sites/REDACTED/5e1c957b55bc8gQWU3dJ/pKP4MNRhk0844QSkBdwT.js","page-id1440059106453":"https://storage.googleapis.com/wzukusers/user-REDACTED/sites/REDACTED/5e1c957b55bc8gQWU3dJ/0edUSszWDzgiaBslX9Tp.js","page-id1581012439028":"https://storage.googleapis.com/wzukusers/user-REDACTED/sites/REDACTED/5e1c957b55bc8gQWU3dJ/AoIPz0HaRm81olBmhsJU.js","page-id1581627541145":"https://storage.googleapis.com/wzukusers/user-REDACTED/sites/REDACTED/5e1c957b55bc8gQWU3dJ/RcQ6EuC0TcKm5zMkuqXg.js","page-id1582059389156":"https://storage.googleapis.com/wzukusers/user-REDACTED/sites/REDACTED/5e1c957b55bc8gQWU3dJ/irtt5DKCCK4RSsa36wAv.js","page-id1582062495440":"https://storage.googleapis.com/wzukusers/user-REDACTED/sites/REDACTED/5e1c957b55bc8gQWU3dJ/KrsdZwcB8Nvu9QFpAg2x.js","page-id1582225468009":"https://storage.googleapis.com/wzukusers/user-REDACTED/sites/REDACTED/5e1c957b55bc8gQWU3dJ/uJaeWtoujeSWZ3u37T0w.js","master-1343569893636":"https://storage.googleapis.com/wzukusers/user-REDACTED/sites/REDACTED/5e1c957b55bc8gQWU3dJ/ePMvihq0CvRUWko2Y8FB.js","site-structure":"https://storage.googleapis.com/wzukusers/user-REDACTED/sites/REDACTED/5e1c957b55bc8gQWU3dJ/5e6944755d2e6OK9rNjc.js"};</script>
+  <style type="text/css">
+    #mobile-loading-screen, #desktop-loading-screen {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 100000000;
+      background: white url('data:image/gif;base64,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') center center no-repeat;
+    }
+
+    body.state-loading-mobile-viewer,
+    body.state-loading-mobile-viewer .page-element,
+    body.state-loading-mobile-viewer #body-element,
+    body.state-loading-desktop-viewer,
+    body.state-loading-desktop-viewer .page-element,
+    body.state-loading-desktop-viewer #body-element
+    {
+      height: 100%;
+      width: 100%;
+      overflow-y: hidden !important;
+    }
+  </style>
+
+  <script type="text/javascript">
+    var DynamicPageContent = null;
+    var DBSiteMetaData = {
+      'pagesStructureInformation':{
+        'pagesData':{"1403784258535":{"metaTags":"","headerCode":"","footerCode":"","tags":[],"id":"1403784258535","title":"HOME","pageTitle":"","description":"","keyWords":"","index":1,"isHomePage":true,"shareStyle":true,"useNameASTitle":true,"supportsMobileStates":true,"urlAlias":"","useNameASUrl":false,"useDefaultTitle":false},"id1427283367317":{"metaTags":"","headerCode":"","footerCode":"","tags":[],"id":"id1427283367317","title":"DEGREES","pageTitle":"","description":"","keyWords":"","index":4,"isHomePage":false,"urlAlias":"degrees","useNameASUrl":true,"supportsMobileStates":true,"shareStyle":true},"id1440059106453":{"metaTags":"","headerCode":"","footerCode":"","tags":[],"id":"id1440059106453","title":"CURRICULUM","pageTitle":"","description":"","keyWords":"","index":2,"isHomePage":false,"urlAlias":"curriculum","useNameASUrl":true,"supportsMobileStates":true,"shareStyle":true},"id1581012439028":{"metaTags":"","headerCode":"","footerCode":"","tags":[],"id":"id1581012439028","title":"Mystic Freemasonry\u00a9","pageTitle":"","description":"","keyWords":"","index":7,"isHomePage":false,"urlAlias":"mystic-freemasonry","useNameASUrl":true,"supportsMobileStates":true,"shareStyle":true,"menu":{"isMobileDisabled":true,"isDesktopDisabled":true}},"id1581627541145":{"metaTags":"","headerCode":"","footerCode":"","tags":[],"id":"id1581627541145","title":"0\u00ba","pageTitle":"","description":"","keyWords":"","index":5,"isHomePage":false,"urlAlias":"0\u00ba","useNameASUrl":true,"supportsMobileStates":true,"shareStyle":true,"menu":{"isDesktopDisabled":true,"isMobileDisabled":true},"isSearchEngineDisabled":true},"id1582059389156":{"metaTags":"","headerCode":"","footerCode":"","tags":[],"id":"id1582059389156","title":"ORDERS","pageTitle":"","description":"","keyWords":"","index":6,"isHomePage":false,"urlAlias":"orders","useNameASUrl":true,"supportsMobileStates":true,"shareStyle":true},"id1582062495440":{"metaTags":"","headerCode":"","footerCode":"","tags":[],"id":"id1582062495440","title":"Vau Qoppa Sampi","pageTitle":"","description":"","keyWords":"","index":8,"isHomePage":false,"urlAlias":"vau-qoppa-sampi","useNameASUrl":true,"supportsMobileStates":true,"menu":{"isMobileDisabled":true,"isDesktopDisabled":true},"shareStyle":true},"id1582225468009":{"metaTags":"","headerCode":"","footerCode":"","tags":[],"id":"id1582225468009","title":"MEMBERSHIP","pageTitle":"","description":"","keyWords":"","index":3,"isHomePage":false,"urlAlias":"membership","useNameASUrl":true,"supportsMobileStates":true,"shareStyle":true,"useDefaultTitle":false}},
+        'pagesHierarchies':{}      },
+      'siteStructureInformation':{
+        'masterPages': {"1343569893636":{"pagesIDs":["1403784258535","id1427283367317","id1440059106453","id1581012439028","id1581627541145","id1582059389156","id1582062495440","id1582225468009"]}},
+        'listsInformation':{}      }
+    };
+
+    var TemporaryImages = []
+    Viewer.initialize();
+  </script>
+</head>
+
+<body class="state-loading-desktop-viewer">
+  <div id="desktop-loading-screen"></div>
+<div id="body-element">
+    <header class="site-element" element-id="id1427283331431" element-type="HeaderElement">
+        <div class="element-children-container">
+            <div class="site-element" element-id="id1581006604585" element-type="freeText">
+                <div style="text-align: center;"><span style="color:#000fff;">
+                        <u><strong><span style="font-size:12px;"><span style="font-family:pt serif;"></span></span></strong></u>
+                    </span><span class="theme-text-color-0-4"><span style="font-size:12px;"><span style="font-family:pt serif;">&#8203;&#8203;</span></span></span><br>
+                </div>
+                <div style="text-align: center;"><span class="theme-text-color-0-4"><span style="font-size:12px;"><span style="font-family:pt serif;">&#8203;</span></span><span style="font-size:20px;"><span style="font-family:pt serif;">QaBbaLaH Da‘aTh&#8203; Institute&#8203;&#8203;©</span></span><span style="font-size:12px;"><span style="font-family:pt serif;"><br></span></span><span style="font-size:14px;"><span style="font-family:pt serif;">&#8203;Qabbalah<strong>.</strong>Institute</span></span></span><span style="font-size:14px;"><span style="color:#000fff;">
+                            <u><strong><span style="font-family:pt serif;"></span></strong></u>
+                        </span><br>
+                    </span>
+                </div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;">&#8203;</span></span><br></span></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="color:#000fff;">
+                            <u><strong><span style="font-family:pt serif;"></span></strong></u><strong><span style="font-family:pt serif;">
+                                    <u><a href="https://www.invisiblesociety.me" data-attached-link="{&quot;type&quot;:&quot;Web&quot;,&quot;url&quot;:&quot;https://www.invisiblesociety.me&quot;,&quot;title&quot;:&quot;https://www.invisiblesociety.me&quot;}" class="wz-link">https://www.invisiblesociety.me</a></u>
+                                </span>
+                            </strong><span style="font-family:pt serif;">
+                                <u><a href="https://www.invisiblesociety.me" data-attached-link="{&quot;type&quot;:&quot;Web&quot;,&quot;url&quot;:&quot;https://www.invisiblesociety.me&quot;,&quot;title&quot;:&quot;https://www.invisiblesociety.me&quot;}" class="wz-link"></a></u><a href="https://www.invisiblesociety.me" data-attached-link="{&quot;type&quot;:&quot;Web&quot;,&quot;url&quot;:&quot;https://www.invisiblesociety.me&quot;,&quot;title&quot;:&quot;https://www.invisiblesociety.me&quot;}" class="wz-link"><span class="theme-text-color-0-4">&#8203;</span></a>
+                            </span>
+                        </span><br>
+                    </span>
+                </div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="color:#000fff;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4"></span></span></span>&#8203;<br></span></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="color:#000fff;"><strong><span style="font-family:pt serif;">
+                                    <u><a href="https://www.invisiblesociety.me" data-attached-link="{&quot;type&quot;:&quot;Web&quot;,&quot;url&quot;:&quot;https://www.invisiblesociety.me&quot;,&quot;title&quot;:&quot;https://www.invisiblesociety.me&quot;}" class="wz-link"></a></u>
+                                </span>
+                            </strong>
+                        </span><span class="theme-text-color-0-4"><span style="font-family:pt serif;">&#8203;</span></span><span style="color:#000fff;"><strong><span style="font-family:pt serif;">
+                                    <u><a href="https://www.invisiblesociety.net" data-attached-link="{&quot;type&quot;:&quot;Web&quot;,&quot;url&quot;:&quot;https://www.invisiblesociety.net&quot;,&quot;title&quot;:&quot;https://www.invisiblesociety.net&quot;}" class="wz-link">https://www.invisiblesociety.net</a></u>
+                                </span>
+                            </strong><span style="font-family:pt serif;">
+                                <u><a href="https://www.invisiblesociety.net" data-attached-link="{&quot;type&quot;:&quot;Web&quot;,&quot;url&quot;:&quot;https://www.invisiblesociety.net&quot;,&quot;title&quot;:&quot;https://www.invisiblesociety.net&quot;}" class="wz-link"></a></u><a href="https://www.invisiblesociety.net" data-attached-link="{&quot;type&quot;:&quot;Web&quot;,&quot;url&quot;:&quot;https://www.invisiblesociety.net&quot;,&quot;title&quot;:&quot;https://www.invisiblesociety.net&quot;}" class="wz-link"><span class="theme-text-color-0-4">&#8203;</span></a>
+                            </span>
+                        </span><br>
+                    </span>
+                </div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="color:#000fff;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">&#8203;</span></span></span><br></span></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="color:#000fff;"><strong><span style="font-family:pt serif;">
+                                    <u><a href="https://www.invisiblesociety.net" data-attached-link="{&quot;type&quot;:&quot;Web&quot;,&quot;url&quot;:&quot;https://www.invisiblesociety.net&quot;,&quot;title&quot;:&quot;https://www.invisiblesociety.net&quot;}" class="wz-link"></a></u>
+                                </span>
+                            </strong>
+                        </span><span style="color:#000fff;"><strong><span style="font-family:pt serif;">
+                                    <u><a href="https://www.invisiblesociety.org" data-attached-link="{&quot;type&quot;:&quot;Web&quot;,&quot;url&quot;:&quot;https://www.invisiblesociety.org&quot;,&quot;title&quot;:&quot;https://www.invisiblesociety.org&quot;}" class="wz-link" data-cke-saved-href="https://www.invisiblesociety.org">https://www.invisiblesociety.org</a></u>
+                                </span>
+                            </strong>
+                        </span>
+                    </span>
+                </div>
+            </div>
+            <nav class="site-element" element-id="id1583429651738" element-type="PagesMenu">
+                <nav><a href="/">HOME</a><a href="/curriculum">CURRICULUM</a><a href="/membership">MEMBERSHIP</a><a href="/degrees">DEGREES</a><a href="/orders">ORDERS</a></nav>
+            </nav>
+        </div>
+    </header>
+    <section class="site-element" element-id="masterPageContentSectionId" element-type="SectionElement"></section>
+    <div class="site-element" element-id="1402310978797" element-type="PageContentElement"></div>
+    <section class="site-element" element-id="id1581012447397" element-type="SectionElement">
+        <div class="element-children-container">
+            <div class="site-element" element-id="id1581012479298" element-type="freeText">
+                <div style="text-align: center;"><span style="font-size:30px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4"></span><span style="color:#ff0000;"><strong>M</strong></span><span class="theme-text-color-0-4">ystic </span><span style="color:#000fff;"><strong>F</strong></span><span class="theme-text-color-0-4">reemasonry©</span></span></span><br></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">Build&#8203;ers of Solomon and &#7716;irom©</span></span><span class="theme-text-color-0-4"></span><br></span></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">Alchemystical Guardians of the Holy Grail©</span></span><br></span></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;"><br></span></span></span></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">Freemasonry is founded on Qabbalah.</span><br></span></span></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="font-family:pt serif;"><span style="color:#ff0000;"><strong>M</strong></span><span class="theme-text-color-0-4">ystic </span><span style="color:#000fff;"><strong>F</strong></span><span class="theme-text-color-0-4">reemasonry© is founded on QaBbaLaH©.</span></span><br></span></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">&#8203;</span></span><br></span></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">One aspect of Qabbalah is</span></span></span><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;"><br></span></span></span></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;"><strong>Scripture-Code</strong></span></span><span class="theme-text-color-0-4"><span style="font-family:pt serif;"></span><br></span></span></div>
+                <div><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;">For example, in Greek,</span><br></span></span></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;"></span></span><span style="color:#ff0000;"><span style="font-family:pt serif;"><strong>M</strong></span></span><span style="color:#000fff;"><span style="font-family:pt serif;"><strong>F</strong></span></span><span style="color:#ff0000;"><span style="font-family:pt serif;"><strong></strong></span></span><span class="theme-text-color-0-4"><span style="font-family:pt serif;"> = <strong>46</strong></span><br></span></span></div>
+                <div><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;">also</span><br></span></span></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">Adam = &#8203;&#7944;δ&#940;μ = <strong>46</strong></span></span><br></span></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">also</span></span><br></span></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">Adam has <strong>46</strong> chromosomes</span></span><br></span></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4"></span></span><br></span></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">The Greek letter <strong>F</strong> or <strong>&#989;α&#8166;</strong></span></span></span><br></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">is transliterated as <strong>vau</strong>,</span></span><br></span></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">using the Roman letter <strong>V</strong></span></span></span><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4"><strong></strong>&#8203;</span></span></span><br></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">for the Greek letter <strong>F</strong>.</span></span><br></span></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">The Greek <strong>F</strong> and the Latin <strong>V</strong>,</span></span></span><br></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">both being semi-vowels,</span></span><br></span></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">are pronounced as the English <strong>W</strong>.</span></span><br></span></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">The Sanskrit <strong>V</strong>,</span></span></span><br></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">being a semi-vowel,</span></span><br></span></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">is pronounced somewhat like the English <strong>W</strong>.</span></span>&#8203;<br></span></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">Therefore, on occasion, we will use the letter <strong>W</strong> for </span></span></span><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4"></span></span><span style="font-family:pt serif;"><span class="theme-text-color-0-4">the Roman letter <strong>V</strong>.</span></span><br></span></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">So, for our purposes, <strong></strong></span><span style="color:#ff0000;"><strong>M</strong></span><span class="theme-text-color-0-4"><strong></strong></span><span style="color:#000fff;"><strong>F</strong></span><span class="theme-text-color-0-4"> = </span><span style="color:#ff0000;"><strong>M</strong></span><span class="theme-text-color-0-4"></span><span style="color:#000fff;"><strong>W</strong><span class="theme-text-color-0-4"> = </span><span class="theme-text-color-0-4"></span><span style="color:#ff0000;"><strong></strong></span><strong>W</strong></span><span style="color:#ff0000;"><strong>M</strong></span><span class="theme-text-color-0-4"><span style="color:#000fff;"><span class="theme-text-color-0-4"><strong></strong></span></span>.</span></span><br></span></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">Another example of using either the <strong>V</strong> or <strong>W</strong> is with </span></span></span><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">the Hebrew word for LORD:</span></span><br></span></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4"></span></span><span style="font-family:pt serif;"><span class="theme-text-color-0-4"></span></span></span><span style="font-size:16px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">&#1497;&#1492;&#1493;&#1492;</span></span></span><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4"> = YHVH or YHWH</span></span></span><span style="font-size:12px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4"></span></span></span><span style="font-size:12px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4"></span></span></span><br></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">The Sanskrit <strong>V</strong>, being a semi-vowel,<br>is pronounced somewhat like the English <strong>W</strong>.&#8203;</span></span><br><span style="font-family:pt serif;"><span class="theme-text-color-0-4"></span></span><span style="font-family:pt serif;"><span class="theme-text-color-0-4"></span></span>&#8203;</span><span style="font-family:pt serif;"><span style="font-size:14px;">&#8203;&#8203;</span><br></span></div>
+                <div style="text-align: center;"><span style="color:#000fff;"><span style="font-size:20px;"><span style="font-family:pt serif;"><strong>W</strong></span></span></span><span class="theme-text-color-0-4"><span style="font-size:20px;"><span style="font-family:pt serif;">oida </span></span></span><span style="color:#ff0000;"><span style="font-size:20px;"><span style="font-family:pt serif;"><strong>M</strong></span></span></span><span class="theme-text-color-0-4"><span style="font-size:20px;"><span style="font-family:pt serif;">ethodology©</span></span></span></div>
+                <div style="text-align: center;"><span class="theme-text-color-0-4"><span style="font-size:20px;"><span style="font-family:pt serif;"></span></span></span><span class="theme-text-color-0-4"><span style="font-size:12px;"><span style="font-family:pt serif;"><br></span></span></span></div>
+                <div><span class="theme-text-color-0-4"><span style="font-size:12px;"><span style="font-family:pt serif;"></span></span></span><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;">The Proto-Indo-European root-word <strong>weid-</strong></span></span></span><br></div>
+                <div><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;"><strong>&#8203;</strong>means </span></span></span><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;"><strong>to see</strong>, but later took on the meaning</span></span></span><br></div>
+                <div><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;"><strong>to know</strong>.</span></span><span class="theme-text-color-0-4"><span style="font-family:pt serif;"></span></span><span class="theme-text-color-0-4"><span style="font-family:pt serif;"></span><br></span></span></div>
+                <div><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;"><strong>Weid-</strong> gave rise to</span></span></span><br></div>
+                <div><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;">the Sanskrit word <strong>veda</strong>,</span></span><br></span></div>
+                <div><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;">the Greek word <strong>&#989;ο&#8150;δα</strong> = <strong>wo&iacute;da</strong>,</span></span><br></span></div>
+                <div><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;">the Latin word <strong>vidére</strong> (as in video), and</span><br></span></span></div>
+                <div><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;">the English word <strong>wisdom</strong>.</span></span><br></span></div>
+                <div><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;">&#8203;The Greek <strong>wo&iacute;da</strong> and the Sanskrit <strong>veda</strong></span></span></span><br></div>
+                <div><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;">both have the meaning</span></span></span><br></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;"><strong>knowledge from having seen</strong>.</span></span></span><br></div>
+                <div><span class="theme-text-color-0-4"><span style="font-size:12px;"><span style="font-family:pt serif;"></span></span></span><br></div>
+                <div style="text-align: center;"><span class="theme-text-color-0-4"><span style="font-size:12px;"><span style="font-family:pt serif;">&#8203;</span></span><span style="font-size:20px;"><span style="font-family:pt serif;"></span></span></span><span style="color:#000fff;"><span style="font-size:20px;"><span style="font-family:pt serif;"><strong>W</strong></span></span></span><span class="theme-text-color-0-4"><span style="font-size:20px;"><span style="font-family:pt serif;">oida </span></span></span><span style="color:#ff0000;"><span style="font-size:20px;"><span style="font-family:pt serif;"><strong>M</strong></span></span></span><span class="theme-text-color-0-4"><span style="font-size:20px;"><span style="font-family:pt serif;">editation©</span></span><span style="font-size:12px;"><span style="font-family:pt serif;"></span></span></span><br></div>
+                <div style="text-align: center;"><span class="theme-text-color-0-4"><span style="font-size:20px;"><span style="font-family:pt serif;"></span></span></span><span style="font-size:14px;"><span style="font-family:pt serif;"><br></span></span></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4">The Greek word <strong>μελ&#941;τη</strong> is transliterated as <strong>melét&#275;</strong>.</span></span></span><span style="font-size:14px;"><span style="font-family:pt serif;"><br></span></span></div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4"><strong>Melét&#275;</strong> means practice and attention and can mean <strong>meditation</strong>.</span><span class="theme-text-color-0-4"></span><br></span></span></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="font-family:pt serif;"><span class="theme-text-color-0-4"><strong></strong></span><span style="color:#ff0000;"><strong>M</strong></span><span class="theme-text-color-0-4"><strong>elét&#275; </strong></span><span style="color:#000fff;"><strong>W</strong></span><span class="theme-text-color-0-4"><strong>o&iacute;da</strong>© means <strong></strong></span><span style="color:#000fff;"><strong>W</strong></span><span class="theme-text-color-0-4"><strong>o&iacute;da </strong></span><span style="color:#ff0000;"><strong>M</strong></span><span class="theme-text-color-0-4"><strong>editation</strong>©.</span><br></span></span></div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="font-family:pt serif;"><strong>
+                                <font color="#050505"><span style="caret-color: rgb(5, 5, 5);"><span style="color:#000fff;">W</span>o&iacute;da <span style="color:#ff0000;">M</span>editators</span></font>
+                            </strong>
+                            <font color="#050505"><span style="caret-color: rgb(5, 5, 5);">©</span></font>
+                        </span>
+                    </span><br>
+                </div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="font-family:pt serif;">
+                            <font color="#050505"><span style="caret-color: rgb(5, 5, 5);">practice</span></font>
+                        </span>
+                    </span><br>
+                </div>
+                <div style="text-align: center;"><span style="font-size:14px;"><span style="font-family:pt serif;">
+                            <font color="#050505"><span style="caret-color: rgb(5, 5, 5);"><strong><span style="color:#000fff;">W</span>o&iacute;da <span style="color:#ff0000;">M</span>editation</strong>©<span class="theme-text-color-0-4">.</span></span></font><br>
+                        </span>
+                    </span>
+                </div>
+                <div><span style="font-size:14px;"><span style="font-family:pt serif;">
+                            <font color="#050505"><span style="caret-color: rgb(5, 5, 5);"><span class="theme-text-color-0-4">Many people are interested in meditation, but are not ready for the highest form of spiritual practice. So, the <strong>I</strong>nvisible <strong>S</strong>ociety©, through its <strong>I</strong>nitiation <strong>S</strong>cience©, grants a legitimate initiation, which includes </span><span style="color:#000fff;"><strong>W</strong></span><span class="theme-text-color-0-4">o&iacute;da </span><strong><span style="color:#ff0000;">M</span></strong><span class="theme-text-color-0-4">editation©, also known as, </span><span style="color:#ff0000;"><strong>M</strong></span><span class="theme-text-color-0-4">ind</span><span style="color:#000fff;"><strong>F</strong></span><span class="theme-text-color-0-4">ocus©.</span></span></font>
+                        </span>
+                    </span>
+                </div>
+                <div>
+                    <font color="#050505" face="pt serif"><span style="caret-color: rgb(5, 5, 5); font-size: 12px;"><span class="theme-text-color-0-4"></span></span></font><br>
+                </div>
+                <div style="text-align: center;">
+                    <font color="#050505" face="pt serif"><span style="caret-color: rgb(5, 5, 5); font-size: 12px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;"><span style="font-size:20px;"></span></span></span><span style="color:#000fff;"><span style="font-family:pt serif;"><span style="font-size:20px;"><strong>W</strong></span></span></span><span class="theme-text-color-0-4"><span style="font-family:pt serif;"><span style="font-size:20px;">astu </span></span></span><span style="color:#ff0000;"><span style="font-family:pt serif;"><span style="font-size:20px;"><strong>M</strong></span></span></span><span class="theme-text-color-0-4"><span style="font-family:pt serif;"><span style="font-size:20px;">ethod©</span></span></span></span></font><br>
+                </div>
+                <div style="text-align: center;"><span style="font-size:14px;">
+                        <font color="#050505" face="pt serif"><span style="caret-color: rgb(5, 5, 5);"><span class="theme-text-color-0-4"><span style="font-family:pt serif;">Woida© science of Wastu© (&#988;&#940;στυ)</span></span></span></font><br>
+                    </span>
+                </div>
+                <div style="text-align: center;"><span style="font-size:14px;">
+                        <font color="#050505" face="pt serif"><span style="caret-color: rgb(5, 5, 5);"><span class="theme-text-color-0-4"><span style="font-family:pt serif;"></span></span></span></font><br>
+                    </span>
+                </div>
+                <div><span style="font-size:14px;">
+                        <font color="#050505" face="pt serif"><span style="caret-color: rgb(5, 5, 5);"><span class="theme-text-color-0-4"><span style="font-family:pt serif;"></span></span></span></font><span class="theme-text-color-0-4"><span style="font-family:pt serif;">The Proto-Indo-European root-word <strong>wes-3</strong></span></span>
+                    </span><br>
+                </div>
+                <div><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;">means <strong>to dwell</strong>.</span></span></span></div>
+                <div><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;"><strong>wes-3</strong> gave rise to</span></span></span><br></div>
+                <div><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;">the Sanskrit word <strong>v&#257;stu</strong>,</span></span><br></span></div>
+                <div><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;">the Greek word <strong>&#989;&#940;στυ</strong> = <strong>vástu</strong> or <strong>wástu</strong>, and</span></span><br></span></div>
+                <div><span style="font-size:14px;"><span class="theme-text-color-0-4"><span style="font-family:pt serif;">the Latin word <strong>Vesta</strong>.</span></span>
+                        <font color="#050505" face="pt serif"><span style="caret-color: rgb(5, 5, 5);"><span class="theme-text-color-0-4"><span style="font-family:pt serif;"></span></span></span></font>
+                        <font color="#050505" face="pt serif"><span style="caret-color: rgb(5, 5, 5);"><span class="theme-text-color-0-4"><span style="font-family:pt serif;"></span></span></span></font><br>
+                    </span>
+                </div>
+                <div><span style="font-size:14px;">
+                        <font color="#050505" face="pt serif"><span style="caret-color: rgb(5, 5, 5);">Greek <strong>wástu</strong> and Indian <strong>v&#257;stu</strong> are similar to Chinese <strong>F&#275;ng Shu&#8144;</strong>.</span></font>
+                    </span>
+                </div>
+                <div><span style="font-size:14px;">
+                        <font color="#050505" face="pt serif"><span style="caret-color: rgb(5, 5, 5);"><span class="theme-text-color-0-4"></span></span></font><br>
+                    </span>
+                </div>
+                <div style="text-align: center;"><span style="font-size:14px;">
+                        <font color="#050505" face="pt serif"><span style="caret-color: rgb(5, 5, 5);"><span class="theme-text-color-0-4">&#8203;</span><span style="color:#ff0000;"><strong>Notice:</strong></span><span class="theme-text-color-0-4"><br>The numerous materials of the</span></span></font><br>
+                    </span>
+                </div>
+                <div style="text-align: center;"><span style="font-size:14px;">
+                        <font color="#050505" face="pt serif"><span style="caret-color: rgb(5, 5, 5);"><span class="theme-text-color-0-4"><strong>I</strong>nvisible <strong>S</strong>ociety©<br>were created from 1980 to the present.<br>These materials are <strong>copyrighted</strong> and</span></span></font><br>
+                    </span>
+                </div>
+                <div style="text-align: center;"><span style="font-size:14px;">
+                        <font color="#050505" face="pt serif"><span style="caret-color: rgb(5, 5, 5);"><span class="theme-text-color-0-4">their use is <strong>licensed</strong>.<br>©<br>Copyright 2020 <strong>I</strong>nvisible <strong>S</strong>ociety©<br>Bro. Ken, 33º, </span><span style="color:#f00f00;"><strong>M</strong></span><span style="color:#000fff;"><strong>F</strong></span><span style="color:#f00f00;"><strong></strong></span><span class="theme-text-color-0-4">&#8203;</span></span></font><br>
+                    </span>
+                </div>
+                <div style="text-align: center;"><span style="font-size:14px;">
+                        <font color="#050505" face="pt serif"><span style="caret-color: rgb(5, 5, 5);"><span class="theme-text-color-0-4">Administrator of the <strong>I</strong>nvisible <strong>S</strong>ociety©</span></span></font>
+                    </span><br>
+                </div>
+                <div style="text-align: center;">
+                    <font color="#050505" face="pt serif"><span style="caret-color: rgb(5, 5, 5); font-size: 12px;"><span class="theme-text-color-0-4">&#8203;</span></span></font><br>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="site-element" element-id="id1581012439029" element-type="SectionElement"></section>
+    <footer class="site-element" element-id="id1583433899611" element-type="FooterElement">
+        <div class="element-children-container">
+            <nav class="site-element" element-id="id1583433927176" element-type="PagesMenu">
+                <nav><a href="/">HOME</a><a href="/curriculum">CURRICULUM</a><a href="/membership">MEMBERSHIP</a><a href="/degrees">DEGREES</a><a href="/orders">ORDERS</a></nav>
+            </nav>
+        </div>
+    </footer>
+</div></body>
+</html>

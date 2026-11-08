@@ -1,0 +1,53 @@
+READ-ONLY SOURCE EXPORT ONLY — 44 exact files (39 PHP plus 5 public assets).
+Download to private local quarantine, inspect for embedded secrets/personal data and compare hashes BEFORE adding to cloud/Git handoff. Do not execute PHP or connect to a database. Do not archive entire app/ because app/config.php is excluded.
+
+/members/index.php
+/members/app/admin.php
+/members/app/bootstrap.php
+/members/app/controllers.php
+/members/app/db.php
+/members/app/fac_controllers.php
+/members/app/facilitators.php
+/members/app/helpers.php
+/members/app/mail.php
+/members/app/progress.php
+/members/app/security.php
+/members/app/views/account.php
+/members/app/views/coming_soon.php
+/members/app/views/dashboard.php
+/members/app/views/degree.php
+/members/app/views/degrees.php
+/members/app/views/error.php
+/members/app/views/forgot.php
+/members/app/views/home.php
+/members/app/views/layout.php
+/members/app/views/lesson.php
+/members/app/views/login.php
+/members/app/views/message.php
+/members/app/views/register.php
+/members/app/views/register_signed_in.php
+/members/app/views/reset.php
+/members/app/views/verify.php
+/members/app/views/admin/_nav.php
+/members/app/views/admin/degree.php
+/members/app/views/admin/degrees.php
+/members/app/views/admin/facilitators.php
+/members/app/views/admin/index.php
+/members/app/views/admin/lesson.php
+/members/app/views/admin/log.php
+/members/app/views/admin/member.php
+/members/app/views/admin/members.php
+/members/app/views/fac/choose.php
+/members/app/views/fac/facilitator.php
+/members/app/views/fac/part_b.php
+/members/assets/members.css
+/members/assets/members.js
+/members/assets/art/README.txt
+/members/assets/ken/PiArchGreen.png
+/members/assets/ken/TheNet.png
+
+EXCLUDE every actual config.php, config.sample.php, external configuration, .env/token/login files, every storage/log/data/DB/upload tree, databases and member rows. Apache .htaccess is configuration: excluded from this code-only allowlist; local previous routing templates are NOT fresh live-rule proof. The separately already-exported root .htaccess is preserved as historical routing reference.
+
+app/db.php is required connection CODE using cfg(), not a database dump or literal credentials in the reviewed local version. Fresh bytes must still be screened. app/views/admin/log.php, member.php and members.php are view SOURCE, not log/member records; included after the same fresh inspection. Mail/security/admin files are code, not authorization to exercise those functions.
+
+Local app/content/pledge.txt is a content dependency; supplied live metadata does not list it and routing notes say content was empty. Confirm its live presence/read-only listing; do not invent, silently restore, or claim local pledge content is live.

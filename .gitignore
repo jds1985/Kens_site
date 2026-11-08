@@ -1,0 +1,17 @@
+# Live configuration, secrets, and runtime state.
+.env
+.env.*
+*.pem
+*.key
+config.php
+**/config.php
+storage/
+*.log
+*.zip
+*.sql.bak
+*.sql.gz
+
+# Local editor and OS files.
+.DS_Store
+Thumbs.db
+*.swp

@@ -1,0 +1,81 @@
+{
+  "checked_at": "2026-11-07T19:25:20.881449-05:00",
+  "authoritative_public_sources": [
+    {
+      "site": "qabbalah.institute",
+      "file": "public-current/qabbalah.institute/index.html",
+      "bytes": 83168,
+      "sha256": "d130153a74f4a2812a2f6f36b6ded42d50028d383d42c641726b741f8122756d",
+      "status": "Existing verified production artifact retained unchanged; this public GET received406, not evidence the website is offline."
+    },
+    {
+      "site": "invisiblesociety.w3spaces.com",
+      "file": "live-public-verified-20261107/invisiblesociety.w3spaces.com/index.html",
+      "bytes": 74596,
+      "sha256": "52ff1ba1e6b819206950b904e6db3101f277c8e1de1d6183cc1544737b0a8b53",
+      "same_as_older_snapshot": false
+    },
+    {
+      "site": "qabbalahinstitute.w3spaces.com",
+      "file": "live-public-verified-20261107/qabbalahinstitute.w3spaces.com/index.html",
+      "bytes": 80766,
+      "sha256": "cd11acf84ad23d43556fded485319933de61a1c84ea357cd2de5b7ef1209ca01",
+      "same_as_older_snapshot": true
+    },
+    {
+      "site": "vauqoppasampi.w3spaces.com",
+      "file": "live-public-verified-20261107/vauqoppasampi.w3spaces.com/index.html",
+      "bytes": 15874,
+      "sha256": "abf93c5d1bc24fbca3b90942bfa06060791ead70e2b6350917b10451c906e9cc",
+      "same_as_older_snapshot": true
+    }
+  ],
+  "collection_totals": {
+    "actual_http_requests": 24,
+    "responses_200_saved": 22,
+    "public_w3spaces_pages": 3,
+    "public_site_images": 7,
+    "public_scripts": 1,
+    "css_stylesheets_saved": 2,
+    "font_URL_responses_saved": 7,
+    "distinct_font_byte_contents": 6
+  },
+  "not_collected": [
+    {
+      "url": "https://www.w3schools.com/w3css/4/w3.css",
+      "reason": "HTTP403, host stopped; still an external dependency."
+    },
+    {
+      "url": "https://qabbalah.institute/",
+      "reason": "HTTP406, host stopped; exact local production artifact unchanged."
+    },
+    {
+      "urls": [
+        "https://qabbalah.institute/degrees",
+        "https://qabbalah.institute/curriculum",
+        "https://qabbalah.institute/membership",
+        "https://qabbalah.institute/qqq"
+      ],
+      "reason": "Not requested after root406; currently served public route contents unresolved."
+    },
+    {
+      "scope": "Historical hidden degree and sign-in routes",
+      "reason": "Intentionally not requested; no login or protected/private content collection."
+    },
+    {
+      "url": "https://brotherken.carrd.co",
+      "reason": "External link only; ownership unestablished; not requested/copied."
+    }
+  ],
+  "cpanel_source_only_export_needed": [
+    "44 exact members source/assets files listed in fresh-members-source-export-allowlist.txt, excluding configuration and every state/data tree. Quarantine/inspect and hash-compare before cloud handoff.",
+    "Read-only /viewer metadata/source inventory for the specifically referenced local legacy runtime assets; do not indiscriminately follow private/generated page datasets.",
+    "Confirm local pledge dependency presence in live app/content metadata. Member configuration/rules and private runtime-state migration remain separate, excluded from this source-only export."
+  ],
+  "invisible_society_delta": "Fresh 74,596-byte page differs from saved 75,318-byte snapshot: three-column header/layout, navigation/member sign-in link, trademark/text edits including Omega Enigma. Full exact diff supplied; both versions retained.",
+  "public_scope_limits": "Known three W3Spaces entry pages and their observed static resources reconciled; not a discover-all-files/server directory export. No claim the entire live estate is cloned.",
+  "instructions": "Preservation only. Do not localize/rewrite source URLs or change exact production index. Wait for Jim to supply empty private GitHub repository; no repository coding, deployment, cutover or redesign was performed.",
+  "root_source_cpanel_parity": "Fresh read-only cPanel index.html and index_mobile.html each match the exact 83168-byte canonical source (d130...2756d). Root .htaccess and all 110 HTML filenames/source copies reconciled locally. Public HTTP406 delivery was not retried.",
+  "root_export_review": "root-export-review-summary.json",
+  "fresh_members_export_allowlist": "fresh-members-source-export-allowlist.txt"
+}
