@@ -61,3 +61,9 @@ The preview keeps the current design links, including `https://qabbalah.institut
 ## Comparison demo
 
 `famous-demo/` is a separate static design for comparison. It does not replace `preview/` or the members demo. A later preview of this design uses Root Directory `famous-demo` on its own project. See `famous-demo/README.md`.
+
+## Deployment roots
+
+The repository-root `.vercelignore` is an allowlist. It keeps `preview/` and the public files in `famous-demo/`, and it ignores PHP, SQL, historical pages, provenance, and tests. Vercel applies that file to the whole Git tree, then the project Root Directory selects one of those folders. The current static project stays on Root Directory `preview`. The Famous project stays on Root Directory `famous-demo`, output directory `.`, with no install or build command. Neither root is the repository root.
+
+A Git deployment of `main` is a production deployment when `main` is the project’s production branch. Asking for a preview target on that ref does not keep it a preview. A preview comes from a non-production branch, or from `vercel deploy` without `--prod`, using the operator’s existing Vercel credentials. This repository does not run that deploy.

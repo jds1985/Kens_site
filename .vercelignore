@@ -1,7 +1,11 @@
-# Nothing in this repository has been deployed.
-# If a Vercel project is created later, upload only the static homepage preview.
-# Also set the project Root Directory to preview so PHP and historical references stay offline.
+# Repository-root allowlist. Vercel applies this file to the whole Git tree
+# before Root Directory becomes the publish root. Keep both public project
+# roots, and nothing else, so a Famous root and a preview root can each deploy.
+# Private PHP, SQL, historical pages, provenance, and tests stay ignored.
 /*
-!/preview
 !/preview/
 !/preview/**
+!/famous-demo/
+!/famous-demo/**
+/famous-demo/test_demo.mjs
+/famous-demo/README.md

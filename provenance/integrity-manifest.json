@@ -50,7 +50,7 @@
     },
     "total_replacements": 297
   },
-  "file_count": 210,
+  "file_count": 212,
   "files": [
     {
       "path": ".dockerignore",
@@ -64,8 +64,8 @@
     },
     {
       "path": ".vercelignore",
-      "bytes": 262,
-      "sha256": "1913807f5471726c578f4075c3504058a72085e39cf4947d18fde4e2b840cfda"
+      "bytes": 414,
+      "sha256": "b01188da61e2836aebb0ee7a280a37c56343fa48e07ccd9896d42072eea9bc91"
     },
     {
       "path": "LICENSES/Font-Awesome-CSS-MIT.txt",
@@ -89,8 +89,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5783,
-      "sha256": "0c47cef7ce0076e0a46d9673486ba7653123cb47e4f7372d7b6ae4a7f867388a"
+      "bytes": 6662,
+      "sha256": "7b416d53b65d2fb5b83359247e27d84ad16d2ce19e02be5e9cb97d45f3696e69"
     },
     {
       "path": "famous-demo/README.md",
@@ -1096,6 +1096,16 @@
       "path": "public-snapshots/vauqoppasampi.w3spaces.com/index.html",
       "bytes": 15874,
       "sha256": "abf93c5d1bc24fbca3b90942bfa06060791ead70e2b6350917b10451c906e9cc"
+    },
+    {
+      "path": "tests/__pycache__/verify_deployment_package.cpython-312.pyc",
+      "bytes": 7332,
+      "sha256": "89f83af8b525d301b749ce985601818a2be545ad9f15546e9ad4d2dd8895256e"
+    },
+    {
+      "path": "tests/verify_deployment_package.py",
+      "bytes": 4763,
+      "sha256": "159d517d8e17500bb543a75c64eae8b63be5cbdd619368118d298eabe456d11b"
     },
     {
       "path": "tests/verify_homepage.py",
