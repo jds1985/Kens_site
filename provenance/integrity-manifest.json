@@ -94,18 +94,18 @@
     },
     {
       "path": "docs/HOSTGATOR_MOVE.md",
-      "bytes": 4182,
-      "sha256": "85a47ed30ecf4af526575ca6dda76dc4da77daa2d6300c6563d1c1b648290caa"
+      "bytes": 4381,
+      "sha256": "98c7d817f31453f820c3993ac8ee846444b9e3ad8ddc1e9f4714209cb705bc6b"
     },
     {
       "path": "docs/KEN_ADMIN_GUIDE.md",
-      "bytes": 3129,
-      "sha256": "bb9a108acf485630befcc6d8fa771fabbca63b19f9703c62cdeab133614d497d"
+      "bytes": 3619,
+      "sha256": "0973ccfa37afab3d1c6ab57b59dcd35dc93cf0f22f70a19dae73abb3537d5a3f"
     },
     {
       "path": "docs/KEN_ADMIN_GUIDE.pdf",
-      "bytes": 248530,
-      "sha256": "2e8b4c173f1c15c33005e973281af5b565efb324e79b29567b0705ed5abf0163"
+      "bytes": 249436,
+      "sha256": "3dc33eb8fb978cb524e11f15f54e9902788b38615a80e6dfef0d0ba5086f4618"
     },
     {
       "path": "docs/MAIL_SETTINGS.md",
@@ -114,8 +114,8 @@
     },
     {
       "path": "docs/PAYPAL_PRIVACY_OPTIONS.md",
-      "bytes": 2118,
-      "sha256": "32a472411824bfd6f46520a0ede44431e809e5942c4a2171b54957de086848dc"
+      "bytes": 1584,
+      "sha256": "a40718470f87781ef95becce403e6a729f55cded47c022687db21acd27f51b01"
     },
     {
       "path": "docs/images/admin-confirm-payment.png",
@@ -509,8 +509,8 @@
     },
     {
       "path": "members-demo/README.md",
-      "bytes": 9143,
-      "sha256": "8ef4aba219b61674f4153be751f09443820c9ce997d88057a3cf1933952e59af"
+      "bytes": 9113,
+      "sha256": "3e2c2d20a55f699327b6402b0138079f5929f4bbc30ba46398bdb1bcda6aae00"
     },
     {
       "path": "members-demo/config/demo-config.php",
@@ -574,13 +574,13 @@
     },
     {
       "path": "members-demo/test_demo.py",
-      "bytes": 29562,
-      "sha256": "54a359a88833fc97432877099feffa065aa50b9ed7de74221f80b333f7885327"
+      "bytes": 29823,
+      "sha256": "54db29faa0f2667775cfbba8feb07bfa19ee07de62be64db10d76d455fe457ff"
     },
     {
       "path": "members-fresh-20261107/README.txt",
-      "bytes": 2088,
-      "sha256": "186acf5032ff5bad6047223a9e026d5caec34fefa1aff8f5937a688cce28b340"
+      "bytes": 2064,
+      "sha256": "e6f348c3e5a2327461d5252d1c9b9f485f61de37dfd0d2a2db1bda0839974fc8"
     },
     {
       "path": "members-fresh-20261107/members/app/admin.php",
@@ -594,8 +594,8 @@
     },
     {
       "path": "members-fresh-20261107/members/app/content/pledge.txt",
-      "bytes": 364,
-      "sha256": "39295364a910301538c786dc7d253138c74b2cc526db9038030709b246002493"
+      "bytes": 379,
+      "sha256": "d40cdc5bde5db6665a530d49c5dda1c000aa080cd3f553120b3993aa52192e11"
     },
     {
       "path": "members-fresh-20261107/members/app/controllers.php",
@@ -619,8 +619,8 @@
     },
     {
       "path": "members-fresh-20261107/members/app/helpers.php",
-      "bytes": 4137,
-      "sha256": "2b9e3e6db9ad536e6ffb4d76d3c3896ec22cdbbaca953b8f22dfa5ff7b0b90cf"
+      "bytes": 4750,
+      "sha256": "fb1198b5bd34e58c9853045304e4d69d6c67aa3c3fd8e8f5d0cf093438878636"
     },
     {
       "path": "members-fresh-20261107/members/app/mail.php",
@@ -704,18 +704,18 @@
     },
     {
       "path": "members-fresh-20261107/members/app/views/dashboard.php",
-      "bytes": 4305,
-      "sha256": "a840afdec65649e937ee5cd699972c7685832d9e3c70492c7167e1f3f2d72c8c"
+      "bytes": 4336,
+      "sha256": "59973f320423165e5ff8d8e8dac55042595a9b85f89d8af1bd1699008360b1e2"
     },
     {
       "path": "members-fresh-20261107/members/app/views/degree.php",
-      "bytes": 6463,
-      "sha256": "fe9893f12d964ae7da06bc508c029271b311f9ca8b6b564a655b446a43a5e6df"
+      "bytes": 6350,
+      "sha256": "dd4b3145d0047617848150dc3a4218d891451136a6b7285b2ffc6596ec5b0dcb"
     },
     {
       "path": "members-fresh-20261107/members/app/views/degrees.php",
-      "bytes": 1258,
-      "sha256": "08b991e1362009ce25dab19288a508fa393ef0da020fb758f19646aaaa788165"
+      "bytes": 1007,
+      "sha256": "df30cd0f01dd49920ed4e7a1b0ad526dd01b6c410cdf64d23c3554d469db3ac6"
     },
     {
       "path": "members-fresh-20261107/members/app/views/error.php",
@@ -729,13 +729,13 @@
     },
     {
       "path": "members-fresh-20261107/members/app/views/fac/facilitator.php",
-      "bytes": 6300,
-      "sha256": "6a76e7fd0fec2afe5355834bc4746125ec52595065cd9fabee4a8cae1186ea37"
+      "bytes": 6284,
+      "sha256": "ec7c8169aa7c642270ffc0f8c7f614826b792eac693bf216bb7d79de73270ce9"
     },
     {
       "path": "members-fresh-20261107/members/app/views/fac/part_b.php",
-      "bytes": 2905,
-      "sha256": "bfc6c1cd17f35ba524548143cbdf9b192d77c94bbaa083f7321b5ea05f04a3ec"
+      "bytes": 2944,
+      "sha256": "05c690a31c325ae6d288adc5d5f39e6f04bd9c2623dc5d16375b54aecc224669"
     },
     {
       "path": "members-fresh-20261107/members/app/views/forgot.php",
@@ -744,8 +744,8 @@
     },
     {
       "path": "members-fresh-20261107/members/app/views/home.php",
-      "bytes": 1212,
-      "sha256": "f6a1866ca0a42c4099564a548cedb642a6e82a70a70fc2f14d3134753c053045"
+      "bytes": 1259,
+      "sha256": "70eb8ea6140d3ba4695cea29800945a28e6ba8eac90493daa9e84f9e9da5e0ca"
     },
     {
       "path": "members-fresh-20261107/members/app/views/layout.php",
@@ -769,8 +769,8 @@
     },
     {
       "path": "members-fresh-20261107/members/app/views/register.php",
-      "bytes": 4801,
-      "sha256": "0e903cbeafcc1274d693bcfb51e4e01c890e9fa36c79d6bb7bd12090cad8d7d3"
+      "bytes": 4767,
+      "sha256": "3acadd4deb23e047a35b604260faae56440034b0f4ae5366a404fc101ff8df6c"
     },
     {
       "path": "members-fresh-20261107/members/app/views/register_signed_in.php",
@@ -804,13 +804,13 @@
     },
     {
       "path": "members-fresh-20261107/members/assets/members.css",
-      "bytes": 14786,
-      "sha256": "7ea38f910e0b03b6f3f43e825de811ff1023e1ecf8ceaed57a040997640538c4"
+      "bytes": 15335,
+      "sha256": "e0296f6a629b7c310906c3c66b87e1d3b1c3f65643f79576c71247ca0e3c7742"
     },
     {
       "path": "members-fresh-20261107/members/assets/members.js",
-      "bytes": 1974,
-      "sha256": "533c8ea012b49b87b5f8a2439b2a2a4a9f8e68a0f173b17d236dcd4f55e6e5d8"
+      "bytes": 2561,
+      "sha256": "e9e6b1f476aa72175d7f33ffcb91813167e9d2869b327e3502fcec3e42b8e001"
     },
     {
       "path": "members-fresh-20261107/members/index.php",
@@ -829,8 +829,8 @@
     },
     {
       "path": "members-fresh-20261107/source-sha256.txt",
-      "bytes": 4532,
-      "sha256": "fb0ec78803dfd50fda46df5f1c3126d558b5b34b5eec9f16e03342dcd562d2e2"
+      "bytes": 4633,
+      "sha256": "4bc85b1e506fd1b838d890a0c6172eeb517478d760b13e89fa489dcfddf2367c"
     },
     {
       "path": "members-source-only/README.txt",
@@ -1251,6 +1251,11 @@
       "path": "tests/verify_homepage.py",
       "bytes": 3526,
       "sha256": "b5c4738cd626861836a60b6d4ddac80f54178dc4c6cb8c438025da2af76bad57"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/views/_pay_privacy.php",
+      "bytes": 281,
+      "sha256": "49e7bfd1f9a740e0c034b5a5d874597822fd2c4a8c79726b42608f398ff6f9b6"
     }
   ]
 }

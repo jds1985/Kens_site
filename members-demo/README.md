@@ -1,8 +1,8 @@
 # Isolated members demo
 
-Local container for the members PHP in `members-fresh-20261107/`. That tree started as the November 7, 2026 capture. The admin pages now include a sign-up count that the server shows only to role `admin`. `members-source-only/` stays the earlier baseline, including the placeholder pledge and `config.sample.php`, which the fresh capture did not contain. This is not a change to qabbalah.institute, HostGator, or the Vercel static preview, and it is not a hosted demo.
+Local container for the members PHP in `members-fresh-20261107/`. That tree started as the November 7, 2026 capture. The admin pages now include a sign-up count that the server shows only to role `admin`. `members-source-only/` stays the earlier baseline, including its old placeholder pledge and `config.sample.php`, which the fresh capture did not contain. This is not a change to qabbalah.institute, HostGator, or the Vercel static preview, and it is not a hosted demo.
 
-The image copies `members-fresh-20261107/members`, including the admin sign-up count, then installs `members-fresh-20261107/routing/members.htaccess` as `.htaccess`. That 662-byte file is the verified live members rules (cPanel breadcrumb `qabbalah.institute/members`, mtime November 3, SHA-256 `892055490f500709d23bf69cb440f7f35e9c786eb2648e3829a30c1c13694ba5`). The earlier 1,598-byte Builder capture is not in the repository and is not used. Writable state is only the `storage` volume. `app/content/pledge.txt` is a marked placeholder for Ken's final wording, not a live pledge.
+The image copies `members-fresh-20261107/members`, including the admin sign-up count, then installs `members-fresh-20261107/routing/members.htaccess` as `.htaccess`. That 662-byte file is the verified live members rules (cPanel breadcrumb `qabbalah.institute/members`, mtime November 3, SHA-256 `892055490f500709d23bf69cb440f7f35e9c786eb2648e3829a30c1c13694ba5`). The earlier 1,598-byte Builder capture is not in the repository and is not used. Writable state is only the `storage` volume. `app/content/pledge.txt` is Ken's Pledge of Word and Name.
 
 ## What the application requires
 

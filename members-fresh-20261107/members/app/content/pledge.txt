@@ -1,3 +1,12 @@
-PLACEHOLDER. This is not Ken's final Pledge of Word and Name.
-
-Replace every line in this one file, members/app/content/pledge.txt, with Ken's final wording. The site shows this text on the sign-up page. A new member must tick the box and type their name. The site records which version of this file they agreed to. Do not put the final wording in any other file.
+Pledge of Word and Name
+I, (give your name),
+  give my word
+  that I will not discuss the secrets of this Order,
+  as such,
+  with anyone except a brother or sister of the Order.
+I acknowledge
+  that a name or a word is a representative of its source.
+I furthermore acknowledge
+  that the giving of my word serves as a test,
+  to myself and to others,
+  of the value of my word.

@@ -19,7 +19,7 @@
       <tr>
         <th scope="row" data-label="Member"><?= e($m['pseudonym']) ?></th>
         <td data-label="Degree"><?= (int)$m['degree_num'] ?>°</td>
-        <td class="num" data-label="Part B"><?= e(money($m['part_b_fee'])) ?></td>
+        <td data-label="Part B"><?= curriculum_fees_link() ?></td>
         <td data-label="Status"><?php if ($m['part_b_status'] === 'confirmed'): ?>✓ Confirmed <?= e(fmt_date($m['part_b_confirmed_at'])) ?>
           <?php elseif ($m['part_b_claimed_at']): ?>⏳ Says paid <?= e(fmt_date($m['part_b_claimed_at'])) ?><br><small>Reference <?= e(part_b_reference((int)$m['user_id'], (int)$m['degree_num'])) ?><?= $m['part_b_ref'] ? ', receipt ' . e($m['part_b_ref']) : '' ?></small>
           <?php else: ?>Chose you, not paid yet<?php endif; ?></td>

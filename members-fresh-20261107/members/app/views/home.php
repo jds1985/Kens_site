@@ -1,5 +1,5 @@
 <h1>Members of the Invisible Society</h1>
-<p class="lead">This is the members area of the QaBbaLáH Dá‘aTh Institute. The <b>Naught Degree</b> is free and open to everyone. The higher Degrees are for members.</p>
+<p class="lead">This is the members area of the QaBbaLáH Dá‘aTh Institute. The <b>Naught Degree</b> is open to everyone. The higher Degrees are for members. Dues and fees are in the <?= curriculum_fees_link() ?>.</p>
 <?= artwork('home') ?>
 <?php if ($user): ?>
   <p><a class="btn" href="<?= e(url('/dashboard')) ?>">Go to my page</a></p>

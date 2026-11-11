@@ -242,6 +242,10 @@ def main() -> None:
     status, _, degree = member.open("/degree/1")
     if status != 200 or b"paypal.com" in degree.lower() or b"not set up yet" not in degree:
         fail("Part A page did not keep PayPal disabled")
+    if b"PayPal Business account" not in degree or b"qabbalah.institute/#curriculum" not in degree:
+        fail("Part A page missed the privacy note or the Curriculum link")
+    if b"$1" in degree or b"$2" in degree:
+        fail("Part A page printed a fee amount")
     status, headers, _ = member.open("/degree/1/claim", {"csrf": csrf(degree), "ref": "DEMO-RECEIPT"})
     if status not in (302, 303):
         fail(f"claim did not redirect ({status})")
@@ -361,12 +365,12 @@ def main() -> None:
         capture_output=True,
         text=True,
     )
-    if pledge_file.returncode != 0 or "PLACEHOLDER" not in pledge_file.stdout or "Ken's final wording" not in pledge_file.stdout:
-        fail("pledge file is missing its placeholder wording")
+    if pledge_file.returncode != 0 or "give my word" not in pledge_file.stdout or "secrets of this Order" not in pledge_file.stdout:
+        fail("pledge file is missing Ken's text")
 
     extra = Client()
     status, _, form = extra.open("/register")
-    if status != 200 or SIGNUP_MARK in form or b"PLACEHOLDER" not in form or b"final wording" not in form:
+    if status != 200 or SIGNUP_MARK in form or b"give my word" not in form or b"(give your name)" not in form:
         fail(f"register form returned {status}, hid the pledge, or showed the sign-up count")
     status, _, refused = extra.open(
         "/register",

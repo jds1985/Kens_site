@@ -79,7 +79,13 @@ html.hc .error{color:#ffb3b3}
 fieldset{border:3px solid var(--border);border-radius:8px;padding:1rem;margin:1.2rem 0;background:#fff}
 html.hc fieldset{background:#000}
 legend{font-weight:bold;font-size:1.15rem;padding:0 .5rem;color:var(--green)}
-.pledge{max-height:12rem;overflow:auto;border:2px solid var(--border);padding:.2rem .8rem;margin-bottom:1rem;font-size:.95rem}
+.pledge{max-height:none;overflow:visible;white-space:pre-wrap;background:#000;color:#fff;border:6px solid #fff;border-radius:10px;padding:1rem 1.1rem;margin:0 0 1rem;font-family:inherit;font-size:1.55rem;font-weight:700;line-height:1.4}
+html.hc .pledge{background:#000;color:#fff;border-color:#ffff66}
+.pay-privacy{background:#000;color:#fff;border:6px solid #ffff66;border-radius:10px;padding:1rem 1.1rem;margin:0 0 1rem}
+.pay-privacy p{margin:0;color:#fff;font-size:1.45rem;font-weight:700;line-height:1.35}
+html.hc .pay-privacy{background:#000;color:#fff;border-color:#ffff66}
+html.hc .pay-privacy p{color:#fff}
+.fee-ref{font-size:1.35rem;font-weight:700;line-height:1.35}
 .check{display:flex;gap:.8rem;align-items:flex-start;margin-bottom:1rem}
 .check input{width:2rem;height:2rem;flex:none;margin-top:.2rem;accent-color:var(--green)}
 .check label{margin:0}

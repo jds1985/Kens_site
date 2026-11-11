@@ -31,4 +31,17 @@
   // If the page opened with an error message, put the screen reader / keyboard focus on it.
   var n = document.querySelector('.notice.err');
   if (n) { n.focus({ preventScroll: false }); }
+  var slot = document.getElementById('pledge-given-name');
+  var signed = document.getElementById('pledge_name');
+  var alias = document.getElementById('pseudonym');
+  if (slot && (signed || alias)) {
+    var fillPledge = function () {
+      var typed = signed && signed.value.replace(/\s+/g, ' ').trim();
+      if (!typed && alias) typed = alias.value.replace(/\s+/g, ' ').trim();
+      slot.textContent = typed || '(give your name)';
+    };
+    if (signed) signed.addEventListener('input', fillPledge);
+    if (alias) alias.addEventListener('input', fillPledge);
+    fillPledge();
+  }
 })();

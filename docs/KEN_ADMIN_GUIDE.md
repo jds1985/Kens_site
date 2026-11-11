@@ -33,6 +33,10 @@ Old IDs that were built from names are left as they are. To change only those, a
 
 The site does not hold the money. A member pays through PayPal, or pays a Facilitator, and then says so on their Degree page.
 
+The dollar amounts members should pay are in the Curriculum section of the main site. Ken changes them there. The amount stored on each Degree must match that section, because a PayPal link uses the stored amount. The pages members read point them to the Curriculum section instead of printing a dollar figure.
+
+The payment page also tells members to pay from a PayPal Business account named with an alias, so their real name stays private. Ken tested this with an account named Bro. Ken.
+
 1. Open **Admin**.
 2. Under **Members who say they paid Part A**, find the person.
 3. Check your own PayPal for the reference code on that row.

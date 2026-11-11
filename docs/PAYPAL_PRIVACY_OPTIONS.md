@@ -1,30 +1,22 @@
-# Ways to keep a member's real name off PayPal
+# PayPal names: Ken's decision
 
-Ken asked about privacy. This note does not change how payments work. The site still does not take the money. A member pays Ken, or a Facilitator, outside the site. Ken or the Facilitator then presses Confirm.
+Ken tested this himself. He paid from a PayPal Business account named with an alias, "Bro. Ken," into his personal account. His real name stayed private.
 
-The members site already keeps the legal name out of the public pages. Other members see the screen name. The PayPal page is separate. PayPal shows Ken the name on the PayPal account that sent the money. The site cannot hide that name, because the payment does not pass through the site.
+That is the recommendation. On the payment step, the members site tells people, in large type:
 
-These are three choices. Ken can pick one later. None of them is turned on by this note.
+Keep your real name private. Pay from a PayPal Business account named with an alias, such as your screen name.
 
-## 1. PayPal note carries only the reference code
+The payment steps are otherwise unchanged. The site still does not take the money. A member pays Ken, or a Facilitator, outside the site. Ken or the Facilitator then presses Confirm. The Degree page still asks for the reference code in the PayPal note.
 
-The Degree page already tells the member to type a reference code in the PayPal note, such as the code shown in bold on that page. The legal name is not part of that code.
+## Other ideas that were considered
 
-- Good: no change to the payment steps. The legal name stays in the members database and is not written into the note.
-- Limit: Ken still sees the sender's PayPal account name. The note can avoid the legal name. The account name cannot.
+These are not the choice Ken made. They stay here so the reason for the recommendation is clear.
 
-## 2. The member pays from an account that shows their screen name
+1. Put only the reference code in the PayPal note. That keeps the legal name out of the note. It does not hide the name on the PayPal account that sends the money.
+2. Ask someone else to send the payment, and match the reference code. Ken would see that other person's account name. The site still would not know who sent the money.
 
-A member can, if PayPal allows it, use an account whose visible name is their screen name rather than their legal name.
+## Fees
 
-- Good: the name Ken sees in PayPal is the name on that account. The site does not send the legal name.
-- Limit: PayPal may still require a legal name on the account. That is PayPal's rule, not this site's. The site cannot check it.
+Ken keeps the dues and fee schedule in the Curriculum section of the main site: https://qabbalah.institute/#curriculum
 
-## 3. Someone else sends the money, and the member uses only the reference
-
-A family member or another person can send the payment. The member still types only the reference code on the Degree page. Ken matches that code and presses Confirm.
-
-- Good: Ken's PayPal shows the other person's account name.
-- Limit: Ken must trust the reference code. The site does not know who sent the money. A wrong code means the wrong Degree could be confirmed.
-
-The site should keep showing the reference code and should keep the legal name off the PayPal link. Which of these three Ken prefers is his choice.
+He will change the amounts there. Member-facing pages point to that section and do not print a dollar amount. The PayPal link, when one is configured, still uses the amount stored for that Degree. Those stored amounts must be kept the same as the Curriculum section, or the link will ask for a different sum than the page Ken publishes.

@@ -18,7 +18,7 @@ Do these steps in order.
 - Copy `routing/members.htaccess` into that folder as `.htaccess` only if Ken wants these rules. The file in this repo is the 662-byte rules already recorded for that directory. Do not replace it with a different file by accident.
 - Do not upload `config.php` from a laptop into git. Keep the live config on the server.
 - Create `storage/pdfs` if it is missing, and keep it outside the public file list. The `.htaccess` rules forbid `app/` and `storage/` as web addresses.
-- `app/content/pledge.txt` is placeholder wording. Replace it with Ken's final pledge before members sign up, or leave the placeholder until he does.
+- `app/content/pledge.txt` is Ken's Pledge of Word and Name. Do not replace it unless he asks for a new wording.
 
 ## 3. Database
 
@@ -36,7 +36,8 @@ Do these steps in order.
 ## 5. PayPal and the pledge
 
 - PayPal names stay empty until Ken chooses a payee. Empty means the pages say the link is not set up. Do not invent a PayPal name.
-- The payment steps are unchanged. See `docs/PAYPAL_PRIVACY_OPTIONS.md` before deciding how names appear in PayPal.
+- The payment steps are unchanged. Members are asked to pay from a PayPal Business account under an alias. See `docs/PAYPAL_PRIVACY_OPTIONS.md`.
+- Degree fee amounts stored in the database must match the Curriculum section at https://qabbalah.institute/#curriculum . Ken edits that section. Member pages link there and do not print the dollar amounts.
 
 ## 6. Smoke test, still before telling members
 
