@@ -56,7 +56,7 @@ The preview keeps the current design links, including `https://qabbalah.institut
 
 ## Members demo
 
-`members-fresh-20261107/` is the November 7, 2026 members source: 44 code and asset files, byte-identical to the earlier local copies, with no pledge file and no live data. The verified members routing file is the 662-byte `routing/members.htaccess` (cPanel breadcrumb `qabbalah.institute/members`, mtime November 3). `members-demo/` runs that PHP in a local container with synthetic data. The public homepage and its HostGator members link are unchanged. Nothing here is deployed. See `members-demo/README.md`.
+`members-fresh-20261107/` started as the November 7, 2026 members source, with no pledge file and no live data. The admin home and the admin members list now show a sign-up count. That count is rendered only after the server checks that the signed-in role is admin. `members-source-only/` stays the unmodified earlier baseline. The verified members routing file is the 662-byte `routing/members.htaccess` (cPanel breadcrumb `qabbalah.institute/members`, mtime November 3). `members-demo/` runs the fresh PHP in a local container with synthetic data. The public homepage and its HostGator members link are unchanged. Nothing here is deployed. See `members-demo/README.md`.
 
 ## Comparison demo
 

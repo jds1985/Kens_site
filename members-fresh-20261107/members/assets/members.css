@@ -221,3 +221,15 @@ html.hc .blue{color:#9cf}html.hc .red2{color:#ffb3a8}
   .ken-col.c2,.ken-col.c4{width:100%}
   .ken-col.lower{padding-top:.8em}
 }
+
+/* Admin sign-up count. White and yellow on black, independent of the high-contrast switch. */
+.signup-count{background:#000;color:#fff;border:6px solid #fff;border-radius:10px;padding:1.1rem 1.3rem 1.25rem;margin:0 0 1.5rem}
+.signup-count p{margin:0;color:#fff;font-weight:700;line-height:1.25}
+.signup-count .signup-total{font-size:3.2rem;margin:0 0 .75rem}
+.signup-count .signup-total strong{color:#ffff66;font-size:1.2em}
+.signup-count .signup-line{font-size:1.85rem;margin-top:.2rem}
+.signup-count .signup-line strong{color:#ffff66}
+.signup-count .signup-note{font-size:1.5rem;line-height:1.35;margin-top:.8rem;color:#fff}
+html.hc .signup-count{background:#000;color:#fff;border-color:#ffff66}
+html.hc .signup-count p{color:#fff}
+html.hc .signup-count strong{color:#ffff66}

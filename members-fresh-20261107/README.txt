@@ -1,6 +1,6 @@
 AUTHORITATIVE FRESH MEMBERS SOURCE — capture reported November 7, 2026, about 9:12 PM America/New_York.
 
-members/ is the 44 screened source and asset files. Independent check: each file matches source-sha256.txt and is byte-identical to the same relative path in the earlier local tree members-source-only/members. No redactions were required. This directory does not contain config.php, a database, rows, member records, storage, or PDFs.
+members/ is the members application the local demo runs. It started as the 44 screened November 7, 2026 files. Independent check: each file matches source-sha256.txt. app/admin.php, app/views/admin/index.php, app/views/admin/members.php, app/views/admin/_signup_count.php, and assets/members.css include the administrator-only sign-up count and are not byte-identical to members-source-only. Every other file here is still byte-identical to the same relative path in members-source-only/members. No redactions were required. This directory does not contain config.php, a database, rows, member records, storage, or PDFs.
 
 app/content was empty in the capture. pledge.txt is absent. The old local placeholder pledge was not copied here and is not claimed as live text. load_pledge() returns an empty string when the file is missing.
 

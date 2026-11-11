@@ -13,6 +13,7 @@ if ($exists) {
 }
 
 $now = gmdate('Y-m-d H:i:s');
+$older = gmdate('Y-m-d H:i:s', time() - 30 * 86400);
 # Fresh capture had no pledge.txt. Do not restore the old local placeholder.
 $pledge = '';
 $pledgeVersion = substr(hash('sha256', $pledge), 0, 12);
@@ -21,16 +22,19 @@ $ins = $pdo->prepare(
      VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)'
 );
 
+# The fourth row is an unconfirmed sign-up from 30 days ago. Sign-in stays refused.
+# It lets the admin count show email-not-confirmed separately from the last 7 days.
 $people = [
-    [1, 'DEMADM-0001', 'Demo', 'Admin', 'Demo Admin', 'demo-admin@example.test', 'demo-admin-pass', 'admin', 0],
-    [2, 'DEMFAC-0002', 'Demo', 'Facilitator', 'Demo Facilitator', 'demo-facilitator@example.test', 'demo-facilitator-pass', 'member', 1],
-    [3, 'DEMMEM-0003', 'Demo', 'Member', 'Demo Member', 'demo-member@example.test', 'demo-member-pass', 'member', 0],
+    [1, 'DEMADM-0001', 'Demo', 'Admin', 'Demo Admin', 'demo-admin@example.test', 'demo-admin-pass', 'admin', 0, $now, $now],
+    [2, 'DEMFAC-0002', 'Demo', 'Facilitator', 'Demo Facilitator', 'demo-facilitator@example.test', 'demo-facilitator-pass', 'member', 1, $now, $now],
+    [3, 'DEMMEM-0003', 'Demo', 'Member', 'Demo Member', 'demo-member@example.test', 'demo-member-pass', 'member', 0, $now, $now],
+    [4, 'DEMPEN-0004', 'Demo', 'Pending', 'Demo Pending', 'demo-pending@example.test', 'demo-pending-pass', 'member', 0, null, $older],
 ];
-foreach ($people as [$id, $mid, $first, $last, $name, $email, $password, $role, $degree]) {
+foreach ($people as [$id, $mid, $first, $last, $name, $email, $password, $role, $degree, $verified, $created]) {
     $ins->execute([
         $id, $mid, $first, $last, $name, $email,
         password_hash($password, PASSWORD_DEFAULT),
-        $now, $name, $pledgeVersion, $now, $role, $degree, $now, $now,
+        $verified, $name, $pledgeVersion, $created, $role, $degree, $created, $created,
     ]);
 }
 

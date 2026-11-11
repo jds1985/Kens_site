@@ -67,6 +67,33 @@ def csrf(html: bytes) -> str:
     return match.group(1).decode()
 
 
+SIGNUP_MARK = b"Total sign-ups:"
+
+
+def signup_value(html: bytes, label: str) -> int | None:
+    match = re.search(rb"%s:\s*(?:<strong>)?(\d+)" % re.escape(label.encode()), html)
+    return int(match.group(1)) if match else None
+
+
+def assert_signup_counts(html: bytes, total: int, confirmed: int, unconfirmed: int, recent: int) -> None:
+    got = (
+        signup_value(html, "Total sign-ups"),
+        signup_value(html, "Email confirmed"),
+        signup_value(html, "Email not confirmed yet"),
+        signup_value(html, "Signed up in the last 7 days"),
+    )
+    expect = (total, confirmed, unconfirmed, recent)
+    if got != expect:
+        fail(f"sign-up count was {got}, expected {expect}")
+
+
+def assert_count_hidden(label: str, status: int, body: bytes, allowed: tuple[int, ...]) -> None:
+    if status not in allowed:
+        fail(f"{label} returned {status}, expected {allowed}")
+    if SIGNUP_MARK in body:
+        fail(f"{label} included the admin sign-up count")
+
+
 def login(role: str) -> Client:
     client = Client()
     status, _, page = client.open("/login")
@@ -101,6 +128,8 @@ def main() -> None:
     status, headers, page = anon.open("/")
     if status != 200 or b"Members" not in page:
         fail(f"home status {status}")
+    if SIGNUP_MARK in page:
+        fail("anonymous home showed the sign-up count")
     if b"paypal.com" in page.lower():
         fail("anonymous home offered a PayPal link")
     for blocked in ("/app/bootstrap.php", "/app/db.php", "/storage/", "/.htaccess"):
@@ -119,6 +148,22 @@ def main() -> None:
     status, _, _ = anon.open("/login", {"email": ACCOUNTS["member"][0], "password": ACCOUNTS["member"][1]})
     if status != 403:
         fail(f"login without CSRF returned {status}")
+
+    visitor = Client()
+    status, headers, body = visitor.open("/admin")
+    if status not in (302, 303) or headers.get("Location") != "/login":
+        fail(f"logged-out /admin was not sent to sign-in ({status} {headers.get('Location')})")
+    if SIGNUP_MARK in body:
+        fail("logged-out /admin response included the sign-up count")
+    status, _, login_after = visitor.open("/login")
+    assert_count_hidden("login after a direct /admin request", status, login_after, (200,))
+    status, headers, body = visitor.open("/admin/members")
+    if status not in (302, 303) or headers.get("Location") != "/login" or SIGNUP_MARK in body:
+        fail(f"logged-out /admin/members was not refused ({status} {headers.get('Location')})")
+    status, _, missing_count = visitor.open("/admin/signups")
+    assert_count_hidden("logged-out /admin/signups", status, missing_count, (404,))
+    status, _, posted = visitor.open("/admin", {})
+    assert_count_hidden("logged-out POST /admin", status, posted, (404,))
 
     status, _, _ = anon.open("/lesson/2/pdf")
     if status not in (302, 303):
@@ -139,9 +184,17 @@ def main() -> None:
     status, _, dash = member.open("/dashboard")
     if status != 200 or b"Demo Member" not in dash:
         fail("member dashboard did not show the synthetic member")
+    if SIGNUP_MARK in dash:
+        fail("member dashboard showed the sign-up count")
     status, _, denied = member.open("/admin")
-    if status != 403 or b"only for the site owner" not in denied:
-        fail("member reached admin")
+    if status != 403 or b"only for the site owner" not in denied or SIGNUP_MARK in denied:
+        fail("member reached admin or saw the sign-up count")
+    status, _, denied_list = member.open("/admin/members")
+    assert_count_hidden("member /admin/members", status, denied_list, (403,))
+    if b"only for the site owner" not in denied_list:
+        fail("member members-list refusal was not the admin refusal")
+    status, _, ghost = member.open("/admin/signups")
+    assert_count_hidden("member /admin/signups", status, ghost, (404,))
     status, _, locked = member.open("/lesson/2")
     if status != 403 or b"Synthetic demo lesson" in locked:
         fail("lesson was readable before Part A was confirmed")
@@ -157,6 +210,15 @@ def main() -> None:
     status, _, admin_home = admin.open("/admin")
     if status != 200 or b"Demo Member" not in admin_home:
         fail("admin did not see the synthetic claim")
+    assert_signup_counts(admin_home, 4, 3, 1, 3)
+    status, _, members_page = admin.open("/admin/members")
+    if status != 200:
+        fail(f"admin members page returned {status}")
+    assert_signup_counts(members_page, 4, 3, 1, 3)
+    status, _, searched = admin.open("/admin/members?q=no-such-synthetic-person")
+    if status != 200 or b"No members found." not in searched:
+        fail("admin search did not stay on the members page")
+    assert_signup_counts(searched, 4, 3, 1, 3)
     status, _, member_admin = admin.open("/admin/member/3")
     if status != 200:
         fail("admin member page failed")
@@ -194,6 +256,12 @@ def main() -> None:
     status, _, fac_page = facilitator.open("/facilitator")
     if status != 200 or b"Demo Member" not in fac_page:
         fail("facilitator did not see the synthetic member")
+    if SIGNUP_MARK in fac_page:
+        fail("facilitator page showed the sign-up count")
+    status, _, fac_denied = facilitator.open("/admin")
+    assert_count_hidden("facilitator /admin", status, fac_denied, (403,))
+    if b"only for the site owner" not in fac_denied:
+        fail("facilitator was not refused as a non-admin")
     status, _, _ = facilitator.open(
         "/facilitator/confirm",
         {"csrf": csrf(fac_page), "member": "3", "degree": "1", "do": "confirm"},
@@ -252,7 +320,42 @@ def main() -> None:
     if missing_pledge.returncode != 0:
         fail("fresh image contains a pledge file")
 
-    print("ok isolated members demo: login, admin, facilitator, lesson, pdf, durable session, 662-byte routing")
+    extra = Client()
+    status, _, form = extra.open("/register")
+    if status != 200 or SIGNUP_MARK in form:
+        fail(f"register form returned {status} or showed the sign-up count")
+    status, headers, body = extra.open(
+        "/register",
+        {
+            "first_name": "Extra",
+            "last_name": "Signup",
+            "pseudonym": "Extra Signup",
+            "email": "extra-signup@example.test",
+            "password": "demo-extra-pass",
+            "password2": "demo-extra-pass",
+            "pledge": "1",
+            "pledge_name": "Extra Signup",
+            "csrf": csrf(form),
+        },
+    )
+    if status not in (302, 303) or headers.get("Location") != "/dashboard":
+        snippet = body[:500].decode("utf-8", "replace")
+        fail(f"extra sign-up did not reach the dashboard ({status} {headers.get('Location')}): {snippet}")
+    status, _, extra_dash = extra.open("/dashboard")
+    if status != 200 or b"Extra Signup" not in extra_dash or SIGNUP_MARK in extra_dash:
+        fail("new member saw the sign-up count or missed the dashboard")
+    status, _, extra_denied = extra.open("/admin")
+    assert_count_hidden("new member /admin", status, extra_denied, (403,))
+    status, _, after = admin.open("/admin")
+    if status != 200:
+        fail(f"admin recount returned {status}")
+    assert_signup_counts(after, 5, 4, 1, 4)
+    status, _, after_members = admin.open("/admin/members")
+    if status != 200:
+        fail(f"admin members recount returned {status}")
+    assert_signup_counts(after_members, 5, 4, 1, 4)
+
+    print("ok isolated members demo: login, admin sign-up count, facilitator, lesson, pdf, durable session, 662-byte routing")
 
 
 if __name__ == "__main__":

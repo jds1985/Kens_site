@@ -89,8 +89,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6662,
-      "sha256": "7b416d53b65d2fb5b83359247e27d84ad16d2ce19e02be5e9cb97d45f3696e69"
+      "bytes": 6822,
+      "sha256": "f52d5d7f5a301a2aeb1351e89e4c93ff9e74ad3c27b4d061e949f0ae108c4645"
     },
     {
       "path": "famous-demo/README.md",
@@ -454,8 +454,8 @@
     },
     {
       "path": "members-demo/README.md",
-      "bytes": 7249,
-      "sha256": "bd6f7652ea8134aef50ef0cbad5216f3ce70dc08c5184a97ba8c8bf19fa10ebc"
+      "bytes": 8118,
+      "sha256": "11cae6cd8fbfd4082300f7a104f32087437afdf8c43267efadbd608880a6e154"
     },
     {
       "path": "members-demo/config/demo-config.php",
@@ -499,8 +499,8 @@
     },
     {
       "path": "members-demo/php/seed.php",
-      "bytes": 2661,
-      "sha256": "2097d4d9b236deed091278f702ea0890221f34b2aa487df37160913ee0ca287d"
+      "bytes": 3092,
+      "sha256": "1a794970c5eeef91ee894fd421a20266b7ff531e651c8d5830a27ddfe5af4987"
     },
     {
       "path": "members-demo/php/wait-db.php",
@@ -519,18 +519,18 @@
     },
     {
       "path": "members-demo/test_demo.py",
-      "bytes": 10499,
-      "sha256": "f79a2634cece654cf66fa6143809b983dba7f454faac83bd79202306ffcd917d"
+      "bytes": 15478,
+      "sha256": "c864f6c09271c5d1ad2427ad2704a0cb036c8d40bfb28c160088972c07e712f5"
     },
     {
       "path": "members-fresh-20261107/README.txt",
-      "bytes": 1550,
-      "sha256": "5593e30fd026dbc1d0b572c76a8f931a8822653afd1eec294ccaa8c331b99b06"
+      "bytes": 1836,
+      "sha256": "40cf507524f85fd48297ff493808bc04f5e8220bcba7fc6118e06b8f2d046ed7"
     },
     {
       "path": "members-fresh-20261107/members/app/admin.php",
-      "bytes": 17047,
-      "sha256": "05d5cd28f3b8a744e57765ec2fb1e1090faf5c7d6ae7043d72eadf30979283df"
+      "bytes": 17711,
+      "sha256": "77d39db15621bb65b83aa228e1ce3acf65e36060e373f3293c4708a83c079195"
     },
     {
       "path": "members-fresh-20261107/members/app/bootstrap.php",
@@ -588,6 +588,11 @@
       "sha256": "374e5d6461b16413b3dde0eee25d67cecca1f9f4cf4214dabd7385f2f22f3ba9"
     },
     {
+      "path": "members-fresh-20261107/members/app/views/admin/_signup_count.php",
+      "bytes": 766,
+      "sha256": "223ddf6e60fc6c667df00a6e47f08efa255ac370efa93084598944c41e219106"
+    },
+    {
       "path": "members-fresh-20261107/members/app/views/admin/degree.php",
       "bytes": 5158,
       "sha256": "a561e827de9d8f547d991b3c0eb8c652eab46c107b962d16b892785028b30754"
@@ -604,8 +609,8 @@
     },
     {
       "path": "members-fresh-20261107/members/app/views/admin/index.php",
-      "bytes": 4203,
-      "sha256": "86c0b09983aaeb579f81f4ad0c146f5cf8bc6842586a0d474d7d8f0f2412aa31"
+      "bytes": 4151,
+      "sha256": "50ba955210846a1244d34b958b8ef31091617d7bd5aae9a2a79ebc104ed9b478"
     },
     {
       "path": "members-fresh-20261107/members/app/views/admin/lesson.php",
@@ -624,8 +629,8 @@
     },
     {
       "path": "members-fresh-20261107/members/app/views/admin/members.php",
-      "bytes": 2052,
-      "sha256": "5097f030ee28fa9cf059a65aaeafcaf6ed9304d375fa7a6150a563583cdcd297"
+      "bytes": 2101,
+      "sha256": "3d692cc8d7c8174c2521c7173ffecbc37ea1f0641ea3729d0520f01363185a89"
     },
     {
       "path": "members-fresh-20261107/members/app/views/coming_soon.php",
@@ -734,8 +739,8 @@
     },
     {
       "path": "members-fresh-20261107/members/assets/members.css",
-      "bytes": 12536,
-      "sha256": "2f2a3e7acee37d4d7cad17f9c3fa910a0438e3172789403f6f72330b8e2ddc80"
+      "bytes": 13316,
+      "sha256": "7cb785d53592d2216455b1940452735749b3154fbe34be4dad19e4c91c947dd4"
     },
     {
       "path": "members-fresh-20261107/members/assets/members.js",
@@ -759,8 +764,8 @@
     },
     {
       "path": "members-fresh-20261107/source-sha256.txt",
-      "bytes": 4226,
-      "sha256": "15923989950590c869f879c5e29448d2062f12033ef507e1036b3c3824b9cb90"
+      "bytes": 4334,
+      "sha256": "ab22d4c8e3a8aba583c941751fe4d6a4c46dfbf0d24def71dd85ec922a3e65cd"
     },
     {
       "path": "members-source-only/README.txt",
@@ -1166,11 +1171,6 @@
       "path": "public-snapshots/vauqoppasampi.w3spaces.com/index.html",
       "bytes": 15874,
       "sha256": "abf93c5d1bc24fbca3b90942bfa06060791ead70e2b6350917b10451c906e9cc"
-    },
-    {
-      "path": "tests/__pycache__/verify_deployment_package.cpython-312.pyc",
-      "bytes": 7332,
-      "sha256": "89f83af8b525d301b749ce985601818a2be545ad9f15546e9ad4d2dd8895256e"
     },
     {
       "path": "tests/verify_deployment_package.py",

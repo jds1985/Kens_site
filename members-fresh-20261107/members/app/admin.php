@@ -21,6 +21,25 @@ function not_found(string $msg = 'That page does not exist.'): void {
 }
 function money_ok(string $s): bool { return (bool)preg_match('/^\d{1,9}(\.\d{1,2})?$/', $s); }
 
+/** Sign-up totals for the admin pages. require_admin() runs again here so this query cannot be reused on a public page. */
+function signup_counts(): array {
+    require_admin();
+    $row = q_one(
+        'SELECT COUNT(*) AS total,
+                COALESCE(SUM(email_verified_at IS NOT NULL), 0) AS confirmed,
+                COALESCE(SUM(email_verified_at IS NULL), 0) AS unconfirmed,
+                COALESCE(SUM(created_at >= ?), 0) AS recent
+           FROM users',
+        [now(-7 * 86400)]
+    );
+    return [
+        'total' => (int)($row['total'] ?? 0),
+        'confirmed' => (int)($row['confirmed'] ?? 0),
+        'unconfirmed' => (int)($row['unconfirmed'] ?? 0),
+        'recent' => (int)($row['recent'] ?? 0),
+    ];
+}
+
 // ---- home: what needs Ken's attention ----
 function c_admin_home(): void {
     require_admin();
@@ -30,8 +49,7 @@ function c_admin_home(): void {
                     LEFT JOIN users fu ON fu.id = p.part_b_facilitator_id
                     WHERE p.part_a_status = 'paid' AND p.part_b_status = 'none' ORDER BY p.part_b_facilitator_id IS NOT NULL, p.part_b_claimed_at IS NULL, p.part_b_claimed_at, p.opened_at");
     $facApplied = (int)(q_one("SELECT COUNT(*) AS c FROM facilitators WHERE status = 'applied'")['c'] ?? 0);
-    $stats = q_one("SELECT COUNT(*) AS members, SUM(email_verified_at IS NOT NULL) AS verified FROM users");
-    adm_render('index', ['title' => 'Admin', 'claims' => $claims, 'partB' => $partB, 'stats' => $stats, 'facApplied' => $facApplied]);
+    adm_render('index', ['title' => 'Admin', 'claims' => $claims, 'partB' => $partB, 'signups' => signup_counts(), 'facApplied' => $facApplied]);
 }
 
 // ---- Degrees ----
@@ -181,7 +199,7 @@ function c_admin_members(): void {
     $rows = q_all("SELECT id, pseudonym, email, role, current_degree, email_verified_at, created_at, last_login_at,
                    (SELECT COUNT(*) FROM progress p WHERE p.user_id = users.id AND p.part_a_status = 'claimed') AS pending
                    FROM users $where ORDER BY id DESC LIMIT $per OFFSET " . (($page - 1) * $per), $args);
-    adm_render('members', ['title' => 'Members', 'rows' => $rows, 'qs' => $qs, 'page' => $page, 'pages' => max(1, (int)ceil($total / $per)), 'total' => $total]);
+    adm_render('members', ['title' => 'Members', 'rows' => $rows, 'qs' => $qs, 'page' => $page, 'pages' => max(1, (int)ceil($total / $per)), 'total' => $total, 'signups' => signup_counts()]);
 }
 function c_admin_member(int $id): void {
     require_admin();

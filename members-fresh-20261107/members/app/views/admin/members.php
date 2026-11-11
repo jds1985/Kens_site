@@ -1,4 +1,5 @@
 <?php require __DIR__ . '/_nav.php'; ?>
+<?php require __DIR__ . '/_signup_count.php'; ?>
 <h1>Members (<?= (int)$total ?>)</h1>
 <form method="get" action="<?= e(url('/admin/members')) ?>" class="searchform" role="search">
   <label for="q">Find a member (name or email)</label>

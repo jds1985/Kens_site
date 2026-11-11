@@ -1,6 +1,6 @@
 <?php require __DIR__ . '/_nav.php'; ?>
+<?php require __DIR__ . '/_signup_count.php'; ?>
 <h1>Admin</h1>
-<p><?= (int)$stats['members'] ?> members, <?= (int)$stats['verified'] ?> with a confirmed email.</p>
 
 <h2>Members who say they paid Part A (<?= count($claims) ?>)</h2>
 <?php if (!$claims): ?><p>Nothing waiting. ✓</p><?php else: ?>
