@@ -13,13 +13,15 @@ return [
         'socket' => '',
     ],
     'app_secret' => 'demo-only-app-secret-not-for-production-use-0001',
+    // Local catcher only. HostGator stays on driver "mail" (PHP mail()) unless
+    // someone deliberately sets driver "smtp" and a mailbox password. See docs/MAIL_SETTINGS.md.
     'mail' => [
-        'driver' => 'log',
+        'driver' => 'smtp',
         'from' => 'members@localhost',
         'from_name' => 'Invisible Society demo',
         'smtp' => [
-            'host' => '',
-            'port' => 0,
+            'host' => 'mailpit',
+            'port' => 1025,
             'secure' => '',
             'user' => '',
             'pass' => '',

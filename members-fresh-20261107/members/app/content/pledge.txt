@@ -1,0 +1,3 @@
+PLACEHOLDER. This is not Ken's final Pledge of Word and Name.
+
+Replace every line in this one file, members/app/content/pledge.txt, with Ken's final wording. The site shows this text on the sign-up page. A new member must tick the box and type their name. The site records which version of this file they agreed to. Do not put the final wording in any other file.

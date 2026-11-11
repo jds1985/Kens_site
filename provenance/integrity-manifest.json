@@ -93,6 +93,11 @@
       "sha256": "546d128188d6352f713f0bd8c7c0d759da705f40d981c0c90e4a6dd94eaab6f2"
     },
     {
+      "path": "docs/MAIL_SETTINGS.md",
+      "bytes": 2006,
+      "sha256": "0bf07a9ac8930c7e7f4080aae3827b5609a806c8ce73d33b8880636783cba0b0"
+    },
+    {
       "path": "famous-demo/README.md",
       "bytes": 959,
       "sha256": "e7a0a5eaee2ecaf5502f6359cb9e10f6dd7ca4815a796523d2859de1ef465f01"
@@ -454,18 +459,18 @@
     },
     {
       "path": "members-demo/README.md",
-      "bytes": 8837,
-      "sha256": "77675af0e7d4098a873b77ea288e3602f7dd470eb873ce077642692cfb304be5"
+      "bytes": 9143,
+      "sha256": "8ef4aba219b61674f4153be751f09443820c9ce997d88057a3cf1933952e59af"
     },
     {
       "path": "members-demo/config/demo-config.php",
-      "bytes": 1855,
-      "sha256": "43226879b28ac4e13172c9a44d169d581612b151edc7ba8e2da6173615b991c0"
+      "bytes": 2044,
+      "sha256": "de3a903fbfe03006e8027f6f175fc2ca2d8909541a2e3a3356821a7d792c2110"
     },
     {
       "path": "members-demo/docker-compose.yml",
-      "bytes": 1475,
-      "sha256": "01c691b3584f2090832e7a0e00145abc94ad5cc9c47780373a3f9e491a26105b"
+      "bytes": 1725,
+      "sha256": "fdf692847ba06bd5a273bb49aae73e7ea44ead15223b6132e1b02d9ba4151399"
     },
     {
       "path": "members-demo/php/Dockerfile",
@@ -479,13 +484,13 @@
     },
     {
       "path": "members-demo/php/demo-guard.php",
-      "bytes": 5411,
-      "sha256": "3c6f5c9a6fc464915bc8009692658a98ddfcc9402d5a1e2b6756fcfd2aea57e5"
+      "bytes": 5883,
+      "sha256": "a05e202fae27938e614911b1753be03c73efefc5de1c8322858ea9f2cec33727"
     },
     {
       "path": "members-demo/php/demo.ini",
-      "bytes": 542,
-      "sha256": "2f020f6fc9d6912426317435ab6b8168cf68897dc998e77a4f4c1282828e3f15"
+      "bytes": 626,
+      "sha256": "36fa13c186c255423732176d4b33e68d4019b18556cf5c61ae507a9f2e2d171d"
     },
     {
       "path": "members-demo/php/entrypoint.sh",
@@ -519,13 +524,13 @@
     },
     {
       "path": "members-demo/test_demo.py",
-      "bytes": 21652,
-      "sha256": "2e793cb1dc2396f78092897ac97070a57ac5f74927070fc2cb315e761d37867e"
+      "bytes": 29562,
+      "sha256": "54a359a88833fc97432877099feffa065aa50b9ed7de74221f80b333f7885327"
     },
     {
       "path": "members-fresh-20261107/README.txt",
-      "bytes": 2153,
-      "sha256": "3f3db7e89ffdde3c957688a6210b856381e7a4c0bbaaf536cb3fe2803a58b1dc"
+      "bytes": 2088,
+      "sha256": "186acf5032ff5bad6047223a9e026d5caec34fefa1aff8f5937a688cce28b340"
     },
     {
       "path": "members-fresh-20261107/members/app/admin.php",
@@ -536,6 +541,11 @@
       "path": "members-fresh-20261107/members/app/bootstrap.php",
       "bytes": 1523,
       "sha256": "70575d2f6e86028ae9701d33a8475147f4fe71cc3fc8208c8af6b07a8454f4b9"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/content/pledge.txt",
+      "bytes": 364,
+      "sha256": "39295364a910301538c786dc7d253138c74b2cc526db9038030709b246002493"
     },
     {
       "path": "members-fresh-20261107/members/app/controllers.php",
@@ -564,8 +574,8 @@
     },
     {
       "path": "members-fresh-20261107/members/app/mail.php",
-      "bytes": 2929,
-      "sha256": "eb87f2d4f7f51cfbdca53ea46efd5c033099da6d37a9f083f5c4bb141124eb28"
+      "bytes": 3215,
+      "sha256": "c1f3144f35cce91d211a065e014fd3384ebcb96d1719f8a3faf9a6cbf5f79dfd"
     },
     {
       "path": "members-fresh-20261107/members/app/migrate-member-ids.php",
@@ -769,8 +779,8 @@
     },
     {
       "path": "members-fresh-20261107/source-sha256.txt",
-      "bytes": 4435,
-      "sha256": "3dad9603481a580e8e37dd72171773370b8ac7ffac8e479b870602e7d014affa"
+      "bytes": 4532,
+      "sha256": "fb0ec78803dfd50fda46df5f1c3126d558b5b34b5eec9f16e03342dcd562d2e2"
     },
     {
       "path": "members-source-only/README.txt",

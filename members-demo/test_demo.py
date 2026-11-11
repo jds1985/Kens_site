@@ -10,6 +10,7 @@ from __future__ import annotations
 
 import hashlib
 import http.cookiejar
+import json
 import re
 import subprocess
 import sys
@@ -20,6 +21,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = "http://localhost:8080"
+MAILPIT = "http://127.0.0.1:8025"
 HOME_SHA = "d130153a74f4a2812a2f6f36b6ded42d50028d383d42c641726b741f8122756d"
 ACCOUNTS = {
     "admin": ("demo-admin@example.test", "demo-admin-pass"),
@@ -108,6 +110,44 @@ def login(role: str) -> Client:
 
 def cookie_names(client: Client) -> list[str]:
     return [cookie.name for cookie in client.jar]
+
+
+def mailpit_messages(query: str) -> list[dict]:
+    url = MAILPIT + "/api/v1/search?" + urllib.parse.urlencode({"query": query})
+    with urllib.request.urlopen(url, timeout=20) as res:
+        data = json.loads(res.read().decode())
+    messages = data.get("messages") or []
+    return messages if isinstance(messages, list) else []
+
+
+def mailpit_text(message_id: str) -> str:
+    with urllib.request.urlopen(MAILPIT + "/api/v1/message/" + urllib.parse.quote(message_id), timeout=20) as res:
+        data = json.loads(res.read().decode())
+    return str(data.get("Text") or "")
+
+
+def mail_link(text: str, path: str) -> str:
+    match = re.search(r"http://localhost:8080" + re.escape(path) + r"\?token=([0-9a-f]{64})", text)
+    if not match:
+        fail(f"mail did not contain a {path} link")
+    return match.group(1)
+
+
+def expire_token(raw: str) -> None:
+    script = (
+        'require "/var/www/html/app/bootstrap.php";'
+        '$raw = getenv("TOKEN");'
+        'q("UPDATE tokens SET expires_at = ? WHERE token_hash = ?", ["2000-01-01 00:00:00", hash("sha256", $raw)]);'
+        'echo "expired\\n";'
+    )
+    result = subprocess.run(
+        ["sudo", "docker", "compose", "exec", "-T", "-e", "TOKEN=" + raw, "web", "php", "-d", "auto_prepend_file=", "-r", script],
+        cwd=ROOT / "members-demo",
+        capture_output=True,
+        text=True,
+    )
+    if result.returncode != 0 or "expired" not in result.stdout:
+        fail("could not expire the synthetic token")
 
 
 def main() -> None:
@@ -239,6 +279,13 @@ def main() -> None:
     if status not in (302, 303):
         fail("anonymous pdf request was not sent to sign-in")
 
+    status, _, locked_next = member.open("/degree/2")
+    if status != 200 or b"Ready to open this Degree" in locked_next:
+        fail("the next degree was ready before Part B was confirmed")
+    status, _, still_draft = member.open("/lesson/3")
+    if status != 404 or b"Synthetic draft" in still_draft:
+        fail("the draft lesson unlocked with the degree")
+
     status, _, opened = member.open("/degree/1")
     if b"paypal.com" in opened.lower():
         fail("Part B page offered PayPal")
@@ -291,18 +338,12 @@ def main() -> None:
     if status != 200 or b"Demo Member" not in still:
         fail("MySQL-backed session did not survive the web container restart")
 
-    log = subprocess.run(
-        ["sudo", "docker", "compose", "exec", "-T", "web", "php", "-d", "auto_prepend_file=", "-r",
-         "echo file_get_contents('/var/www/html/storage/mail.log');"],
-        cwd=ROOT / "members-demo",
-        check=True,
-        capture_output=True,
-        text=True,
-    ).stdout
-    if "demo-member@example.test" not in log or "qabbalah.institute" in log:
-        fail("mail log did not stay on the synthetic local driver")
-    if "paypal.me" in log.lower():
-        fail("mail log contained a payment link")
+    caught = mailpit_messages("to:demo-member@example.test")
+    if not caught:
+        fail("Mailpit did not catch the member notification")
+    caught_text = "\n".join(mailpit_text(str(message["ID"])) for message in caught)
+    if "qabbalah.institute" in caught_text or "paypal.me" in caught_text.lower():
+        fail("caught mail pointed at the live site or a payment link")
 
     ht_sha = subprocess.run(
         ["sudo", "docker", "compose", "exec", "-T", "web", "sha256sum", "/var/www/html/.htaccess"],
@@ -313,17 +354,36 @@ def main() -> None:
     ).stdout.split()[0]
     if ht_sha != "892055490f500709d23bf69cb440f7f35e9c786eb2648e3829a30c1c13694ba5":
         fail("container routing file is not the verified 662-byte members rules")
-    missing_pledge = subprocess.run(
-        ["sudo", "docker", "compose", "exec", "-T", "web", "test", "!", "-e", "/var/www/html/app/content/pledge.txt"],
+    pledge_file = subprocess.run(
+        ["sudo", "docker", "compose", "exec", "-T", "web", "php", "-d", "auto_prepend_file=", "-r",
+         "echo file_get_contents('/var/www/html/app/content/pledge.txt');"],
         cwd=ROOT / "members-demo",
+        capture_output=True,
+        text=True,
     )
-    if missing_pledge.returncode != 0:
-        fail("fresh image contains a pledge file")
+    if pledge_file.returncode != 0 or "PLACEHOLDER" not in pledge_file.stdout or "Ken's final wording" not in pledge_file.stdout:
+        fail("pledge file is missing its placeholder wording")
 
     extra = Client()
     status, _, form = extra.open("/register")
-    if status != 200 or SIGNUP_MARK in form:
-        fail(f"register form returned {status} or showed the sign-up count")
+    if status != 200 or SIGNUP_MARK in form or b"PLACEHOLDER" not in form or b"final wording" not in form:
+        fail(f"register form returned {status}, hid the pledge, or showed the sign-up count")
+    status, _, refused = extra.open(
+        "/register",
+        {
+            "first_name": "No",
+            "last_name": "Pledge",
+            "pseudonym": "No Pledge",
+            "email": "no-pledge@example.test",
+            "password": "demo-extra-pass",
+            "password2": "demo-extra-pass",
+            "pledge_name": "No Pledge",
+            "csrf": csrf(form),
+        },
+    )
+    if status != 422 or b"Please tick the box" not in refused:
+        fail(f"sign-up without the pledge was not refused ({status})")
+    status, _, form = extra.open("/register")
     status, headers, body = extra.open(
         "/register",
         {
@@ -452,7 +512,110 @@ def main() -> None:
     if b"LODGE-3" not in listing or b"QDI-0001" not in listing or b"DEMMEM-0003" in listing:
         fail("members list did not show the IDs after the optional migration")
 
-    print("ok isolated members demo: login, admin sign-up count, member ids, facilitator, lesson, pdf, durable session, 662-byte routing")
+    resend = Client()
+    status, _, login_page = resend.open("/login")
+    resend.open("/resend", {"csrf": csrf(login_page), "email": "demo-pending@example.test"})
+    signup_mail = mailpit_messages('to:demo-pending@example.test subject:"confirm your email"')
+    if not signup_mail:
+        fail("sign-up confirmation email was not caught")
+    signup_text = mailpit_text(str(signup_mail[0]["ID"]))
+    expired_token = mail_link(signup_text, "/verify")
+    expire_token(expired_token)
+    status, _, expired_page = resend.open("/verify?token=" + expired_token)
+    if status != 200 or b"expired or was already used" not in expired_page:
+        fail("expired sign-up link was still accepted")
+    status, _, login_page = resend.open("/login")
+    resend.open("/resend", {"csrf": csrf(login_page), "email": "demo-pending@example.test"})
+    signup_mail = mailpit_messages('to:demo-pending@example.test subject:"confirm your email"')
+    fresh = [message for message in signup_mail if mail_link(mailpit_text(str(message["ID"])), "/verify") != expired_token]
+    if not fresh:
+        fail("a fresh sign-up confirmation was not caught")
+    verify_token = mail_link(mailpit_text(str(fresh[0]["ID"])), "/verify")
+    status, _, verify_page = resend.open("/verify?token=" + verify_token)
+    if status != 200 or b"Confirm my email" not in verify_page:
+        fail("sign-up link did not open")
+    status, headers, _ = resend.open("/verify", {"csrf": csrf(verify_page), "token": verify_token})
+    if status not in (302, 303) or headers.get("Location") != "/login":
+        fail("confirming the email did not finish")
+    status, _, used_page = resend.open("/verify?token=" + verify_token)
+    if status != 200 or b"expired or was already used" not in used_page:
+        fail("sign-up link worked a second time")
+
+    notice = Client()
+    status, _, register_page = notice.open("/register")
+    notice.open(
+        "/register",
+        {
+            "first_name": "Mailbox",
+            "last_name": "Check",
+            "pseudonym": "Mailbox Check",
+            "email": "demo-admin@example.test",
+            "password": "mailbox-check-pass",
+            "password2": "mailbox-check-pass",
+            "pledge": "1",
+            "pledge_name": "Mailbox Check",
+            "csrf": csrf(register_page),
+        },
+    )
+    already = mailpit_messages('to:demo-admin@example.test subject:"already have an account"')
+    if not already or "paypal.me" in mailpit_text(str(already[0]["ID"])).lower():
+        fail("existing-account sign-up email was not caught")
+
+    resetter = Client()
+    status, _, forgot_page = resetter.open("/forgot")
+    resetter.open("/forgot", {"csrf": csrf(forgot_page), "email": "demo-member@example.test"})
+    reset_mail = mailpit_messages('to:demo-member@example.test subject:"reset your password"')
+    if not reset_mail:
+        fail("password reset email was not caught")
+    reset_text = mailpit_text(str(reset_mail[0]["ID"]))
+    if "localhost:8080/reset?token=" not in reset_text:
+        fail("password reset email did not contain a local link")
+    reset_token = mail_link(reset_text, "/reset")
+    status, _, reset_page = resetter.open("/reset?token=" + reset_token)
+    if status != 200 or b"Save my new password" not in reset_page:
+        fail("password reset link did not open")
+    new_password = "demo-member-pass-2"
+    status, headers, _ = resetter.open(
+        "/reset",
+        {"csrf": csrf(reset_page), "token": reset_token, "password": new_password, "password2": new_password},
+    )
+    if status not in (302, 303) or headers.get("Location") != "/login":
+        fail("password reset did not finish")
+    status, _, used_reset = resetter.open("/reset?token=" + reset_token)
+    if status != 200 or b"expired or was already used" not in used_reset:
+        fail("password reset link worked a second time")
+    old_login = Client()
+    status, _, old_page = old_login.open("/login")
+    status, _, _ = old_login.open(
+        "/login",
+        {"csrf": csrf(old_page), "email": "demo-member@example.test", "password": "demo-member-pass"},
+    )
+    if status in (302, 303):
+        fail("the old password still signed in")
+    fresh_login = Client()
+    status, _, fresh_page = fresh_login.open("/login")
+    status, headers, _ = fresh_login.open(
+        "/login",
+        {"csrf": csrf(fresh_page), "email": "demo-member@example.test", "password": new_password},
+    )
+    if status not in (302, 303) or headers.get("Location") != "/dashboard":
+        fail("the new password did not sign in")
+    status, _, forgot_page = resetter.open("/forgot")
+    resetter.open("/forgot", {"csrf": csrf(forgot_page), "email": "demo-member@example.test"})
+    later = mailpit_messages('to:demo-member@example.test subject:"reset your password"')
+    later_tokens = []
+    for message in later:
+        token = mail_link(mailpit_text(str(message["ID"])), "/reset")
+        if token != reset_token:
+            later_tokens.append(token)
+    if not later_tokens:
+        fail("a second reset email was not caught")
+    expire_token(later_tokens[0])
+    status, _, expired_reset = resetter.open("/reset?token=" + later_tokens[0])
+    if status != 200 or b"expired or was already used" not in expired_reset:
+        fail("expired password reset link was still accepted")
+
+    print("ok isolated members demo: login, mail catcher, admin sign-up count, member ids, facilitator, lesson, pdf, durable session, 662-byte routing")
 
 
 if __name__ == "__main__":
