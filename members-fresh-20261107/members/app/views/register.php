@@ -15,7 +15,7 @@
   <div class="field">
     <label for="last_name">Last Name</label>
     <input id="last_name" name="last_name" type="text" maxlength="60" autocomplete="family-name" required value="<?= e($old['last_name'] ?? '') ?>" <?= isset($errors['last_name']) ? 'aria-invalid="true" aria-describedby="e-last_name"' : '' ?>>
-    <p class="hint">Your legal name makes your Member ID. Other members do not see it.</p>
+    <p class="hint">Your legal name is kept private. Other members do not see it. It is not used to make your Member ID.</p>
     <?php if (isset($errors['last_name'])): ?><p class="error" id="e-last_name"><?= e($errors['last_name']) ?></p><?php endif; ?>
   </div>
   </fieldset>

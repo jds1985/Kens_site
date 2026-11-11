@@ -89,8 +89,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 6822,
-      "sha256": "f52d5d7f5a301a2aeb1351e89e4c93ff9e74ad3c27b4d061e949f0ae108c4645"
+      "bytes": 6939,
+      "sha256": "546d128188d6352f713f0bd8c7c0d759da705f40d981c0c90e4a6dd94eaab6f2"
     },
     {
       "path": "famous-demo/README.md",
@@ -454,8 +454,8 @@
     },
     {
       "path": "members-demo/README.md",
-      "bytes": 8118,
-      "sha256": "11cae6cd8fbfd4082300f7a104f32087437afdf8c43267efadbd608880a6e154"
+      "bytes": 8837,
+      "sha256": "77675af0e7d4098a873b77ea288e3602f7dd470eb873ce077642692cfb304be5"
     },
     {
       "path": "members-demo/config/demo-config.php",
@@ -519,18 +519,18 @@
     },
     {
       "path": "members-demo/test_demo.py",
-      "bytes": 15478,
-      "sha256": "c864f6c09271c5d1ad2427ad2704a0cb036c8d40bfb28c160088972c07e712f5"
+      "bytes": 21652,
+      "sha256": "2e793cb1dc2396f78092897ac97070a57ac5f74927070fc2cb315e761d37867e"
     },
     {
       "path": "members-fresh-20261107/README.txt",
-      "bytes": 1836,
-      "sha256": "40cf507524f85fd48297ff493808bc04f5e8220bcba7fc6118e06b8f2d046ed7"
+      "bytes": 2153,
+      "sha256": "3f3db7e89ffdde3c957688a6210b856381e7a4c0bbaaf536cb3fe2803a58b1dc"
     },
     {
       "path": "members-fresh-20261107/members/app/admin.php",
-      "bytes": 17711,
-      "sha256": "77d39db15621bb65b83aa228e1ce3acf65e36060e373f3293c4708a83c079195"
+      "bytes": 19187,
+      "sha256": "c493ad9d1abe7cb3c61b5ca0df7bd496f940034e3670b02f7f3878c5e400fb75"
     },
     {
       "path": "members-fresh-20261107/members/app/bootstrap.php",
@@ -539,8 +539,8 @@
     },
     {
       "path": "members-fresh-20261107/members/app/controllers.php",
-      "bytes": 21931,
-      "sha256": "6067f0b5836202b33e254d16bc6aa1c379f0bc173a6990de900e882ab303f6e6"
+      "bytes": 23095,
+      "sha256": "3ec144d4a3142efa85bb26e6cc192262f85ebacad6b89a3eb6c6278b9c8f2490"
     },
     {
       "path": "members-fresh-20261107/members/app/db.php",
@@ -566,6 +566,11 @@
       "path": "members-fresh-20261107/members/app/mail.php",
       "bytes": 2929,
       "sha256": "eb87f2d4f7f51cfbdca53ea46efd5c033099da6d37a9f083f5c4bb141124eb28"
+    },
+    {
+      "path": "members-fresh-20261107/members/app/migrate-member-ids.php",
+      "bytes": 2282,
+      "sha256": "8f08cbfbc2e16ec19056924abfc1f1d4630b3f73109ae8ed582208ae9d381136"
     },
     {
       "path": "members-fresh-20261107/members/app/progress.php",
@@ -624,13 +629,13 @@
     },
     {
       "path": "members-fresh-20261107/members/app/views/admin/member.php",
-      "bytes": 4879,
-      "sha256": "3a0262e7b7884555b7ef70032882e2a359a63a732378e1df4f2ddb45de6ba9a4"
+      "bytes": 5796,
+      "sha256": "e8e606ed2638b25467425e59e20186a122a246d9fcf7990044203c5ffdc1675d"
     },
     {
       "path": "members-fresh-20261107/members/app/views/admin/members.php",
-      "bytes": 2101,
-      "sha256": "3d692cc8d7c8174c2521c7173ffecbc37ea1f0641ea3729d0520f01363185a89"
+      "bytes": 2160,
+      "sha256": "3e5498c7b6f5be3e46132e8f50701660a2b24fd8d5017c8cc73774bc8293b27f"
     },
     {
       "path": "members-fresh-20261107/members/app/views/coming_soon.php",
@@ -704,8 +709,8 @@
     },
     {
       "path": "members-fresh-20261107/members/app/views/register.php",
-      "bytes": 4767,
-      "sha256": "151d2f76690c1d0296a00ad76e6123a6a57cb3bdcaefe17c8c8faea6053057df"
+      "bytes": 4801,
+      "sha256": "0e903cbeafcc1274d693bcfb51e4e01c890e9fa36c79d6bb7bd12090cad8d7d3"
     },
     {
       "path": "members-fresh-20261107/members/app/views/register_signed_in.php",
@@ -739,8 +744,8 @@
     },
     {
       "path": "members-fresh-20261107/members/assets/members.css",
-      "bytes": 13316,
-      "sha256": "7cb785d53592d2216455b1940452735749b3154fbe34be4dad19e4c91c947dd4"
+      "bytes": 14786,
+      "sha256": "7ea38f910e0b03b6f3f43e825de811ff1023e1ecf8ceaed57a040997640538c4"
     },
     {
       "path": "members-fresh-20261107/members/assets/members.js",
@@ -764,8 +769,8 @@
     },
     {
       "path": "members-fresh-20261107/source-sha256.txt",
-      "bytes": 4334,
-      "sha256": "ab22d4c8e3a8aba583c941751fe4d6a4c46dfbf0d24def71dd85ec922a3e65cd"
+      "bytes": 4435,
+      "sha256": "3dad9603481a580e8e37dd72171773370b8ac7ffac8e479b870602e7d014affa"
     },
     {
       "path": "members-source-only/README.txt",

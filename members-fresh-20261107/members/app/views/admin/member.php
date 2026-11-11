@@ -1,6 +1,19 @@
 <?php require __DIR__ . '/_nav.php'; $mid = (int)$m['id']; ?>
 <p><a href="<?= e(url('/admin/members')) ?>">← All members</a></p>
 <h1><?= e($m['pseudonym']) ?></h1>
+<section class="member-id-edit" aria-label="Member ID">
+  <h2>Member ID</h2>
+  <form method="post" action="<?= e(url('/admin/member/' . $mid)) ?>"><?= csrf_field() ?>
+    <input type="hidden" name="do" value="set_id">
+    <div class="field">
+      <label for="member_id">Member ID</label>
+      <input id="member_id" name="member_id" class="member-id-input" type="text" maxlength="20" autocomplete="off" spellcheck="false" value="<?= e($idValue) ?>" <?= $idError !== '' ? 'aria-invalid="true" aria-describedby="e-member-id"' : 'aria-describedby="h-member-id"' ?>>
+      <p class="hint" id="h-member-id">Letters, digits, and hyphens only, up to 20 characters. This does not use the member's name.</p>
+      <?php if ($idError !== ''): ?><p class="error" id="e-member-id"><?= e($idError) ?></p><?php endif; ?>
+    </div>
+    <p><button class="btn save-id" type="submit">Save Member ID</button></p>
+  </form>
+</section>
 <ul>
   <li>Email: <b><?= e($m['email']) ?></b> <?= $m['email_verified_at'] ? '(✓ confirmed)' : '(✕ not confirmed yet)' ?></li>
   <li>Joined: <?= e(fmt_date($m['created_at'])) ?> · Last sign-in: <?= e(fmt_date($m['last_login_at'])) ?></li>

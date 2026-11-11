@@ -194,27 +194,58 @@ function c_admin_members(): void {
     $qs = trim((string)($_GET['q'] ?? ''));
     $page = max(1, (int)($_GET['p'] ?? 1)); $per = 25;
     $where = ''; $args = [];
-    if ($qs !== '') { $like = '%' . addcslashes(mb_substr($qs, 0, 80), '%_\\') . '%'; $where = 'WHERE pseudonym LIKE ? OR email LIKE ?'; $args = [$like, $like]; }
+    if ($qs !== '') { $like = '%' . addcslashes(mb_substr($qs, 0, 80), '%_\\') . '%'; $where = 'WHERE pseudonym LIKE ? OR email LIKE ? OR member_id LIKE ?'; $args = [$like, $like, $like]; }
     $total = (int)q_one("SELECT COUNT(*) AS c FROM users $where", $args)['c'];
-    $rows = q_all("SELECT id, pseudonym, email, role, current_degree, email_verified_at, created_at, last_login_at,
+    $rows = q_all("SELECT id, member_id, pseudonym, email, role, current_degree, email_verified_at, created_at, last_login_at,
                    (SELECT COUNT(*) FROM progress p WHERE p.user_id = users.id AND p.part_a_status = 'claimed') AS pending
                    FROM users $where ORDER BY id DESC LIMIT $per OFFSET " . (($page - 1) * $per), $args);
     adm_render('members', ['title' => 'Members', 'rows' => $rows, 'qs' => $qs, 'page' => $page, 'pages' => max(1, (int)ceil($total / $per)), 'total' => $total, 'signups' => signup_counts()]);
 }
-function c_admin_member(int $id): void {
+function member_id_problem(string $raw, int $userId): ?string {
+    if ($raw === '') return 'Please enter a Member ID.';
+    if (!preg_match('/^(?=.*[A-Za-z0-9])[A-Za-z0-9-]{1,20}$/', $raw)) return 'Use letters, digits, and hyphens only, up to 20 characters.';
+    if (member_id_taken($raw, $userId)) return 'That Member ID is already used. Please choose another.';
+    return null;
+}
+function c_admin_member(int $id, array $errors = [], ?string $idValue = null): void {
     require_admin();
     $m = q_one('SELECT * FROM users WHERE id = ?', [$id]);
     if (!$m) { not_found('There is no such member.'); return; }
     $degrees = degrees_by_num(); $prog = prog_all($id);
     $log = q_all('SELECT * FROM audit_log WHERE user_id = ? ORDER BY id DESC LIMIT 30', [$id]);
-    adm_render('member', ['title' => $m['pseudonym'], 'm' => $m, 'degrees' => $degrees, 'prog' => $prog, 'log' => $log]);
+    adm_render('member', [
+        'title' => $m['pseudonym'], 'm' => $m, 'degrees' => $degrees, 'prog' => $prog, 'log' => $log,
+        'idError' => $errors['member_id'] ?? '',
+        'idValue' => $idValue !== null ? $idValue : (string)($m['member_id'] ?? ''),
+    ]);
 }
 function c_admin_member_post(int $id): void {
     csrf_check();
     $adm = require_admin();
     $m = q_one('SELECT * FROM users WHERE id = ?', [$id]);
     if (!$m) { not_found('There is no such member.'); return; }
-    $n = (int)posted('degree'); $do = posted('do');
+    $do = posted('do');
+    if ($do === 'set_id') {
+        $raw = posted('member_id');
+        if ($problem = member_id_problem($raw, $id)) {
+            http_response_code(422);
+            c_admin_member($id, ['member_id' => $problem], $raw);
+            return;
+        }
+        $previous = (string)($m['member_id'] ?? '');
+        try {
+            q('UPDATE users SET member_id = ? WHERE id = ?', [$raw, $id]);
+        } catch (PDOException $ex) {
+            if ($ex->getCode() !== '23000') throw $ex;
+            http_response_code(422);
+            c_admin_member($id, ['member_id' => 'That Member ID is already used. Please choose another.'], $raw);
+            return;
+        }
+        if ($previous !== $raw) audit('member_id_set', $id, null, $previous === '' ? 'set' : 'changed');
+        flash('Member ID saved.');
+        redirect('/admin/member/' . $id);
+    }
+    $n = (int)posted('degree');
     $d = $n >= 1 && $n <= MAX_DEGREE ? q_one('SELECT * FROM degrees WHERE num = ?', [$n]) : null;
     if (!$d) { flash('Please choose a Degree from 1 to ' . MAX_DEGREE . '.', 'err'); redirect('/admin/member/' . $id); }
     $row = prog_all($id)[$n] ?? null;

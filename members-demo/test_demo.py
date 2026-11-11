@@ -132,7 +132,7 @@ def main() -> None:
         fail("anonymous home showed the sign-up count")
     if b"paypal.com" in page.lower():
         fail("anonymous home offered a PayPal link")
-    for blocked in ("/app/bootstrap.php", "/app/db.php", "/storage/", "/.htaccess"):
+    for blocked in ("/app/bootstrap.php", "/app/db.php", "/app/migrate-member-ids.php", "/storage/", "/.htaccess"):
         status, _, body = anon.open(blocked)
         if status != 403:
             fail(f"{blocked} returned {status}, expected 403")
@@ -344,6 +344,9 @@ def main() -> None:
     status, _, extra_dash = extra.open("/dashboard")
     if status != 200 or b"Extra Signup" not in extra_dash or SIGNUP_MARK in extra_dash:
         fail("new member saw the sign-up count or missed the dashboard")
+    new_id = re.search(br"Your Member ID: <b>([^<]+)</b>", extra_dash)
+    if not new_id or not re.fullmatch(br"QDI-\d+", new_id.group(1)) or new_id.group(1).startswith(b"EXT"):
+        fail(f"new sign-up did not get a neutral Member ID ({extra_dash[:300]!r})")
     status, _, extra_denied = extra.open("/admin")
     assert_count_hidden("new member /admin", status, extra_denied, (403,))
     status, _, after = admin.open("/admin")
@@ -355,7 +358,101 @@ def main() -> None:
         fail(f"admin members recount returned {status}")
     assert_signup_counts(after_members, 5, 4, 1, 4)
 
-    print("ok isolated members demo: login, admin sign-up count, facilitator, lesson, pdf, durable session, 662-byte routing")
+    def shown_member_id(html: bytes) -> str:
+        match = re.search(br'name="member_id"[^>]*value="([^"]*)"', html)
+        if not match:
+            fail("Member ID field missing")
+        return match.group(1).decode()
+
+    def migrate(apply: bool) -> str:
+        command = ["sudo", "docker", "compose", "exec", "-T", "web", "php", "-d", "auto_prepend_file=", "/var/www/html/app/migrate-member-ids.php"]
+        if apply:
+            command.append("--apply")
+        result = subprocess.run(command, cwd=ROOT / "members-demo", check=True, capture_output=True, text=True)
+        return result.stdout
+
+    status, _, id_page = admin.open("/admin/member/3")
+    if status != 200 or shown_member_id(id_page) != "DEMMEM-0003":
+        fail("seeded member id was rewritten before Ken saved one")
+    status, headers, saved = admin.open("/admin/member/3", {"csrf": csrf(id_page), "do": "set_id", "member_id": "LODGE-3"})
+    if status not in (302, 303) or headers.get("Location") != "/admin/member/3":
+        fail(f"admin save did not redirect ({status} {headers.get('Location')} {saved[:300]!r})")
+    status, _, saved = admin.open("/admin/member/3")
+    if status != 200 or shown_member_id(saved) != "LODGE-3" or b"Member ID saved." not in saved:
+        fail("admin did not see the saved Member ID")
+    status, _, listing = admin.open("/admin/members")
+    if status != 200 or b"LODGE-3" not in listing or b"DEMADM-0001" not in listing or b"DEMFAC-0002" not in listing:
+        fail("members list did not show the saved ID and the untouched IDs")
+
+    status, _, other = admin.open("/admin/member/2")
+    status, _, duplicate = admin.open("/admin/member/2", {"csrf": csrf(other), "do": "set_id", "member_id": "LODGE-3"})
+    if status != 422 or b"already used" not in duplicate:
+        fail(f"duplicate Member ID was not refused ({status})")
+    status, _, other = admin.open("/admin/member/2")
+    status, _, folded = admin.open("/admin/member/2", {"csrf": csrf(other), "do": "set_id", "member_id": "lodge-3"})
+    if status != 422 or b"already used" not in folded:
+        fail(f"case-variant Member ID was not refused ({status})")
+    status, _, other = admin.open("/admin/member/2")
+    if shown_member_id(other) != "DEMFAC-0002":
+        fail("a refused duplicate changed the other member's ID")
+
+    status, _, id_page = admin.open("/admin/member/3")
+    status, _, bad = admin.open("/admin/member/3", {"csrf": csrf(id_page), "do": "set_id", "member_id": "John Smith"})
+    if status != 422 or b"letters, digits, and hyphens" not in bad:
+        fail(f"bad Member ID format was not refused ({status})")
+    status, _, id_page = admin.open("/admin/member/3")
+    status, _, too_long = admin.open("/admin/member/3", {"csrf": csrf(id_page), "do": "set_id", "member_id": "A" * 21})
+    if status != 422 or b"up to 20 characters" not in too_long:
+        fail(f"overlong Member ID was not refused ({status})")
+    status, _, id_page = admin.open("/admin/member/3")
+    if shown_member_id(id_page) != "LODGE-3":
+        fail("a refused Member ID replaced the saved one")
+
+    status, _, dash = member.open("/dashboard")
+    status, _, member_post = member.open("/admin/member/3", {"csrf": csrf(dash), "do": "set_id", "member_id": "HACKED-1"})
+    if status != 403 or b"only for the site owner" not in member_post:
+        fail(f"member POST was not refused ({status})")
+    status, _, account = member.open("/account")
+    member.open("/account", {"csrf": csrf(account), "member_id": "HACKED-4", "current": "wrong-password", "password": "another-password", "password2": "another-password"})
+    visitor = Client()
+    status, _, login_page = visitor.open("/login")
+    status, headers, visitor_post = visitor.open("/admin/member/3", {"csrf": csrf(login_page), "do": "set_id", "member_id": "HACKED-2"})
+    if status not in (302, 303) or headers.get("Location") != "/login" or b"HACKED-2" in visitor_post:
+        fail(f"logged-out POST with a token was not sent to sign-in ({status})")
+    stranger = Client()
+    status, _, stranger_post = stranger.open("/admin/member/3", {"do": "set_id", "member_id": "HACKED-3"})
+    if status != 403 or b"HACKED-3" in stranger_post:
+        fail(f"logged-out POST without a token was not refused ({status})")
+    status, _, id_page = admin.open("/admin/member/3")
+    if shown_member_id(id_page) != "LODGE-3":
+        fail("a refused POST changed the Member ID")
+
+    dry = migrate(False)
+    if "Dry run. No Member IDs were changed." not in dry or "user 1: DEMADM-0001 -> QDI-0001" not in dry or "LODGE-3" in dry:
+        fail(f"migration dry run was wrong:\n{dry}")
+    if "does not run by itself" not in dry:
+        fail("migration dry run did not say it does not run by itself")
+    status, _, untouched = admin.open("/admin/member/1")
+    if shown_member_id(untouched) != "DEMADM-0001":
+        fail("migration dry run wrote a Member ID")
+    applied = migrate(True)
+    if "Updated " not in applied:
+        fail(f"migration apply did not report an update:\n{applied}")
+    status, _, migrated_admin = admin.open("/admin/member/1")
+    status, _, kept = admin.open("/admin/member/3")
+    status, _, migrated_pending = admin.open("/admin/member/4")
+    status, _, extra_again = extra.open("/dashboard")
+    if shown_member_id(migrated_admin) != "QDI-0001" or shown_member_id(migrated_pending) != "QDI-0004":
+        fail("migration did not replace name-based IDs")
+    if shown_member_id(kept) != "LODGE-3":
+        fail("migration rewrote the ID Ken had saved")
+    if b"QDI-" not in extra_again or b"EXTSIG" in extra_again:
+        fail("migration changed the new sign-up ID into a name")
+    status, _, listing = admin.open("/admin/members")
+    if b"LODGE-3" not in listing or b"QDI-0001" not in listing or b"DEMMEM-0003" in listing:
+        fail("members list did not show the IDs after the optional migration")
+
+    print("ok isolated members demo: login, admin sign-up count, member ids, facilitator, lesson, pdf, durable session, 662-byte routing")
 
 
 if __name__ == "__main__":
