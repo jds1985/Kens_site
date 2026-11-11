@@ -10,6 +10,7 @@ storage/
 *.zip
 *.sql.bak
 *.sql.gz
+backups/
 
 # Local editor and OS files.
 .DS_Store

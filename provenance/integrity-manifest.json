@@ -59,8 +59,8 @@
     },
     {
       "path": ".gitignore",
-      "bytes": 195,
-      "sha256": "b9f8e0cddfa28936ab1606e63f9487a90873aba16bc4bdb103b6184a0ef6dd5f"
+      "bytes": 204,
+      "sha256": "27417200cee6e2f17b7f261424ce29e43e325b18f63ec32dfbc921a641157e00"
     },
     {
       "path": ".vercelignore",
@@ -93,9 +93,59 @@
       "sha256": "546d128188d6352f713f0bd8c7c0d759da705f40d981c0c90e4a6dd94eaab6f2"
     },
     {
+      "path": "docs/HOSTGATOR_MOVE.md",
+      "bytes": 4182,
+      "sha256": "85a47ed30ecf4af526575ca6dda76dc4da77daa2d6300c6563d1c1b648290caa"
+    },
+    {
+      "path": "docs/KEN_ADMIN_GUIDE.md",
+      "bytes": 3129,
+      "sha256": "bb9a108acf485630befcc6d8fa771fabbca63b19f9703c62cdeab133614d497d"
+    },
+    {
+      "path": "docs/KEN_ADMIN_GUIDE.pdf",
+      "bytes": 248530,
+      "sha256": "2e8b4c173f1c15c33005e973281af5b565efb324e79b29567b0705ed5abf0163"
+    },
+    {
       "path": "docs/MAIL_SETTINGS.md",
       "bytes": 2006,
       "sha256": "0bf07a9ac8930c7e7f4080aae3827b5609a806c8ce73d33b8880636783cba0b0"
+    },
+    {
+      "path": "docs/PAYPAL_PRIVACY_OPTIONS.md",
+      "bytes": 2118,
+      "sha256": "32a472411824bfd6f46520a0ede44431e809e5942c4a2171b54957de086848dc"
+    },
+    {
+      "path": "docs/images/admin-confirm-payment.png",
+      "bytes": 18407,
+      "sha256": "8a361052021137609e265a8ee0e93be0f5b5ce007be3629f82ba6cfce2e84452"
+    },
+    {
+      "path": "docs/images/admin-degrees.png",
+      "bytes": 41860,
+      "sha256": "4a23c4be0ce6ccc3c2eead8fdf738f1160d88d59e238647231f2a6e6fe052da7"
+    },
+    {
+      "path": "docs/images/admin-facilitators.png",
+      "bytes": 66445,
+      "sha256": "854cd402be8e283aa7d51b084bca06e2feda029af56ca89bc89695f5e71b9bb7"
+    },
+    {
+      "path": "docs/images/admin-member-id.png",
+      "bytes": 18724,
+      "sha256": "f0a3b7378cd79e6a77fba01639b3e4d914d3b6d96b33a1fde5534ab9dc9227f7"
+    },
+    {
+      "path": "docs/images/admin-members-list.png",
+      "bytes": 54572,
+      "sha256": "dde9ce2e352680589b76028a5ea0cc4cda995d362a9e1bcfc887da85ef480fa8"
+    },
+    {
+      "path": "docs/images/admin-signup-count.png",
+      "bytes": 37467,
+      "sha256": "7ae7d09eaac19a1379865b19162031f43149afbff605f22e96d35b5ac220e8a4"
     },
     {
       "path": "famous-demo/README.md",
@@ -1186,6 +1236,11 @@
       "path": "public-snapshots/vauqoppasampi.w3spaces.com/index.html",
       "bytes": 15874,
       "sha256": "abf93c5d1bc24fbca3b90942bfa06060791ead70e2b6350917b10451c906e9cc"
+    },
+    {
+      "path": "scripts/backup-members-source.sh",
+      "bytes": 1657,
+      "sha256": "5a1e15315072a5e5a703977159f589976b68f0fb01855068828315d2d1fcae4f"
     },
     {
       "path": "tests/verify_deployment_package.py",
