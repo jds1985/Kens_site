@@ -57,12 +57,20 @@ function demo_guard(): array
         demo_fail('app_secret is not the synthetic demo secret.');
     }
     $mail = $cfg['mail'] ?? [];
-    if (!is_array($mail) || ($mail['driver'] ?? '') !== 'log') {
-        demo_fail('Mail driver must be log. mail and smtp are refused.');
-    }
-    $smtp = $mail['smtp'] ?? [];
-    if (!is_array($smtp) || ($smtp['host'] ?? '') !== '' || ($smtp['user'] ?? '') !== '' || ($smtp['pass'] ?? '') !== '') {
-        demo_fail('SMTP settings must be empty.');
+    $smtp = is_array($mail) ? ($mail['smtp'] ?? []) : [];
+    $smtpHost = is_array($smtp) ? (string)($smtp['host'] ?? '') : '';
+    $smtpUser = is_array($smtp) ? (string)($smtp['user'] ?? '') : '';
+    $smtpPass = is_array($smtp) ? (string)($smtp['pass'] ?? '') : '';
+    $driver = is_array($mail) ? (string)($mail['driver'] ?? '') : '';
+    $logOnly = $driver === 'log' && $smtpHost === '' && $smtpUser === '' && $smtpPass === '';
+    $localCatcher = $driver === 'smtp'
+        && $smtpHost === 'mailpit'
+        && (int)($smtp['port'] ?? 0) === 1025
+        && (string)($smtp['secure'] ?? '') === ''
+        && $smtpUser === ''
+        && $smtpPass === '';
+    if (!$logOnly && !$localCatcher) {
+        demo_fail('Mail must be the log driver with empty SMTP, or SMTP only to the local mailpit catcher with no password.');
     }
     $paypal = $cfg['paypal'] ?? [];
     if (!is_array($paypal) || trim((string)($paypal['me_name'] ?? '')) !== '' || trim((string)($paypal['link_template'] ?? '')) !== '') {

@@ -19,12 +19,24 @@ services:
       timeout: 5s
       retries: 40
 
+  mailpit:
+    image: axllent/mailpit:v1.21
+    ports:
+      - "127.0.0.1:8025:8025"
+    healthcheck:
+      test: ["CMD", "/mailpit", "readyz"]
+      interval: 3s
+      timeout: 5s
+      retries: 40
+
   web:
     build:
       context: ..
       dockerfile: members-demo/php/Dockerfile
     depends_on:
       db:
+        condition: service_healthy
+      mailpit:
         condition: service_healthy
     environment:
       MEMBERS_DEMO: "1"

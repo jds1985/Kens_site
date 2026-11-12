@@ -46,6 +46,17 @@ function load_pledge(): string {
     $f = APP_DIR . '/content/pledge.txt';
     return is_file($f) ? (string)file_get_contents($f) : '';
 }
+/** Ken's pledge, with the "(give your name)" line marked so the sign-up page can fill it. */
+function pledge_html(string $text): string {
+    $mark = '(give your name)';
+    $pos = strpos($text, $mark);
+    if ($pos === false) return e($text);
+    return e(substr($text, 0, $pos)) . '<span id="pledge-given-name">' . e($mark) . '</span>' . e(substr($text, $pos + strlen($mark)));
+}
+function curriculum_url(): string { return 'https://qabbalah.institute/#curriculum'; }
+function curriculum_fees_link(): string {
+    return '<a href="' . e(curriculum_url()) . '">Curriculum section (dues and fee schedule)</a>';
+}
 function posted(string $k): string { return is_string($_POST[$k] ?? null) ? trim($_POST[$k]) : ''; }
 
 /** Words + symbol + CSS class for a Degree state (never colour alone). */

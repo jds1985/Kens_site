@@ -3,7 +3,7 @@
 <?php if (degrees_soon()): ?>
 <?= artwork('dashboard') ?>
 <?= coming_soon_box() ?>
-<p class="actions"><a class="btn" href="<?= e(url('/degree/0')) ?>">Read the Naught Degree (free)</a> <a class="btn" href="<?= e(url('/account')) ?>">My account</a></p>
+<p class="actions"><a class="btn" href="<?= e(url('/degree/0')) ?>">Read the Naught Degree</a> <a class="btn" href="<?= e(url('/account')) ?>">My account</a></p>
 <?php return; endif; ?>
 <?= artwork('dashboard') ?>
 <?php if ($admin): ?><p><a class="btn" href="<?= e(url('/admin')) ?>">Open the admin page (Ken)</a></p><?php endif; ?>
@@ -22,13 +22,13 @@
       case 'open': ?>
         <p>You are studying <b><?= $nn ?>° <?= e($nt) ?></b>. Part A is paid.</p>
         <?php $br = $ns['row']; ?>
-        <p>Part B (<?= e(money($nd['part_b_fee'])) ?>) is not confirmed yet<?= $br['part_b_claimed_at'] ? ': you said you paid, waiting for the confirmation.' : ($br['part_b_chosen_at'] ? ': you chose who to pay; next, pay and press "I have paid".' : ': first choose a Facilitator to pay.') ?> The next Degree stays locked until it is confirmed.</p>
+        <p>Part B, the tuition, is not confirmed yet<?= $br['part_b_claimed_at'] ? ': you said you paid, waiting for the confirmation.' : ($br['part_b_chosen_at'] ? ': you chose who to pay; next, pay and press "I have paid".' : ': first choose a Facilitator to pay.') ?> The amount is in the <?= curriculum_fees_link() ?>. The next Degree stays locked until it is confirmed.</p>
         <p><a class="btn primary" href="<?= e(url('/degree/' . $nn)) ?>">Go to the lessons of <?= $nn ?>°</a> <a class="btn" href="<?= e(url('/degree/' . $nn . '#partb')) ?>">Part B of <?= $nn ?>°</a></p>
       <?php break; case 'claimed': ?>
-        <p>You told us you paid Part A (<?= e(money($ns['row']['part_a_amount'])) ?>) for <b><?= $nn ?>°</b>. Ken will check and confirm it.</p>
+        <p>You told us you paid Part A for <b><?= $nn ?>°</b>. Ken will check and confirm it. The dues are in the <?= curriculum_fees_link() ?>.</p>
         <p><a class="btn" href="<?= e(url('/degree/' . $nn)) ?>">See the details</a></p>
       <?php break; case 'ready': ?>
-        <p><b><?= $nn ?>° <?= e($nt) ?></b> is ready for you. Part A is <b><?= e(money($nd['part_a_fee'])) ?></b>.</p>
+        <p><b><?= $nn ?>° <?= e($nt) ?></b> is ready for you. The Part A dues are in the <?= curriculum_fees_link() ?>.</p>
         <p><a class="btn primary" href="<?= e(url('/degree/' . $nn)) ?>">Pay Part A for <?= $nn ?>°</a></p>
       <?php break; case 'waiting': ?>
         <p>Part B of <?= $nn - 1 ?>° is done. Waiting time before <b><?= $nn ?>°</b>: it opens on <b><?= e(fmt_ts((int)$ns['until'])) ?></b>.</p>

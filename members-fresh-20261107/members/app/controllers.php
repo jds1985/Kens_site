@@ -60,14 +60,42 @@ function c_register_form(array $old = [], array $errors = []): void {
     render('register', ['title' => 'Sign up', 'old' => $old, 'errors' => $errors, 'pledge' => load_pledge()]);
 }
 
-/** Member ID made from the legal name: first 3 letters of First + first 3 of Last (A-Z only) + "-" + 4-digit number. E.g. John Smith -> JOHSMI-0007. */
-function name_letters(string $s, int $n): string {
-    $a = function_exists('iconv') ? (string)@iconv('UTF-8', 'ASCII//TRANSLIT//IGNORE', $s) : $s;
-    $a = preg_replace('/[^A-Z]/', '', strtoupper($a));
-    return str_pad(substr($a, 0, $n), $n, 'X');
+/** Neutral placeholder. QDI- plus the row number. It does not use the person's name. */
+function placeholder_member_id(int $id, int $extra = 0): string {
+    $base = 'QDI-' . str_pad((string)max(0, $id), 4, '0', STR_PAD_LEFT);
+    if ($extra > 0) $base .= '-' . $extra;
+    return $base;
 }
-function make_member_id(string $first, string $last, int $id): string {
-    return name_letters($first, 3) . name_letters($last, 3) . '-' . str_pad((string)$id, 4, '0', STR_PAD_LEFT);
+function member_id_taken(string $candidate, int $exceptUserId = 0): bool {
+    if ($exceptUserId > 0) return q_one('SELECT id FROM users WHERE member_id = ? AND id <> ?', [$candidate, $exceptUserId]) !== null;
+    return q_one('SELECT id FROM users WHERE member_id = ?', [$candidate]) !== null;
+}
+function free_placeholder_member_id(int $id): string {
+    for ($extra = 0; $extra < 50; $extra++) {
+        $candidate = placeholder_member_id($id, $extra);
+        if (strlen($candidate) > 20) break;
+        if (!member_id_taken($candidate, $id)) return $candidate;
+    }
+    return placeholder_member_id($id);
+}
+function store_placeholder_member_id(int $id): string {
+    for ($extra = 0; $extra < 50; $extra++) {
+        $candidate = placeholder_member_id($id, $extra);
+        if (strlen($candidate) > 20) break;
+        if (member_id_taken($candidate, $id)) continue;
+        try {
+            q('UPDATE users SET member_id = ? WHERE id = ?', [$candidate, $id]);
+            return $candidate;
+        } catch (PDOException $ex) {
+            if ($ex->getCode() !== '23000') throw $ex;
+        }
+    }
+    throw new RuntimeException('No free placeholder Member ID.');
+}
+/** Old sign-ups used six letters from the legal name, a hyphen, and this row number. */
+function is_legacy_name_member_id(string $memberId, int $userId): bool {
+    if ($userId < 1 || !preg_match('/^[A-Z]{6}-(\d+)$/', $memberId, $m)) return false;
+    return (int)$m[1] === $userId;
 }
 function signup_auto_signin(): bool { return (bool)cfg('signup_auto_signin', true); }
 
@@ -110,8 +138,7 @@ function c_register_post(): void {
             q('INSERT INTO users (first_name, last_name, pseudonym, email, password_hash, email_verified_at, pledge_name, pledge_version, pledged_at, created_at, pw_changed_at)
                VALUES (?,?,?,?,?,?,?,?,?,?,?)', [$first, $last, $name, $email, $hash, $auto ? $t : null, $pledgeName, pledge_version(), $t, $t, $t]);
             $id = (int)db()->lastInsertId();
-            $mid = make_member_id($first, $last, $id);
-            q('UPDATE users SET member_id = ? WHERE id = ?', [$mid, $id]);
+            $mid = store_placeholder_member_id($id);
             if ($auto) {
                 session_regenerate_id(true);
                 $_SESSION['uid'] = $id; $_SESSION['pwv'] = hash('sha256', $hash);
@@ -264,6 +291,7 @@ function c_account_form(array $errors = []): void {
 function c_account_post(): void {
     csrf_check();
     $u = require_login();
+    // A member cannot change member_id from this form. Only an administrator can.
     $cur = is_string($_POST['current'] ?? null) ? $_POST['current'] : '';
     $pw = is_string($_POST['password'] ?? null) ? $_POST['password'] : ''; $pw2 = is_string($_POST['password2'] ?? null) ? $_POST['password2'] : '';
     if (rl_blocked('acct_pw', (string)$u['id'], 5, 900)) { http_response_code(429); render('error', ['title' => 'Too many tries', 'message' => 'Please wait 15 minutes and try again.']); return; }

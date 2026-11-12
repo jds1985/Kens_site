@@ -1,5 +1,5 @@
 <h1>Sign up</h1>
-<p class="lead">Free. Please give your legal first and last name (used to make your Member ID; kept private), a screen name or alias that other members see, your email (this is your username), and a password.</p>
+<p class="lead">Please give your legal first and last name (kept private), a screen name or alias that other members see, your email (this is your username), and a password.</p>
 <?php if ($errors): ?>
   <div class="notice err" role="alert"><b>Please fix the <?= count($errors) ?> item<?= count($errors) > 1 ? 's' : '' ?> marked below.</b></div>
 <?php endif; ?>
@@ -15,7 +15,7 @@
   <div class="field">
     <label for="last_name">Last Name</label>
     <input id="last_name" name="last_name" type="text" maxlength="60" autocomplete="family-name" required value="<?= e($old['last_name'] ?? '') ?>" <?= isset($errors['last_name']) ? 'aria-invalid="true" aria-describedby="e-last_name"' : '' ?>>
-    <p class="hint">Your legal name makes your Member ID. Other members do not see it.</p>
+    <p class="hint">Your legal name is kept private. Other members do not see it. It is not used to make your Member ID.</p>
     <?php if (isset($errors['last_name'])): ?><p class="error" id="e-last_name"><?= e($errors['last_name']) ?></p><?php endif; ?>
   </div>
   </fieldset>
@@ -43,7 +43,7 @@
   </div>
   <fieldset>
     <legend>Pledge of Word and Name</legend>
-    <div class="pledge" tabindex="0" role="region" aria-label="Text of the Pledge"><?= paragraphs($pledge) ?></div>
+    <pre class="pledge" tabindex="0" role="region" aria-label="Text of the Pledge"><?= pledge_html($pledge) ?></pre>
     <div class="check">
       <input id="pledge" name="pledge" type="checkbox" value="1" <?= isset($errors['pledge']) ? 'aria-invalid="true" aria-describedby="e-pledge"' : '' ?>>
       <label for="pledge">I give my Pledge of Word and Name, and I agree to keep the teachings private.</label>

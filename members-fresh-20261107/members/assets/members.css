@@ -79,7 +79,13 @@ html.hc .error{color:#ffb3b3}
 fieldset{border:3px solid var(--border);border-radius:8px;padding:1rem;margin:1.2rem 0;background:#fff}
 html.hc fieldset{background:#000}
 legend{font-weight:bold;font-size:1.15rem;padding:0 .5rem;color:var(--green)}
-.pledge{max-height:12rem;overflow:auto;border:2px solid var(--border);padding:.2rem .8rem;margin-bottom:1rem;font-size:.95rem}
+.pledge{max-height:none;overflow:visible;white-space:pre-wrap;background:#000;color:#fff;border:6px solid #fff;border-radius:10px;padding:1rem 1.1rem;margin:0 0 1rem;font-family:inherit;font-size:1.55rem;font-weight:700;line-height:1.4}
+html.hc .pledge{background:#000;color:#fff;border-color:#ffff66}
+.pay-privacy{background:#000;color:#fff;border:6px solid #ffff66;border-radius:10px;padding:1rem 1.1rem;margin:0 0 1rem}
+.pay-privacy p{margin:0;color:#fff;font-size:1.45rem;font-weight:700;line-height:1.35}
+html.hc .pay-privacy{background:#000;color:#fff;border-color:#ffff66}
+html.hc .pay-privacy p{color:#fff}
+.fee-ref{font-size:1.35rem;font-weight:700;line-height:1.35}
 .check{display:flex;gap:.8rem;align-items:flex-start;margin-bottom:1rem}
 .check input{width:2rem;height:2rem;flex:none;margin-top:.2rem;accent-color:var(--green)}
 .check label{margin:0}
@@ -220,4 +226,35 @@ html.hc .blue{color:#9cf}html.hc .red2{color:#ffb3a8}
   .ken-col.side{display:none}
   .ken-col.c2,.ken-col.c4{width:100%}
   .ken-col.lower{padding-top:.8em}
+}
+
+/* Admin sign-up count. White and yellow on black, independent of the high-contrast switch. */
+.signup-count{background:#000;color:#fff;border:6px solid #fff;border-radius:10px;padding:1.1rem 1.3rem 1.25rem;margin:0 0 1.5rem}
+.signup-count p{margin:0;color:#fff;font-weight:700;line-height:1.25}
+.signup-count .signup-total{font-size:3.2rem;margin:0 0 .75rem}
+.signup-count .signup-total strong{color:#ffff66;font-size:1.2em}
+.signup-count .signup-line{font-size:1.85rem;margin-top:.2rem}
+.signup-count .signup-line strong{color:#ffff66}
+.signup-count .signup-note{font-size:1.5rem;line-height:1.35;margin-top:.8rem;color:#fff}
+html.hc .signup-count{background:#000;color:#fff;border-color:#ffff66}
+html.hc .signup-count p{color:#fff}
+html.hc .signup-count strong{color:#ffff66}
+
+/* Admin Member ID. Black, white, and yellow stay high contrast at phone width. */
+.member-id-edit{background:#000;color:#fff;border:6px solid #fff;border-radius:10px;padding:1rem 1rem 1.15rem;margin:0 0 1.4rem;max-width:100%}
+.member-id-edit h2{color:#fff;font-size:2rem;line-height:1.2;margin:.1rem 0 .7rem}
+.member-id-edit label{color:#fff;font-size:1.45rem}
+.member-id-edit .member-id-input{width:100%;max-width:100%;font-size:2rem;font-weight:700;background:#fff;color:#000;border:4px solid #ffff66;min-height:3.6rem}
+.member-id-edit .hint,.member-id-edit .error{font-size:1.25rem;line-height:1.35;overflow-wrap:anywhere}
+.member-id-edit .hint{color:#fff}
+.member-id-edit .error{color:#ffb3b3}
+.member-id-edit .save-id{background:#ffff66;color:#000;border-color:#ffff66;font-size:1.45rem;font-weight:700;max-width:100%}
+html.hc .member-id-edit{background:#000;color:#fff;border-color:#ffff66}
+html.hc .member-id-edit h2,html.hc .member-id-edit label,html.hc .member-id-edit .hint{color:#fff}
+html.hc .member-id-edit .member-id-input{background:#fff;color:#000}
+html.hc .member-id-edit .save-id{background:#ffff66;color:#000}
+.id-chip{display:inline-block;max-width:100%;background:#000;color:#ffff66;font-weight:700;font-size:1.7rem;line-height:1.25;padding:.15rem .5rem;border:3px solid #fff;white-space:nowrap}
+html.hc .id-chip{background:#000;color:#ffff66;border-color:#ffff66}
+@media (max-width:720px){
+  .id-chip{white-space:normal;overflow-wrap:anywhere}
 }

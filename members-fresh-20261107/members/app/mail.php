@@ -52,7 +52,13 @@ function smtp_send(array $c, string $from, string $to, string $subj, array $head
         $ok = $cmd('STARTTLS', '220') && stream_socket_enable_crypto($fp, true, STREAM_CRYPTO_METHOD_TLS_CLIENT);
         $ok = $ok && $cmd('EHLO members', '250');
     }
-    $ok = $ok && $cmd('AUTH LOGIN', '334') && $cmd(base64_encode($c['user']), '334') && $cmd(base64_encode($c['pass']), '235');
+    // Empty user and password means no login. That is the local demo catcher.
+    // A real mailbox sets both. SMTP stays unused while mail.driver is mail or log.
+    $user = (string)($c['user'] ?? '');
+    $pass = (string)($c['pass'] ?? '');
+    if ($ok && ($user !== '' || $pass !== '')) {
+        $ok = $cmd('AUTH LOGIN', '334') && $cmd(base64_encode($user), '334') && $cmd(base64_encode($pass), '235');
+    }
     $ok = $ok && $cmd("MAIL FROM:<$from>", '250') && $cmd("RCPT TO:<$to>", '250') && $cmd('DATA', '354');
     if ($ok) {
         $h = "To: $to\r\nSubject: $subj\r\n";
